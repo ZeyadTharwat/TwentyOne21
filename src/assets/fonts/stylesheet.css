@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Houschka';
+    src: url('Houschka-Black.woff2') format('woff2'),
+        url('Houschka-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Houschka';
+    src: url('Houschka-Light.woff2') format('woff2'),
+        url('Houschka-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Houschka';
+    src: url('Houschka-Bold.woff2') format('woff2'),
+        url('Houschka-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

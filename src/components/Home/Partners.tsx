@@ -1,0 +1,41 @@
+import Partner1 from "../../assets/Partner (1).png";
+import Partner2 from "../../assets/Partner (2).png";
+import Partner3 from "../../assets/Partner (3).png";
+import Partner4 from "../../assets/Partner (4).png";
+import Partner5 from "../../assets/Partner (5).png";
+import Partner6 from "../../assets/Partner (6).png";
+
+const Partners = () => {
+    return (
+        <div className="w-full sm:h-[200px] h-[250px] bg-[#1A1A1A] relative">
+            <div className="w-full h-full gradient-border absolute "></div>
+            <div className="absolute inset-0 h-full w-full blur-[52.5px] z-50"></div>
+            <div className="h-full bg flex items-center justify-center relative " >
+                <div className="relative z-[9999999] container mx-1">
+                    <div className="grid md:grid-cols-6 grid-cols-3 lg:gap-10 sm:gap-5 gap-x-4 gap-y-6 items-center scale-x-[-1]">
+                    <div className="col-span-1">
+                            <img className="mx-auto" src={Partner1} alt="Partner 1" />
+                        </div>
+                        <div className="col-span-1">
+                            <img className="mx-auto" src={Partner2} alt="Partner 2" />
+                        </div>
+                        <div className="col-span-1">
+                            <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                        </div>
+                        <div className="col-span-1">
+                            <img className="mx-auto" src={Partner4} alt="Partner 4" />
+                        </div>
+                        <div className="col-span-1">
+                            <img className="mx-auto" src={Partner5} alt="Partner 5" />
+                        </div>
+                        <div className="col-span-1">
+                            <img className="mx-auto" src={Partner6} alt="Partner 6" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Partners;
