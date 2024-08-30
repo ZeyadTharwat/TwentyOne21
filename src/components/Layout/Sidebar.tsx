@@ -28,7 +28,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
     { path: "/", label: "HOME" },
     { path: "/about", label: "about" },
     { path: "/services", label: "services" },
-    { path: "/portfolio", label: "portfolio" },
+    { path: "/projects", label: "portfolio" },
     { path: "/blogs", label: "blogs" },
     { path: "/contact-us", label: "contact us" },
   ];

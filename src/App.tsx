@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Blogs from './pages/Blogs';
 import FAQs from './pages/FAQs';
-import Services from './components/Home/Services';
+import Services from './pages/Services';
 import TrendReports from './pages/TrendReports';
 import Awards from './pages/Awards';
 import Press from './pages/Press';
