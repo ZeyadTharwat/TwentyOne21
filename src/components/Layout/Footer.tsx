@@ -11,7 +11,7 @@ const Footer = () => {
         window.scrollTo(0, 0);
     }
     return (
-        <footer className=" md:rounded-t-0 rounded-t-[10px] bg-transparent overflow-hidden text-white">
+        <footer className=" md:rounded-t-0 rounded-t-[10px] bg-transparent overflow-hidden text-white relative z-[999999999]">
             <div className="bg-[#0E0E0E]">
             <div className="container  h-full w-full grid pt-12 md:pt-36 grid-cols-1 md:grid-cols-4 gap-y-9 lg:grid-cols-12 pb-9 md:pb-24 border-b border-white/30 mb-5 md:mb-9">
                 <div className="xl:col-span-4 lg:col-span-5 md:col-span-3 col-span-1">
@@ -35,11 +35,11 @@ const Footer = () => {
                 <div className="lg:col-span-4 md:col-span-1 col-span-1">
                     <h1 className=" font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4 uppercase">Quick Link</h1>
                     <div className="gap-4 flex md:flex-col">
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 hover:-mt-5" to={'/'}>Home</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 hover:-mt-5" to={'/about'}>About</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 hover:-mt-5" to={'/services'}>Service</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 hover:-mt-5" to={'/projects'}>Project</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/'}>Home</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/services'}>Service</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/projects'}>Project</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
 
                     </div>
                 </div>

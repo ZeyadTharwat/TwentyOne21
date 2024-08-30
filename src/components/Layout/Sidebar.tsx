@@ -58,11 +58,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
         <div className="flex flex-col gap-y-8 absolute top-1/2 -translate-y-1/2 -left-1/4 min-w-[350px]">
           {links.map((link) => (
             <Link
+              onClick={toggleSidebar}
               key={link.path}
               to={link.path}
-              className={`font-lato font-extralight text-3xl sm:text-[40px] md:text-[50px] stroked-text uppercase tracking-[3px] ${
-                isActive(link.path) ? "text-white/40" : "text-transparent"
-              }`}
+              className={`font-lato font-extralight text-3xl sm:text-[40px] md:text-[50px] stroked-text uppercase tracking-[3px] ${isActive(link.path) ? "text-white/40" : "text-transparent"
+                }`}
             >
               {link.label}
             </Link>

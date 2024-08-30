@@ -14,6 +14,7 @@ import TrendReports from './pages/TrendReports';
 import Awards from './pages/Awards';
 import Press from './pages/Press';
 import BlogDetails from './pages/BlogDetails';
+import ContactUs from './pages/ContactUs';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const handleLoading = () => {
@@ -57,6 +58,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/faqs' element={<FAQs />} />
+        <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/services' element={<Services />} />
         <Route path='/project-details/:id' element={<ProjectDetails />} />
         <Route path='/trend-reports/:id' element={<TrendReports />} />
