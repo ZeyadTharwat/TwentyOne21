@@ -22,7 +22,8 @@ const DesignDetails = () => {
             <div className="max-w-[1832px] mx-auto px-4">
                 <div className="pt-28 pb-40 relative">
                 <img src={DesignPattern} className="absolute top-0 opacity-15 -right-20 w-[1000px]" alt="" />
-                <div className="flex gap-8 items-center relative">
+                <div className="flex 2xl:gap-8 xl:flex-row flex-col-reverse gap-4 items-center relative">
+                    <div className="flex 2xl:gap-8 gap-4">
                     <div>
                         <img className="h-[634px] w-[475px] object-cover" src={DesignDetailsPlaceholder} alt="" />
                     </div>
@@ -32,7 +33,9 @@ const DesignDetails = () => {
                     <div>
                         <img className="h-[634px] w-[475px] object-cover" src={DesignDetailsPlaceholder} alt="" />
                     </div>
-                    <div className="max-w-[422px]">
+
+                    </div>
+                    <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                         <h1 className=" font-vissa text-[64px] leading-none tracking-[0.02em] mb-12 uppercase">The Design Details</h1>
                         <p className="text-xl font-light font-houschka mb-6">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior </p>
                         <p className="text-xl font-light font-houschka">design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
@@ -42,8 +45,8 @@ const DesignDetails = () => {
                 <div className="pb-48 relative">
                 <img src={DesignPattern} className="absolute bottom-0 opacity-15 -left-20 scale-x-[-1] w-[1200px]" alt="" />
 
-                <div className="gap-8 flex items-center relative">
-                    <div className="max-w-[572px]">
+                <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
+                    <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                         <h1 className=" font-vissa text-[64px] leading-none tracking-[0.02em] mb-12 uppercase">The Design Details</h1>
                         <p className="text-xl font-light font-houschka mb-6">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior </p>
                         <p className="text-xl font-light font-houschka">design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>

@@ -7,8 +7,8 @@ const BlogDetails = () => {
     return (
         <>
             <HeroSection page="Blog Details" breadcrumb="Blog Details" />
-            <div className="bg-[#FFEADF] pt-40 pb-48">
-                <div className="flex gap-20 container justify-center text-black">
+            <div className="bg-[#FFEADF] lg:pt-40 sm:pt-32 pt-14 lg:pb-48 sm:pb-40 pb-16">
+                <div className="flex lg:flex-row flex-col gap-7 xl:gap-20 container justify-center text-black">
                 <BlogInfo/>
                 <RelatedImages />
                 </div>

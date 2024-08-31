@@ -29,6 +29,9 @@ dependencies:
   swiper:
     specifier: ^11.1.10
     version: 11.1.10
+  vnetwork-player:
+    specifier: ^1.1.29
+    version: 1.1.29
 
 devDependencies:
   '@eslint/js':
@@ -2457,6 +2460,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vnetwork-player@1.1.29:
+    resolution: {integrity: sha512-wk1cfsi6vDYth2lx+kHnGAC29S2GsUav2CZMYvHS+36qILE1E3dYNAMcmMhtqfEyK/9PmCnIjZBHufVnNXOarQ==}
+    dev: false
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}

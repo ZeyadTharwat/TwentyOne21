@@ -48,7 +48,7 @@ const WhatTheySay = () => {
                     >
                         {testimonials.map((testimonial, index) => (
                             <SwiperSlide key={index}>
-                                <div className="flex justify-between xl:gap-28 gap-12">
+                                <div className="flex justify-between xl:gap-28 lg:gap-12">
                                     <div className="relative">
                                         <img src={testimonial.image} className="min-w-[425px] h-full w-full max-w-[425px] lg:block hidden object-cover" />
                                         <div className="w-full h-full absolute bg-black/20 inset-0"></div>

@@ -109,8 +109,8 @@ const PressAndReports = () => {
             <div className="grid grid-cols-1 gap-10 max-w-[1332px] mx-auto">
                     {trendReports.map((report, index) => (
                         <div key={index} className="flex md:gap-5 gap-12 md:flex-row flex-col-reverse items-center md:text-start text-center">
-                            <div className="space-y-6 w-full">
-                                <img src={report.img} className="lg:min-w-[450px] w-full md:min-w-[380px] lg:min-h-[250px] max-h-[270px]  min-h-[195px] object-cover mb-3" alt={report.title} />
+                            <div className="space-y-6 md:w-auto w-full">
+                                <img src={report.img} className="lg:min-w-[450px] lg:max-w-[450px] w-full md:min-w-[380px] lg:min-h-[250px] max-h-[270px]  min-h-[195px] object-cover mb-3" alt={report.title} />
                                 <div className="md:hidden block">
                                     <Button aspects="sm:size-auto size-9" dir={`/project-details/${report.id}`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
                                 </div>
