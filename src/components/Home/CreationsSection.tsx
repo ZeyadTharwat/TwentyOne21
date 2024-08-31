@@ -1,13 +1,33 @@
 import Button from "../Shared/Button";
 import CreationsBg from "../../assets/CreationsBg.jpg";
 import HomeCreationCard from "../Shared/HomeCreationCard";
+import Creation1 from "../../assets/CreationPlaceholder.png"
+import Creation2 from "../../assets/Creation2.jpg"
+import Creation3 from "../../assets/Creation3.jpg"
+import Creation4 from "../../assets/Creation4.jpg"
 
 const CreationsSection = () => {
     const creationData = [
-        { project: "PITFIRE PIZZA - DUBAI HILLS", type: "INTERIOR DESIGN, BRANDING" },
-        { project: "LUXURY VILLA - PALM JUMEIRAH", type: "INTERIOR DESIGN" },
-        { project: "MODERN OFFICE SPACE - DIFC", type: "INTERIOR DESIGN, OFFICE PLANNING" },
-        { project: "RESTAURANT REDESIGN - MARINA", type: "INTERIOR DESIGN, BRANDING" }
+        { 
+            project: "PITFIRE PIZZA - DUBAI HILLS", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: Creation1  // Add the image here
+        },
+        { 
+            project: "LUXURY VILLA - PALM JUMEIRAH", 
+            type: "INTERIOR DESIGN", 
+            img: Creation2  // Add the image here
+        },
+        { 
+            project: "MODERN OFFICE SPACE - DIFC", 
+            type: "INTERIOR DESIGN, OFFICE PLANNING", 
+            img: Creation3  // Add the image here
+        },
+        { 
+            project: "RESTAURANT REDESIGN - MARINA", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: Creation4  // Add the image here
+        }
     ];
 
     return (
@@ -18,7 +38,13 @@ const CreationsSection = () => {
                     <img src={CreationsBg} className="absolute inset-0 lg:block hidden w-full opacity-5 left-1/2 -translate-y-1/2 top-1/2 -translate-x-1/2" alt="" />
                     <div className="grid grid-cols-2 xl:gap-x-11 gap-x-3 sm:gap-x-6 xl:gap-y-16 sm:gap-y-10 gap-y-3 container">
                         {creationData.map((creation, index) => (
-                            <HomeCreationCard dir="/project-details/1" key={index} project={creation.project} type={creation.type} />
+                            <HomeCreationCard 
+                                img={creation.img} 
+                                dir="/project-details/1" 
+                                key={index} 
+                                project={creation.project} 
+                                type={creation.type} 
+                            />
                         ))}
                     </div>
                     <div className="flex justify-center md:mt-16 mt-4 lg:mt-20 pt-2">
