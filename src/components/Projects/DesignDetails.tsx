@@ -6,6 +6,16 @@ import DesignDetailsPlaceholder5 from "../../assets/DesignDetails5.png"
 import DesignDetailsPlaceholder6 from "../../assets/DesignDetails6.png"
 import DesignDetailsPlaceholder7 from "../../assets/DesignDetails7.png"
 import DesignDetailsPlaceholder8 from "../../assets/DesignDetails8.png"
+import DesignDetailsPlaceholder9 from "../../assets/DesignDetails9.png"
+import DesignDetailsPlaceholder10 from "../../assets/DesignDetails10.png"
+import DesignDetailsPlaceholder11 from "../../assets/DesignDetails11.png"
+import DesignDetailsPlaceholder12 from "../../assets/DesignDetails12.png"
+import DesignDetailsPlaceholder13 from "../../assets/DesignDetails13.png"
+import DesignDetailsPlaceholder14 from "../../assets/DesignDetails14.png"
+import DesignDetailsPlaceholder15 from "../../assets/Creation3.jpg"
+import DesignDetailsPlaceholder16 from "../../assets/Creation2.jpg"
+import DesignDetailsPlaceholder17 from "../../assets/Contact2.png"
+
 import ClientReview from "../../assets/ClientReview.png"
 import DashedLine from "../../assets/DashedLine.png"
 import CreationPlaceholder from "../../assets/CreationPlaceholder.png"
@@ -26,31 +36,31 @@ const projects = [
     {
         id: 2,
         title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
+        image: DesignDetailsPlaceholder15,
         link: "/"
     },
     {
         id: 3,
         title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
+        image: DesignDetailsPlaceholder16,
         link: "/"
     },
     {
         id: 4,
         title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
+        image: DesignDetailsPlaceholder17,
         link: "/"
     },
     {
         id: 5,
         title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
+        image: DesignDetailsPlaceholder10,
         link: "/"
     },
     {
         id: 6,
         title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
+        image: DesignDetailsPlaceholder12,
         link: "/"
     }
 
@@ -72,7 +82,7 @@ const DesignDetails = () => {
                                 <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[326px] object-cover" src={DesignDetailsPlaceholder2} alt="" />
                             </div>
                             <div>
-                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[475px] object-cover" src={DesignDetailsPlaceholder} alt="" />
+                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[475px] object-cover" src={DesignDetailsPlaceholder10} alt="" />
                             </div>
 
                         </div>
@@ -132,7 +142,7 @@ const DesignDetails = () => {
                     <div className="col-span-1">
                         <div>
                         <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
-                        <img src={DesignDetailsPlaceholder7} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
+                        <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
                         </div>
                         <p className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6 lg:w-full w-[200%] mt-7">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
                     </div>
@@ -142,17 +152,17 @@ const DesignDetails = () => {
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
-                        <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
+                        <img src={DesignDetailsPlaceholder9} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                     </div>
                     <div className="xl:col-span-2 col-span-3">
-                        <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
+                        <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="space-y-4 mt-6 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0] xl:block hidden">
                         <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an </p>
                         <p>interior design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
                         </div>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
-                        <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
+                        <img src={DesignDetailsPlaceholder13} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] lg:w-full w-[200%]">
                         <p>An interior design agency can create content that showcases its work, highlights design trends,</p>
                         <p className="xl:hidden block">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an </p>
@@ -161,7 +171,7 @@ const DesignDetails = () => {
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
-                        <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
+                        <img src={DesignDetailsPlaceholder14} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                     </div>
 
                 </div>

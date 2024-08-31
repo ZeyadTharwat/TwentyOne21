@@ -1,4 +1,6 @@
 import PressPlaceholder from "../../assets/PressPlaceholder.png"
+import PressPlaceholder2 from "../../assets/Creation4.jpg"
+
 import Button from "../Shared/Button"
 const ReportsSection = () => {
     return (
@@ -26,7 +28,7 @@ const ReportsSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col items-center md:w-auto w-full">
-                    <img src={PressPlaceholder} className="md:w-[601px] w-full sm:h-[466px] min-h-[240px] sm:max-h-full max-h-[320px] object-cover" alt="" />
+                    <img src={PressPlaceholder2} className="md:w-[601px] w-full sm:h-[466px] min-h-[240px] sm:max-h-full max-h-[320px] object-cover" alt="" />
                     <div className="lg:hidden block sm:mt-8 mt-6">
                         <Button aspects="sm:size-auto size-9" width={60} height={64} className="sm:w-[260px] w-[150px]" textStyles="font-light font-houschka sm:text-lg text-[10px]" title="out the entire design" />
                     </div>

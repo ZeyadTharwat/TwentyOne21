@@ -3,18 +3,48 @@ import Button from "../Shared/Button";
 import CreationCard from "../Shared/CreationCard";
 import CreationBg from "../../assets/CreationsBg.png"
 import PressBg2 from "../../assets/PressBg2.svg"
-
+import CreationPlacehoder from "../../assets/CreationPlaceholder.png"
+import Creation2 from "../../assets/Creation2.jpg"
+import Creation3 from "../../assets/Creation3.jpg"
+import Creation4 from "../../assets/Creation4.jpg"
+import Creation5 from "../../assets/Contact2.png"
+import Creation6 from "../../assets/DesignDetails4.png"
 
 const ProjectsSection = () => {
     const [selectedCategory, setSelectedCategory] = useState("All");
 
     const creationData = [
-        { project: "PITFIRE PIZZA - DUBAI HILLS", type: "Interior design, Branding" },
-        { project: "LUXURY VILLA - PALM JUMEIRAH", type: "Luxury design" },
-        { project: "MODERN OFFICE SPACE - DIFC", type: "Interior design, Office planning" },
-        { project: "RESTAURANT REDESIGN - MARINA", type: "Interior design, Branding" },
-        { project: "MODERN OFFICE SPACE - DIFC", type: "Interior design, Office planning" },
-        { project: "RESTAURANT REDESIGN - MARINA", type: "Interior design, Branding" }
+        { 
+            project: "PITFIRE PIZZA - DUBAI HILLS", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: CreationPlacehoder  // Add the image here
+        },
+        { 
+            project: "LUXURY VILLA - PALM JUMEIRAH", 
+            type: "INTERIOR DESIGN", 
+            img: Creation2  // Add the image here
+        },
+        { 
+            project: "MODERN OFFICE SPACE - DIFC", 
+            type: "INTERIOR DESIGN, OFFICE PLANNING", 
+            img: Creation3  // Add the image here
+        },
+        { 
+            project: "RESTAURANT REDESIGN - MARINA", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: Creation4  // Add the image here
+        },
+        { 
+            project: "RESTAURANT REDESIGN - MARINA", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: Creation5  // Add the image here
+        },
+        { 
+            project: "RESTAURANT REDESIGN - MARINA", 
+            type: "INTERIOR DESIGN, BRANDING", 
+            img: Creation6  // Add the image here
+        }
+
     ];
 
     const categories = ["All", "Luxury design", "Interior design", "Branding", "Office planning"];
@@ -56,7 +86,7 @@ const ProjectsSection = () => {
                 </div>
                 <div className="grid lg:grid-cols-2 xl:gap-x-11 gap-x-5  xl:gap-y-16 md:gap-y-12 gap-y-7 md:mt-24 mt-9 relative z-[99999]">
                     {filteredData.map((creation, index) => (
-                        <CreationCard dir="/project-details/1" key={index} project={creation.project} type={creation.type} />
+                        <CreationCard img={creation.img} dir="/project-details/1" key={index} project={creation.project} type={creation.type} />
                     ))}
                 </div>
                 <div className="flex justify-center md:mt-16 mt-9 md:pt-1 pt-0.5 relative z-50">

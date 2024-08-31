@@ -4,6 +4,8 @@ import Newspaper from "../../assets/NewsPaper.png"
 import PressBg1 from "../../assets/PressBg1.svg"
 import Philosophy from "../../assets/Philosophy.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Trend1 from "../../assets/report.png"
+import Trend2 from "../../assets/report2.png"
 const PressAndReports = () => {
     const pressItems = [
         {
@@ -40,19 +42,19 @@ const PressAndReports = () => {
     ];
     const trendReports = [
         {
-            img: PressPlaceholder,
+            img: Trend1,
             title: "Innovative Design Trends",
             description: "Explore the latest innovations in design that are shaping the industry. From sustainable materials to cutting-edge technology, stay ahead of the curve with these emerging trends.",
             id: 1,
         },
         {
-            img: PressPlaceholder,
+            img: Trend2,
             title: "Sustainable Architecture",
             description: "Dive into the world of sustainable architecture and discover how eco-friendly designs are revolutionizing urban landscapes. Learn about the techniques and materials driving this green movement.",
             id: 2,
         },
         {
-            img: PressPlaceholder,
+            img: Trend2,
             title: "The Future of Interior Design",
             description: "Discover what the future holds for interior design. With a focus on personalization and functionality, these trends highlight the growing importance of creating spaces that reflect individual lifestyles.",
             id: 3,

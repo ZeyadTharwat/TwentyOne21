@@ -1,5 +1,6 @@
-import Placeholder from "../../assets/404.png"
+import Placeholder from "../../assets/Contact2.png"
 import Placeholder2 from "../../assets/BlogPlaceholder2.png"
+import Placeholder3 from "../../assets/Creation4.jpg"
 import QuoteFillIcon from "../Icons/QuoteFillIcon"
 const BlogInfo = () => {
   return (
@@ -20,8 +21,8 @@ const BlogInfo = () => {
             <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work.</p>
         </div>
             <div className="flex w-full mt-14 mb-9">
-            <img src={Placeholder} className="w-1/2 basis-1/2 sm:h-[600px] max-w-[400px] object-center object-cover" alt="" />
             <img src={Placeholder2} className="w-1/2 basis-1/2 sm:h-[600px] max-w-[400px] object-center object-cover" alt="" />
+            <img src={Placeholder3} className="w-1/2 basis-1/2 sm:h-[600px] max-w-[400px] object-center object-cover" alt="" />
             </div>
             <div className="space-y-5">
             <p >An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work</p>
