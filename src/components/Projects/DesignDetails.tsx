@@ -177,7 +177,7 @@ const DesignDetails = () => {
                 </div>
             </div>
             <div className="w-full ">
-                <img src={DesignDetailsPlaceholder8} className="2xl:h-[900px] xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-cover" alt="" />
+                <img src={DesignDetailsPlaceholder8} className="2xl:h-[900px] w-full xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-cover" alt="" />
             </div>
             <div className="relative lg:pt-40 sm:pt-20 pt-16">
                 <img src={CreationBg} className="absolute left-0 bottom-0 h-full opacity-50 w-full" alt="" />
