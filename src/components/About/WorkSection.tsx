@@ -1,6 +1,6 @@
 import ReadyToWork from "../../assets/ReadyToWorkBg.jpg"
 import Button from "../Shared/Button"
-import PressPlaceholder from "../../assets/PressPlaceholder.png"
+import PressPlaceholder from "../../assets/report2.png"
 import Philosophy from "../../assets/Philosophy.jpg"
 
 const WorkSection = () => {
