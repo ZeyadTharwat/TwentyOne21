@@ -9,7 +9,7 @@ const HeroSection = () => {
     return (
         <div className="sm:h-screen h-[50vh] relative">
 
-            <div className="relative">
+            <div className="relative container">
                 <div className="gap-4 absolute top-6 z-50 md:flex hidden right-5">
                     <Link to={'/'}>
                         <FacebookIcon />

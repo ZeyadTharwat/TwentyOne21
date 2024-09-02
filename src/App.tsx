@@ -9,12 +9,14 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Blogs from './pages/Blogs';
 import FAQs from './pages/FAQs';
-import Services from './pages/Services';
+// import Services from './pages/Services';
 import TrendReports from './pages/TrendReports';
 import Awards from './pages/Awards';
 import Press from './pages/Press';
 import BlogDetails from './pages/BlogDetails';
 import ContactUs from './pages/ContactUs';
+import ProjectDetails2 from './pages/ProjectDetails2';
+import ProjectDetails3 from './pages/ProjectDetails3';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const handleLoading = () => {
@@ -59,8 +61,10 @@ function App() {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/faqs' element={<FAQs />} />
         <Route path='/contact-us' element={<ContactUs />} />
-        <Route path='/services' element={<Services />} />
-        <Route path='/project-details/:id' element={<ProjectDetails />} />
+        {/* <Route path='/services' element={<Services />} /> */}
+        <Route path='/project-details/1' element={<ProjectDetails />} />
+        <Route path='/project-details/2' element={<ProjectDetails2 />} />
+        <Route path='/project-details/3' element={<ProjectDetails3 />} />
         <Route path='/trend-reports/:id' element={<TrendReports />} />
         <Route path='/blog-details/:id' element={<BlogDetails />} />
         <Route path='/awards/:id' element={<Awards />} />

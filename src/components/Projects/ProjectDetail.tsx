@@ -5,8 +5,8 @@ const ProjectDetail = () => {
               <img src={Philosophy} className="absolute bottom-0 w-full object-cover h-full right-0 opacity-[0.07] " alt="" />
     
           <div className="container  text-center relative z-50">
-      <h1 className="uppercase font-vissa tracking-[0.04em] lg:text-[68px] md:text-6xl sm:text-5xl text-4xl leadng-none">Interior Design</h1>
-      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-2xl sm:text-lg text-sm">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers.</p>
+      <h1 className="uppercase font-vissa tracking-[0.04em] lg:text-[68px] md:text-6xl sm:text-5xl text-4xl leadng-none">NAMA YOSO</h1>
+      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-2xl sm:text-lg text-sm">The core of Nama Yoso embodies the concept of "Raw Materials," which significantly shaped its interior and branddesign direction. This project was designed and completed for the award-winning celebrity chef, Reif Othman.</p>
       <div className="flex sm:justify-between justify-center gap-3 gap-y-5 sm:flex-nowrap flex-wrap sm:mt-10 mt-7 lg:mt-16">
       <div className=" font-houschka space-y-2.5 font-light">
         <h1 className="sm:text-[26px] text-sm leading-none">Client</h1>
@@ -18,7 +18,7 @@ const ProjectDetail = () => {
       </div>
       <div className=" font-houschka space-y-2.5 font-light">
         <h1 className="sm:text-[26px] text-sm leading-none">Date</h1>
-        <p className="sm:text-lg text-xs text-[#D0D0D0] leading-none">18-5-2023</p>
+        <p className="sm:text-lg text-xs text-[#D0D0D0] leading-none">September, 2023</p>
       </div>
       <div className=" font-houschka space-y-2.5 font-light">
         <h1 className="sm:text-[26px] text-sm leading-none">Venue :</h1>

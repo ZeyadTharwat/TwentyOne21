@@ -13,6 +13,7 @@ const Home = () => {
              <HeroSection />
             <AboutAgency />
             <Services/>
+            <div className="lg:h-[165px]"/>
             <CreationsSection />
             <WhatTheySay />
             <Partners />

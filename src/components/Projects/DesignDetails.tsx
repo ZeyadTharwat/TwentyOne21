@@ -15,9 +15,11 @@ import DesignDetailsPlaceholder14 from "../../assets/DesignDetails14.png"
 import DesignDetailsPlaceholder15 from "../../assets/Creation3.jpg"
 import DesignDetailsPlaceholder16 from "../../assets/Creation2.jpg"
 import DesignDetailsPlaceholder17 from "../../assets/Contact2.png"
+import DesignDetailsPlaceholder19 from "../../assets/DesignDetails19.png"
+import DesignDetailsPlaceholder20 from "../../assets/DesignDetails20.png"
+import DesignDetailsPlaceholder21 from "../../assets/DesignDetails21.png"
 
 import ClientReview from "../../assets/ClientReview.png"
-import DashedLine from "../../assets/DashedLine.png"
 import CreationPlaceholder from "../../assets/CreationPlaceholder.png"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
@@ -87,10 +89,10 @@ const DesignDetails = () => {
 
                         </div>
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design Details</h1>
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior </p>
-                                <p>design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                                <p>Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage nontraditional Japanese canvases and wall partitions.</p>
+                                <p>The brand pattern, resembling Damascussteel, epitomizes a traditional Japaneseforging technique, creating a cohesive andmeaningful narrative for Nama Yoso.</p>
 
                             </div>
                         </div>
@@ -101,15 +103,15 @@ const DesignDetails = () => {
 
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design Details</h1>
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design direction</h1>
                             <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior </p>
-                                <p>design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                                <p>2023A robust branding and storytelling concept master fully guided the interior design of Nama Yoso. Inspired byTwentyOne06's comprehensive "Nature Provides research report, the restaurant's color palette and brand pattern were curated around the essence of raw ingredients.</p>
+                                <p>The material selection, marked by natural wood, natural stone boulders, and brass accents, seamlessly complements the restaurant's brand direction, creating cohesive and immersive ambiance. Ceiling</p>
 
                             </div>
                         </div>
                         <div className="w-full">
-                            <img src={DesignDetailsPlaceholder3} className="lg:h-[841px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] w-full object-cover" alt="" />
+                            <img src={DesignDetailsPlaceholder20} className="lg:h-[841px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] w-full object-cover" alt="" />
                         </div>
 
                     </div>
@@ -117,10 +119,10 @@ const DesignDetails = () => {
                 </div>
                 <div className="flex md:gap-8 sm:gap-5 gap-2 lg:pb-40 md:pb-32 sm:pb-24 pb-16 relative">
                     <div className="w-1/2 basis-1/2 h-full">
-                        <img src={DesignDetailsPlaceholder4} className="lg:max-h-[940px] md:h-[460px] lg:h-full w-full object-cover" alt="" />
+                        <img src={DesignDetailsPlaceholder19} className="lg:max-h-[940px] md:h-[460px] lg:h-full w-full object-cover" alt="" />
                         <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
-                            <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior </p>
-                            <p className="lg:w-full md:w-[200%]">design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Ceiling & Lighting Design:</h1>
+                            <p>The central ceiling feature above the main dining area at Nama Yoso was a key element. Adorned with beige linen and canvas fabric curtains, featuring traditional Japanese drawings, it strategically reflects the brand pattern. Woven fabric with blue wave-like patterns and flexible light strips creates a visually captivating design element.</p>
                         </div>
 
                     </div>
@@ -131,24 +133,29 @@ const DesignDetails = () => {
 
                 </div>
             </div>
-            <img src={DesignDetailsPlaceholder5} className="w-full object-cover 2xl:h-[728px] xl:h-[680px] lg:h-[550px] sm:h-[470px] max-h-[370px] lg:mb-28 sm:mb-16 mb-8 min-h-[220px] sm:max-h-[100%] " />
+            <img src={DesignDetailsPlaceholder21} className="w-full object-cover 2xl:h-[728px] xl:h-[680px] lg:h-[550px] sm:h-[470px] max-h-[370px] lg:mb-28 sm:mb-16 mb-8 min-h-[220px] sm:max-h-[100%] " />
             <div className="relative">
-                <img src={DashedLine} className="w-full object-cover lg:mb-36 md:mb-28 sm:mb-16 mb-8" alt="" />
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
+                    <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">The Entrance Design</h1>
+                    <p>The Entrance Design Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones
+                        pay homage to traditional Japanese canvases and wall partitions. The brand pattern, resembling Damascus steel, epitomizes a traditional Japanese forging technique, creating a cohesive and
+                        meaningful narrative for Nama Yoso.</p>
+                </div>
                 <div className="2xl:gap-x-9 lg:gap-x-4 gap-x-3 grid grid-cols-6 w-full 2xl:gap-y-6 gap-y-5 pb-28">
                     <div className="xl:col-span-4 2xl:gap-x-9 lg:gap-x-4 gap-x-3 col-span-6 grid grid-cols-2">
-                    <div className="col-span-1">
-                        <div>
-                        <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
-                        <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
+                        <div className="col-span-1">
+                            <div>
+                                <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
+                                <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
+                            </div>
+                            <p className="md:text-xl sm:text-lg text-[10px] font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Using a blend of sand and stone, the design’s artistic stone feature showcases the restaurant's logo on hand-picked boulders in raked sand. The arrangement aligns with the brand's pattern, creating a cohesive link to the restaurant's natural theme.</p>
                         </div>
-                        <p className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6 lg:w-full w-[200%] mt-7">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
-                    </div>
-                    <div className="col-span-1 ">
-                        <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full max-h-[390px] object-cover object-center w-full" alt="" />
-                    </div>
+                        <div className="col-span-1 ">
+                            <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px]  object-cover object-center w-full h-full" alt="" />
+                        </div>
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
@@ -157,21 +164,22 @@ const DesignDetails = () => {
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="space-y-4 mt-6 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0] xl:block hidden">
-                        <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an </p>
-                        <p>interior design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                            <p>Zen Garden feature - Artistic stone and sand artwork.</p>
                         </div>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder13} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] lg:w-full w-[200%]">
-                        <p>An interior design agency can create content that showcases its work, highlights design trends,</p>
-                        <p className="xl:hidden block">An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an </p>
-                        <p className="xl:hidden block">interior design agency An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                            <p>The Mountain Wall - Bespoke concrete texture finish Adorned</p>
                         </div>
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder14} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
+                        <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] lg:w-full w-[200%]">
+                            <p>Custom furniture - Natural wood with leather upholstery</p>
+                        </div>
+
                     </div>
 
                 </div>
@@ -179,6 +187,33 @@ const DesignDetails = () => {
             <div className="w-full ">
                 <img src={DesignDetailsPlaceholder8} className="2xl:h-[900px] w-full xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-cover" alt="" />
             </div>
+            <div className="lg:pt-48 md:pt-36 sm:pt-28 pt-16 relative max-w-[1832px] mx-auto px-4 w-full">
+                <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
+                    <div className="2xl:max-w-[572px] lg:max-w-[490px]">
+                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">F&B Brand Evolution</h1>
+                        <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                            <p>Ito create an evolution of an existing brand, TwentyOne06
+                                weaves the brand's values and culture into the new offering.
+                                Drawing inspiration from the brand's storytelling narrative,
+                                designers craft an authentic design concept that enhances
+                                existing strengths and adds value in areas that require
+                                attention.</p>
+                            <p>When approaching design for existing F&B brands, we are
+                                not reinventing the wheel. “Govind Shepley. Creative
+                                Director and Founder of TwentyOne06 states, “We play on
+                                their strengths”."</p>
+
+                        </div>
+                    </div>
+                    <div className="w-full">
+                        <img src={DesignDetailsPlaceholder3} className="lg:h-[841px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] w-full object-cover" alt="" />
+                    </div>
+
+                </div>
+
+            </div>
+            <img src={DesignDetailsPlaceholder5} className="w-full object-cover 2xl:h-[728px] xl:h-[680px] lg:h-[550px] sm:h-[470px] max-h-[370px] lg:mt-28 sm:mt-16 mt-8 min-h-[220px] sm:max-h-[100%] " />
+
             <div className="relative lg:pt-40 sm:pt-20 pt-16">
                 <img src={CreationBg} className="absolute left-0 bottom-0 h-full opacity-50 w-full" alt="" />
 
@@ -221,53 +256,53 @@ const DesignDetails = () => {
                             Related projects
                         </h1>
                         <Swiper
-                    loop={true}
-                    autoplay={{ delay: 3000 }}
-                    slidesPerView={1}
-                    spaceBetween={30}
-                    breakpoints={{
-                        0: {
-                            slidesPerView: 2.1,
-                            spaceBetween: 10,
-                        },
-                        550: {
-                            slidesPerView: 2.3,
-                            spaceBetween: 10,
-                        },
-                        1024: {
-                            slidesPerView: 2.5,
-                            spaceBetween: 10,
-                        },
-                        1280: {
-                            slidesPerView:3,
-                            spaceBetween: 10,
-                        },
-                        1440: {
-                            slidesPerView: 3.6,
-                            spaceBetween: 10,
-                        },
-                        1550: {
-                            slidesPerView: 4,
-                            spaceBetween: 10,
-                        },
-                    }}
-                    className="mySwiper"
-                >
-                            {projects.map((project , index) => (
-                        <SwiperSlide key={index}>
-                                <Link key={project.id} to={project.link}>
-                                    <img
-                                        className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] md:h-[250px] h-full md:max-h-full max-h-[200px] min-h-[124px]"
-                                        src={project.image}
-                                        alt={project.title}
-                                    />
-                                    <h1 className="xl:text-[28px] lg:text-2xl md:text-base sm:text-sm text-xs font-light font-houschka">
-                                        {project.title}
-                                    </h1>
-                                </Link>
-                            </SwiperSlide>
+                            loop={true}
+                            autoplay={{ delay: 3000 }}
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 2.1,
+                                    spaceBetween: 10,
+                                },
+                                550: {
+                                    slidesPerView: 2.3,
+                                    spaceBetween: 10,
+                                },
+                                1024: {
+                                    slidesPerView: 2.5,
+                                    spaceBetween: 10,
+                                },
+                                1280: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 10,
+                                },
+                                1440: {
+                                    slidesPerView: 3.6,
+                                    spaceBetween: 10,
+                                },
+                                1550: {
+                                    slidesPerView: 4,
+                                    spaceBetween: 10,
+                                },
+                            }}
+                            className="mySwiper"
+                        >
+                            {projects.map((project, index) => (
+                                <SwiperSlide key={index}>
+                                    <Link key={project.id} to={project.link}>
+                                        <img
+                                            className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] md:h-[250px] h-full md:max-h-full max-h-[200px] min-h-[124px]"
+                                            src={project.image}
+                                            alt={project.title}
+                                        />
+                                        <h1 className="xl:text-[28px] lg:text-2xl md:text-base sm:text-sm text-xs font-light font-houschka">
+                                            {project.title}
+                                        </h1>
+                                    </Link>
+                                </SwiperSlide>
                             ))}
-                </Swiper>
+                        </Swiper>
 
                     </div>
                 </div>
