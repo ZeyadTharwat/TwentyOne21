@@ -4,7 +4,7 @@ import HeroSection from "../components/Shared/HeroSection"
 const Projects = () => {
   return (
     <>
-    <HeroSection page="OUR CREATIONS" breadcrumb="projects"/>
+    <HeroSection page="OUR CREATIONS" breadcrumb="our creations"/>
     <ProjectsSection/>
     </>
   )

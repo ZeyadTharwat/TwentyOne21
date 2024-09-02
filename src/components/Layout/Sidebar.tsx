@@ -27,12 +27,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   const links: LinkItem[] = [
     { path: "/", label: "HOME" },
     { path: "/about", label: "about" },
-    // { path: "/services", label: "services" },
-    { path: "/projects", label: "creations" },
+    { path: "/services", label: "services" },
+    { path: "/our-creations", label: "creations" },
     { path: "/blogs", label: "blogs" },
-    { path: "/contact-us", label: "contact us" },
+    { path: "/trend-reports", label: "Trend Reports" },
     { path: "/faqs", label: "faqs" },
-    { path: "/trend-reports/1", label: "Trend Reports" },
+    { path: "/contact-us", label: "contact us" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
       />
       <div className={`fixed  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  sm:w-auto w-[calc(100%_-_40px)] ${isOpen ? 'z-[9999999999]' : ''}`}>
         <motion.div
-          className={` flex flex-col bg-[#1A1A1A] transform shadow-lg p-5  sm:w-[600px] sm:h-[900px] w-full h-[500px] rounded-[50px] ${isOpen ? 'pointer-events-auto z-[9999999999999]' : 'pointer-events-none z-[-1]'}`}
+          className={` flex flex-col bg-[#1A1A1A] transform shadow-lg p-5  sm:w-[600px] sm:h-[900px] w-full h-[500px] rounded-[50px] ${isOpen ? 'pointer-events-auto z-[9999999999999999999]' : 'pointer-events-none z-[-1]'}`}
           variants={sidebarVariants}
           initial="closed"
           animate={isOpen ? "open" : "closed"}
@@ -67,13 +67,13 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <img src={MenuImg} alt="Menu" />
-            <div className="flex flex-col sm:gap-y-8 gap-y-3 absolute top-1/2 -translate-y-1/2 sm:-left-1/4 -left-1/3 min-w-[450px]">
+            <div className="flex flex-col sm:gap-y-5 gap-y-3 absolute top-1/2 -translate-y-1/2 sm:-left-1/4 -left-1/3 min-w-[470px]">
               {links.map((link) => (
                 <Link
                   onClick={toggleSidebar}
                   key={link.path}
                   to={link.path}
-                  className={`font-lato font-extralight text-[28px] sm:text-[40px] md:text-[50px] stroked-text uppercase tracking-[3px] ${
+                  className={`font-lato font-extralight text-[26px] sm:text-[40px] md:text-[50px] stroked-text uppercase tracking-[3px] ${
                     isActive(link.path) ? "text-white/40" : "text-transparent"
                   }`}
                 >

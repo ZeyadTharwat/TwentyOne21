@@ -6,9 +6,9 @@ import PressBg2 from "../../assets/PressBg2.svg"
 import CreationPlacehoder from "../../assets/CreationPlaceholder.png"
 import Creation2 from "../../assets/Creation2.jpg"
 import Creation3 from "../../assets/Creation3.jpg"
-import Creation4 from "../../assets/Creation4.jpg"
-import Creation5 from "../../assets/Contact2.png"
-import Creation6 from "../../assets/DesignDetails4.png"
+// import Creation4 from "../../assets/Creation4.jpg"
+// import Creation5 from "../../assets/Contact2.png"
+// import Creation6 from "../../assets/DesignDetails4.png"
 
 const ProjectsSection = () => {
     const [selectedCategory, setSelectedCategory] = useState("All");
@@ -29,21 +29,21 @@ const ProjectsSection = () => {
             type: "INTERIOR DESIGN, OFFICE PLANNING", 
             img: Creation3
         },
-        { 
-            project: "RESTAURANT REDESIGN - MARINA", 
-            type: "INTERIOR DESIGN, BRANDING", 
-            img: Creation4
-        },
-        { 
-            project: "RESTAURANT REDESIGN - MARINA", 
-            type: "INTERIOR DESIGN, BRANDING", 
-            img: Creation5
-        },
-        { 
-            project: "RESTAURANT REDESIGN - MARINA", 
-            type: "INTERIOR DESIGN, BRANDING", 
-            img: Creation6
-        }
+        // { 
+        //     project: "RESTAURANT REDESIGN - MARINA", 
+        //     type: "INTERIOR DESIGN, BRANDING", 
+        //     img: Creation4
+        // },
+        // { 
+        //     project: "RESTAURANT REDESIGN - MARINA", 
+        //     type: "INTERIOR DESIGN, BRANDING", 
+        //     img: Creation5
+        // },
+        // { 
+        //     project: "RESTAURANT REDESIGN - MARINA", 
+        //     type: "INTERIOR DESIGN, BRANDING", 
+        //     img: Creation6
+        // }
 
     ];
 

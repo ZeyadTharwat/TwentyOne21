@@ -4,7 +4,7 @@ import HomeCreationCard from "../Shared/HomeCreationCard";
 import Creation1 from "../../assets/CreationPlaceholder.png"
 import Creation2 from "../../assets/Creation2.jpg"
 import Creation3 from "../../assets/Creation3.jpg"
-import Creation4 from "../../assets/Creation4.jpg"
+// import Creation4 from "../../assets/Creation4.jpg"
 
 const CreationsSection = () => {
     const creationData = [
@@ -23,11 +23,11 @@ const CreationsSection = () => {
             type: "INTERIOR DESIGN, OFFICE PLANNING",
             img: Creation3
         },
-        {
-            project: "RESTAURANT REDESIGN - MARINA",
-            type: "INTERIOR DESIGN, BRANDING",
-            img: Creation4
-        }
+        // {
+        //     project: "RESTAURANT REDESIGN - MARINA",
+        //     type: "INTERIOR DESIGN, BRANDING",
+        //     img: Creation4
+        // }
     ];
 
     return (
@@ -47,7 +47,7 @@ const CreationsSection = () => {
                         ))}
                     </div>
                     <div className="flex justify-center ">
-                        <Button aspects="sm:size-auto size-9" dir="/projects" textStyles="sm:text-lg text-xs" title="View All Projects" className="sm:w-[235px] w-[150px]" />
+                        <Button aspects="sm:size-auto size-9" dir="/our-creations" textStyles="sm:text-lg text-xs" title="View All Projects" className="sm:w-[235px] w-[150px]" />
                     </div>
             </div>
         </div>

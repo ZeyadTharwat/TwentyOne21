@@ -9,7 +9,7 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Blogs from './pages/Blogs';
 import FAQs from './pages/FAQs';
-// import Services from './pages/Services';
+import Services from './pages/Services';
 import TrendReports from './pages/TrendReports';
 import Awards from './pages/Awards';
 import Press from './pages/Press';
@@ -57,15 +57,15 @@ function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
+        <Route path='/our-creations' element={<Projects />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/faqs' element={<FAQs />} />
         <Route path='/contact-us' element={<ContactUs />} />
-        {/* <Route path='/services' element={<Services />} /> */}
+        <Route path='/services' element={<Services />} />
         <Route path='/project-details/1' element={<ProjectDetails />} />
         <Route path='/project-details/2' element={<ProjectDetails2 />} />
         <Route path='/project-details/3' element={<ProjectDetails3 />} />
-        <Route path='/trend-reports/:id' element={<TrendReports />} />
+        <Route path='/trend-reports' element={<TrendReports />} />
         <Route path='/blog-details/:id' element={<BlogDetails />} />
         <Route path='/awards/:id' element={<Awards />} />
         <Route path='/press/:id' element={<Press />} />
