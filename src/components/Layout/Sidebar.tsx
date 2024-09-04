@@ -38,7 +38,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   return (
     <>
       <motion.div
-        className="fixed inset-0 bg-black bg-opacity-50 z-40"
+        className="fixed inset-0 bg-black bg-opacity-50 z-[999999999999999999]"
         initial={{ opacity: 0 }}
         animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
         exit={{ opacity: 0 }}
