@@ -2,7 +2,7 @@ import PressPlaceholder from "../../assets/PressPlaceholder.png"
 import Button from "../Shared/Button"
 import Newspaper from "../../assets/NewsPaper.png"
 import PressBg1 from "../../assets/PressBg1.svg"
-import Philosophy from "../../assets/Philosophy.jpg"
+import Philosophy from "../../assets/Philosophy.webp"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Trend1 from "../../assets/report.png"
 import Trend2 from "../../assets/report2.png"
@@ -99,7 +99,7 @@ const PressAndReports = () => {
                                 <img src={item.img} className="w-full xl:min-h-[343px] md:min-h-[270px] md:max-h-[270px]  xl:max-h-[343px] object-cover mb-3" alt={item.title} />
                                 <h1 className="md:text-[40px] sm:text-3xl   font-vissa uppercase mt-2 sm:mt-4">{item.title}</h1>
                                 <p className="text-[#8D8D8D] font-houschka font-light sm:text-base text-[8px] sm:mb-3 mb-1.5 mt-1 sm:mt-2">{item.description}</p>
-                                <Button aspects="sm:size-auto size-7" dir={`/press/${item.id}`} title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
+                                <Button aspects="sm:size-auto size-7" dir={`/press`} title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
                             </div>
                         </SwiperSlide>
                     ))}
@@ -114,7 +114,7 @@ const PressAndReports = () => {
                             <div className="space-y-6 md:w-auto w-full">
                                 <img src={report.img} className="lg:min-w-[450px] lg:max-w-[450px] w-full md:min-w-[380px] lg:min-h-[250px] max-h-[270px]  min-h-[195px] object-cover mb-3" alt={report.title} />
                                 <div className="md:hidden block">
-                                    <Button aspects="sm:size-auto size-9" dir={`/project-details/${report.id}`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
+                                    <Button aspects="sm:size-auto size-9" dir={`/trend-reports`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
                                 </div>
                             </div>
                             <div>
@@ -123,7 +123,7 @@ const PressAndReports = () => {
                                     <p className="text-[#D0D0D0] font-houschka font-light sm:text-base text-sm tracking-[0.02em] mb-3 mt-2">{report.description}</p>
                                 </div>
                                 <div className="md:block hidden">
-                                    <Button dir={`/project-details/${report.id}`} title="Show More" height={48} textStyles="font-light text-sm" className="w-[140px]" width={44} />
+                                    <Button dir={`/trend-reports`} title="Show More" height={48} textStyles="font-light text-sm" className="w-[140px]" width={44} />
                                 </div>
                             </div>
                         </div>

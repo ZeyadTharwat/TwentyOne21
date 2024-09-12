@@ -1,11 +1,11 @@
-import ReportsSection from "../components/Reports/ReportsSection"
+import PressSection from "../components/Press/PressSection"
 import HeroSection from "../components/Shared/HeroSection"
 
 const Press = () => {
   return (
     <>
     <HeroSection page="Press" breadcrumb="Press"/>
-    <ReportsSection/>
+    <PressSection/>
     </>
   )
 }

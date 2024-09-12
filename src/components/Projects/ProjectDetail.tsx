@@ -1,4 +1,4 @@
-import Philosophy from "../../assets/Philosophy.jpg"
+import Philosophy from "../../assets/Philosophy.webp"
 const ProjectDetail = () => {
   return (
     <div className="sm:py-28 relative py-16">

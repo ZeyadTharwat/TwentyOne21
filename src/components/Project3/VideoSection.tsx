@@ -1,7 +1,7 @@
 import { useState } from "react";
 import VideoPlaceholder from "../../assets/Project3-1.png";
 import PlayIcon from "../Icons/PlayIcon";
-import Partners from "../Projects/Partners";
+import Partners from "./Partners";
 import Project from "../../assets/Project3-2.png";
 import VPlayer from "vnetwork-player";
 

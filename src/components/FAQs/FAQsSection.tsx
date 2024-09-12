@@ -3,28 +3,44 @@ import { AccordionItem } from "../Shared/AccordionItem";
 
 const accordionData = [
     {
-      header: "What services does your interior design agency offer?",
-      content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+      header: "What sets TwentyOne06 apart from other design agencies?",
+      content: "TwentyOne06 blends a boutique agency’s personalized service with global capabilities. We offer bespoke design solutions that merge creativity with functionality, ensuring each project is unique and tailored to exceed expectations.",
     },
     {
-        header: "Can you work within a specific budget, and how do you handle cost overruns?",
-        content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+        header: "What types of projects does TwentyOne06 specialize in?",
+        content: "We specialize in contemporary hospitality, commercial spaces, and F&B design. Our portfolio includes a diverse range of projects, from luxurious hotels and innovative restaurants to dynamic retail and workplace environments.",
       },
       {
-        header: "How do you source materials and furnishings for your projects?",
-        content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+        header: "How does TwentyOne06 approach interior design?",
+        content: "Our interior design philosophy emphasizes both artistry and practicality. We craft immersive spaces by blending sophisticated aesthetics with functional excellence, ensuring that every design detail enhances the user experience.",
       },
       {
-        header: "Do you offer 3D renderings or virtual reality walkthroughs of proposed designs?",
-        content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+        header: " Can you describe the process for a typical design project with TwentyOne06?",
+        content: "Our process begins with a deep understanding of your vision and goals. We then develop a comprehensive design strategy, from concept to completion, ensuring every element aligns with your brand identity and functional needs.",
       },
       {
-        header: "Can you provide references from past clients?",
-        content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+        header: "What is TwentyOne06’s approach to brand development?",
+        content: "We create compelling brand identities through a fusion of creative direction and strategic positioning. Our approach ensures that each brand we develop resonates with authenticity and stands out in a competitive market.",
       },
       {
-        header: "What is the typical timeline for a project, from start to finish?",
-        content: "An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work",
+        header: "How does TwentyOne06 conduct market research?",
+        content: "We perform detailed market research by analyzing industry trends, consumer behavior, and competitive landscapes. Our insights help clients make informed decisions and navigate market complexities with confidence.",
+      },
+      {
+        header: "What is Experience Strategy, and how does it impact your designs?",
+        content: "Experience Strategy focuses on crafting transformative user interactions. We design spaces that enhance operational efficiency and create memorable experiences, ensuring every touchpoint is engaging and effective.",
+      },
+      {
+        header: "How does TwentyOne06’s F&B Consulting enhance dining experiences?",
+        content: "Our F&B Consulting services encompass menu design, operational planning, and concept optimization. We blend culinary passion with strategic insight to create dining experiences that are both innovative and efficient.",
+      },
+      {
+        header: " Can you share some notable success stories from TwentyOne06?",
+        content: "We’ve been praised for our work on projects like Voco Monaco Dubai and Nama Yoso, showcasing our ability to merge innovation with functionality and achieve high client satisfaction in diverse sectors.",
+      },
+      {
+        header: "How can I get in touch with TwentyOne06 to start a project?",
+        content: "You can contact us through our website’s contact form or by emailing us directly. We’re eager to discuss your project and explore how our bespoke design solutions can bring your vision to life.",
       },
 
   ];

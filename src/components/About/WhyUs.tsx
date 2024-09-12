@@ -8,13 +8,13 @@ import ArrowIcon from '../Icons/ArrowIcon';
 const testimonials = [
     {
         image: ClientFocus,
-        paragraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volb",
-        title: "CLIENT-FOCUSED",
+        paragraph: "As an independent studio, we offer the personalized service of a boutique agency with the capabilities of a global firm.",
+        title: "Boutique Approach, Global Reach",
     },
     {
         image: DataDriven, // Use the same image for dummy data
-        paragraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volb",
-        title: "DATA-DRIVEN Design",
+        paragraph: "We create cohesive, functional spaces that address every detail, ensuring a seamless end-to-end experience.",
+        title: "Multi-disciplinary Expertise",
     },
     {
         image: SpecializedTeam,
@@ -22,13 +22,23 @@ const testimonials = [
         title: "SPECIALIZED TEAM",
     }, {
         image: WideNetwork,
-        paragraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volb",
-        title: "Wide Network",
+        paragraph: "Our goal is to meet user needs while elevating the brand’s presence through thoughtful, purposeful design.",
+        title: "Design with Purpose",
     },
     {
         image: ClientFocus,
-        paragraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volb",
-        title: "CLIENT-FOCUSED",
+        paragraph: "From concept to completion, we align designs with business goals, delivering both visual impact and commercial success.",
+        title: "Strategic Vision, Creative Execution",
+    },
+    {
+        image: DataDriven, // Use the same image for dummy data
+        paragraph: "We ensure every project remains dynamic and cutting-edge without compromising quality.",
+        title: "Flexibility and Adaptability",
+    },
+    {
+        image: DataDriven, // Use the same image for dummy data
+        paragraph: "Client testimonials affirm our ability to turn innovative ideas into successful, impactful projects.",
+        title: "Proven Success Across Industries",
     },
 
 ];

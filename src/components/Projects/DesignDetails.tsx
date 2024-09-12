@@ -292,7 +292,7 @@ const DesignDetails = () => {
                                 <SwiperSlide key={index}>
                                     <Link key={project.id} to={project.link}>
                                         <img
-                                            className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] md:h-[250px] h-full md:max-h-full max-h-[200px] min-h-[124px]"
+                                            className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] h-[250px] md:max-h-full max-h-[200px] min-h-[124px]"
                                             src={project.image}
                                             alt={project.title}
                                         />

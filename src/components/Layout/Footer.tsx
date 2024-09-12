@@ -11,7 +11,7 @@ const Footer = () => {
         window.scrollTo(0, 0);
     }
     return (
-        <footer className=" md:rounded-t-0 rounded-t-[10px] bg-transparent overflow-hidden text-white relative z-[999999999]">
+        <footer className=" md:rounded-t-0 rounded-t-[10px] bg-transparent overflow-hidden text-white relative ">
             <div className="bg-[#0E0E0E]">
             <div className="container  h-full w-full grid pt-12 md:pt-36 grid-cols-1 md:grid-cols-4 gap-y-9 lg:grid-cols-12 pb-9 md:pb-24 border-b border-white/30 mb-5 md:mb-9">
                 <div className="xl:col-span-4 lg:col-span-5 md:col-span-3 col-span-1">
@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="gap-4 flex md:flex-col">
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/'}>Home</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/services'}>Service</Link>
+                        {/* <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/services'}>Service</Link> */}
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Project</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
 
@@ -48,15 +48,16 @@ const Footer = () => {
                         <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4">Call Us</h1>
                         <div className="md:block flex gap-12">
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">
-                            (907) 262-2578
+                        (971) 455-48082
                         </p>
-                        <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">(907) 822-3177</p>
+                        <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">(971) 525-977090</p>
                         </div>
                     </div>
                     <div className="md:mt-16 mt-9">
                         <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-3">Drop Us Message</h1>
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-loose">
-                        hello@Twentyone.com
+                        Info@twentyone06.com
+
                         </p>
                     </div>
                 </div>

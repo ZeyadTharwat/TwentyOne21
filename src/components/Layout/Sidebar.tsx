@@ -2,7 +2,7 @@ import { motion, Variants } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import CloseIcon from "../Icons/CloseIcon";
 import MenuImg from "../../assets/MenuImg.png";
-import Philosophy from "../../assets/Philosophy.jpg";
+import Philosophy from "../../assets/Philosophy.webp";
 
 type LinkItem = {
   path: string;
@@ -27,9 +27,10 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   const links: LinkItem[] = [
     { path: "/", label: "HOME" },
     { path: "/about", label: "about" },
-    { path: "/services", label: "services" },
+    // { path: "/services", label: "services" },
     { path: "/our-creations", label: "creations" },
     { path: "/blogs", label: "blogs" },
+    { path: "/press", label: "press" },
     { path: "/trend-reports", label: "Trend Reports" },
     { path: "/faqs", label: "faqs" },
     { path: "/contact-us", label: "contact us" },
@@ -46,7 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
         onClick={toggleSidebar}
         style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
       />
-      <div className={`fixed  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  sm:w-auto w-[calc(100%_-_40px)] ${isOpen ? 'z-[9999999999]' : ''}`}>
+      <div className={`fixed sm:w-auto w-[calc(100%_-_40px)] ${isOpen ? 'z-[9999999999] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' : 'top-[999999999999999px] left-[9999999999px]'}`}>
         <motion.div
           className={` flex flex-col bg-[#1A1A1A] transform shadow-lg p-5  sm:w-[600px] sm:h-[900px] w-full h-[500px] rounded-[50px] ${isOpen ? 'pointer-events-auto z-[9999999999999999999]' : 'pointer-events-none z-[-1]'}`}
           variants={sidebarVariants}

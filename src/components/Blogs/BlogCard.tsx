@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 import Button from "../Shared/Button"
-const BlogCard = ({title , img} : {title:string, img:string}) => {
+const BlogCard = ({title , img , id} : {title:string, img:string , id:number}) => {
   return (
-    <Link to='/blog-details/1'>
+    <Link to={`/blog-details/${id}`}>
         <div className="text-black space-y-4">
-        <img className="w-full max-h-[343px] h-full object-cover" src={img} alt="" />
+        <img className="w-full max-h-[343px] h-[343px] object-cover" src={img} alt="" />
         <h1 className="tracking-[0.02em] xl:text-[32px] md:text-[28px] text-2xl font-vissa uppercase">{title}</h1>
         <Button aspects="sm:size-auto size-9" title="Show More" textStyles="text-black font-light font-houschka sm:text-sm text-[10px]" className="w-[150px]" height={48} width={45}/>
     </div>

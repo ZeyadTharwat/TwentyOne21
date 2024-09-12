@@ -1,10 +1,9 @@
 import Input from "../Shared/Input"
 import Contact1 from "../../assets/Contact1.png"
-import Contact2 from "../../assets/Contact2.png"
 import Contact3 from "../../assets/Contact3.png"
 import Button from "../Shared/Button"
 import PressBg2 from "../../assets/PressBg2.svg"
-
+import Contact2 from "../../assets/OBS BRANDING.png"
 
 const ContactSection = () => {
   return (
@@ -26,7 +25,7 @@ const ContactSection = () => {
         <div className="flex sm:gap-5 gap-3 relative z-50">
           <img className="xl:max-w-[240px] w-1/3 sm:max-w-[210px] object-cover sm:max-h-[486px] xl:min-w-[240px] sm:min-w-[210px] sm:min-h-[486px]" src={Contact1} alt="Contact 1" />
           <div className="sm:space-y-5 space-y-3 w-2/3">
-            <img className="w-full xl:max-w-[402px] object-cover sm:max-h-[261px] sm:max-w-[330px] sm:min-w-[330px] xl:min-w-[402px] sm:min-h-[261px]" src={Contact2} alt="Contact 2" />
+            <img className="w-full xl:max-w-[402px] object-cover h-full sm:max-h-[261px] sm:max-w-[330px] sm:min-w-[330px] xl:min-w-[402px] sm:min-h-[261px]" src={Contact2} alt="Contact 2" />
             <img className="w-full xl:max-w-[402px] object-cover sm:max-h-[203px] sm:max-w-[330px] sm:min-w-[330px] xl:min-w-[402px] sm:min-h-[203px]" src={Contact3} alt="Contact 3" />
           </div>
         </div>
