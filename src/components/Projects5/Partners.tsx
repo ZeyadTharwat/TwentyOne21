@@ -1,4 +1,4 @@
-// import Partner1 from "../../assets/voco/Partner (1).png";
+import Partner1 from "../../assets/voco/Partner (1).png";
 import Partner2 from "../../assets/voco/Partner (2).png";
 import Partner3 from "../../assets/voco/Partner (3).png";
 
@@ -10,9 +10,9 @@ const Partners = () => {
             <div className="h-full bg flex items-center justify-center relative " >
                 <div className="relative z-[9999999] container mx-1">
                     <div className="flex justify-center lg:gap-10 sm:gap-5 gap-x-4 gap-y-6 items-center scale-x-[-1] sm:flex-nowrap flex-wrap">
-                    {/* <div className="col-span-1 max-w-[170px]">
+                    <div className="col-span-1 max-w-[170px]">
                             <img className="mx-auto" src={Partner1} alt="Partner 1" />
-                        </div> */}
+                        </div>
                         <div className="col-span-1 sm:min-w-[100px] sm:w-auto w-20">
                             <img className="mx-auto" src={Partner2} alt="Partner 2" />
                         </div>

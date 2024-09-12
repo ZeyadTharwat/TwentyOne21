@@ -49,7 +49,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
       />
       <div className={`fixed sm:w-auto w-[calc(100%_-_40px)] ${isOpen ? 'z-[9999999999] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2' : 'top-[999999999999999px] left-[9999999999px]'}`}>
         <motion.div
-          className={` flex flex-col bg-[#1A1A1A] transform shadow-lg p-5  sm:w-[600px] sm:h-[900px] w-full h-[500px] rounded-[50px] ${isOpen ? 'pointer-events-auto z-[9999999999999999999]' : 'pointer-events-none z-[-1]'}`}
+          className={` flex flex-col bg-[#1A1A1A] transform shadow-lg p-5  lg:w-[980px] md:w-[700px] sm:w-[600px] sm:h-[900px] w-full h-[500px] rounded-[50px] ${isOpen ? 'pointer-events-auto z-[9999999999999999999]' : 'pointer-events-none z-[-1]'}`}
           variants={sidebarVariants}
           initial="closed"
           animate={isOpen ? "open" : "closed"}
