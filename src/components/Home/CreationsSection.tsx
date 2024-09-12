@@ -4,7 +4,7 @@ import HomeCreationCard from "../Shared/HomeCreationCard";
 import Creation1 from "../../assets/CreationPlaceholder.png"
 import Creation2 from "../../assets/Creation2.jpg"
 import Creation3 from "../../assets/Creation3.jpg"
-// import Creation4 from "../../assets/Creation4.jpg"
+import Creation4 from "../../assets/Elix.png"
 
 const CreationsSection = () => {
     const creationData = [
@@ -23,11 +23,11 @@ const CreationsSection = () => {
             type: "INTERIOR DESIGN, OFFICE PLANNING",
             img: Creation3
         },
-        // {
-        //     project: "RESTAURANT REDESIGN - MARINA",
-        //     type: "INTERIOR DESIGN, BRANDING",
-        //     img: Creation4
-        // }
+        {
+            project: "Elix Spa",
+            type: "BRANDING , Hospitality Design",
+            img: Creation4
+        }
     ];
 
     return (
