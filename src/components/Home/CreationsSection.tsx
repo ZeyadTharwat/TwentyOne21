@@ -29,7 +29,7 @@ const CreationsSection = () => {
             img: Creation4
         }
     ];
-
+ 
     return (
         <div className="h-full lg:py-0 md:py-32 sm:py-24 py-16  relative flex items-center justify-center">
             <img src={CreationsBg} className="absolute inset-0 lg:block hidden w-full h-full object-cover opacity-5 left-1/2 -translate-y-1/2 top-1/2 -translate-x-1/2" alt="" />
