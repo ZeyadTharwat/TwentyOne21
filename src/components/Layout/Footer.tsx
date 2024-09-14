@@ -42,8 +42,8 @@ const Footer = () => {
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Projects</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/faqs'}>FAQS</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/press'}>Press</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/trend-reports'}>Trend Reports</Link>
+                        {/*<Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/press'}>Press</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/trend-reports'}>Trend Reports</Link>*/}
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
                     </div>
                 </div>
