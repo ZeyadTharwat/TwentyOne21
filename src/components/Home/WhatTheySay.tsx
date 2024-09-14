@@ -109,7 +109,7 @@ const testimonials = [
 
 const WhatTheySay = () => {
     return (
-        <div className="bg-whatTheySay bg-no-repeat bg-cover py-16 md:py-28">
+        <div className="bg-whatTheySay bg-no-repeat bg-cover pt-16 md:py-28">
             <div className="container">
                 <div className="flex justify-between gap-28">
                     <Swiper
@@ -125,14 +125,29 @@ const WhatTheySay = () => {
                         {testimonials.map((testimonial, index) => (
                             <SwiperSlide key={index}>
                                 <div className="flex justify-between xl:gap-28 lg:gap-12">
-                                    <div className="relative h-[536px]">
+                                    <div className="relative md:h-[536px]">
                                         <img src={testimonial.image} className="min-w-[425px] h-full  w-full max-w-[425px] lg:block hidden object-cover" />
                                         <div className="w-full h-full absolute bg-black/20 inset-0"></div>
                                     </div>
                                     <div>
-                                        <h1 className="font-vissa lg:text-6xl md:text-start text-center md:text-5xl sm:text-4xl text-2xl tracking-[0.02em] mb-9">
-                                            WHAT THEY’RE SAYING
-                                        </h1>
+                                        <div>
+                                            <div className="flex sm:gap-3 gap-2 items-center mb-1 sm:mb-1.5">
+                                                <h1 className="font-light sm:text-[22px] leading-none">{testimonial.name}</h1>
+                                                {testimonial.location && <>
+                                                    <div className="w-[3px] h-6 bg-primary rounded-[11px]"></div>
+                                                    <p className="text-[#D0D0D0] font-light sm:text-base text-xs font-houschka">{testimonial.location}</p>
+                                                </>}
+                                            </div>
+                                            {testimonial.title && testimonial.company &&
+                                                <div className="flex items-center gap-1.5 sm:gap-2">
+                                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">{testimonial.title}</h1>
+                                                    <div className="bg-white/80 size-1.5 rounded-full"></div>
+                                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">{testimonial.company}</h1>
+                                                </div>
+                                            }
+                                        </div>
+                                        <div className="bg-primary h-0.5 w-10 sm:mb-16 mb-12"></div>
+
                                         <div className="flex mb-8 items-center justify-between">
                                             <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                                             <div className="flex gap-2 sm:gap-5">
@@ -149,23 +164,6 @@ const WhatTheySay = () => {
                                         <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg uppercase">
                                             {testimonial.quote}
                                         </p>
-                                        <div className="bg-primary h-0.5 w-10 mt-5"></div>
-                                        <div className="sm:mt-7 mt-5">
-                                            <div className="flex sm:gap-3 gap-2 items-center mb-1 sm:mb-1.5">
-                                                <h1 className="font-light sm:text-[22px] leading-none">{testimonial.name}</h1>
-                                                {testimonial.location && <>
-                                                    <div className="w-[3px] h-6 bg-primary rounded-[11px]"></div>
-                                                    <p className="text-[#D0D0D0] font-light sm:text-base text-xs font-houschka">{testimonial.location}</p>
-                                                </>}
-                                            </div>
-                                            {testimonial.title && testimonial.company &&
-                                                <div className="flex items-center gap-1.5 sm:gap-2">
-                                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">{testimonial.title}</h1>
-                                                    <div className="bg-white/80 size-1.5 rounded-full"></div>
-                                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">{testimonial.company}</h1>
-                                                </div>
-                                            }
-                                        </div>
                                     </div>
                                 </div>
                             </SwiperSlide>

@@ -9,32 +9,32 @@ import Creation4 from "../../assets/Elix.png"
 const CreationsSection = () => {
     const creationData = [
         {
-            project: "PITFIRE PIZZA - DUBAI HILLS",
-            type: "INTERIOR DESIGN, BRANDING",
+            project: "NAMA YOSO",
+            type: "F&B Design, BRANDING",
             img: Creation1
         },
         {
-            project: "LUXURY VILLA - PALM JUMEIRAH",
-            type: "INTERIOR DESIGN",
+            project: "PITFIRE PIZZA - DUBAI HILLS",
+            type: "F&B Design",
             img: Creation2
         },
         {
-            project: "MODERN OFFICE SPACE - DIFC",
-            type: "INTERIOR DESIGN, OFFICE PLANNING",
+            project: "TERO",
+            type: "F&B Design, BRANDING",
             img: Creation3
         },
         {
             project: "Elix Spa",
             type: "BRANDING , Hospitality Design",
             img: Creation4
-        }
+        },
     ];
  
     return (
-        <div className="h-full lg:py-0 md:py-32 sm:py-24 py-16  relative flex items-center justify-center">
+        <div className="h-full lg:py-44 md:py-32 sm:py-24 py-16   relative flex items-center justify-center">
             <img src={CreationsBg} className="absolute inset-0 lg:block hidden w-full h-full object-cover opacity-5 left-1/2 -translate-y-1/2 top-1/2 -translate-x-1/2" alt="" />
-            <div className=" flex flex-col items-center justify-around relative z-50 md:min-h-screen md:gap-y-0 gap-y-10">
-                <h1 className="lg:text-6xl md:text-5xl sm:text-3xl text-2xl font-vissa uppercase tracking-[0.02em]  text-center">Our Creations</h1>
+            <div className=" flex flex-col items-center justify-around relative z-50 ">
+                <h1 className="lg:text-6xl md:text-5xl sm:text-3xl text-2xl font-vissa uppercase tracking-[0.02em]  text-center lg:mb-28 md:mb-20 sm:mb-16 mb-8">Our Creations</h1>
                     <div className="grid grid-cols-2 xl:gap-x-11 gap-x-3 sm:gap-x-6 xl:gap-y-16 sm:gap-y-10 gap-y-3 container">
                         {creationData.map((creation, index) => (
                             <HomeCreationCard
@@ -46,7 +46,7 @@ const CreationsSection = () => {
                             />
                         ))}
                     </div>
-                    <div className="flex justify-center ">
+                    <div className="flex justify-center lg:mt-20 md:mt-16 sm:mt-12 mt-6">
                         <Button aspects="sm:size-auto size-9" dir="/our-creations" textStyles="sm:text-lg text-xs" title="View All Projects" className="sm:w-[235px] w-[150px]" />
                     </div>
             </div>

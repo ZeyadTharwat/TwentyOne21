@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import AboutBg from "../../assets/AboutBg.png"
-import AboutImages from "../../assets/AboutImages.png"
+import AboutBg from "../../assets/Philosophy.webp"
+import AboutImages from "../../assets/Creation3.jpg"
 import ButtonVector from "../../assets/ButtonVector.svg"
 const AboutAgency = () => {
   return (

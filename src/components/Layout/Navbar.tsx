@@ -40,7 +40,7 @@ const Navbar = () => {
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <button
         onClick={toggleSidebar}
-        className="fixed object-cover bottom-5 left-1/2 -translate-x-1/2 z-[99999999] md:block hidden size-[100px]"
+        className="fixed object-cover bottom-5 left-1/2 -translate-x-1/2 z-[999999999999999] md:block hidden size-[100px]"
       >
         <img src={MenuButton} alt="Menu Button" />
       </button>

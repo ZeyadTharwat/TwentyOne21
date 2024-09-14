@@ -20,24 +20,6 @@ const PressAndReports = () => {
             description: "An interior design agency can create content that showcases its…",
             id: 2,
         },
-        {
-            img: PressPlaceholder,
-            title: "Out the entire design",
-            description: "An interior design agency can create content that showcases its…",
-            id: 3,
-        },
-        {
-            img: PressPlaceholder,
-            title: "Out the entire design",
-            description: "An interior design agency can create content that showcases its…",
-            id: 4,
-        },
-        {
-            img: PressPlaceholder,
-            title: "Out the entire design",
-            description: "An interior design agency can create content that showcases its…",
-            id: 5,
-        },
 
     ];
     const trendReports = [
@@ -96,7 +78,7 @@ const PressAndReports = () => {
                     {pressItems.map((item, index) => (
                         <SwiperSlide key={index}>
                             <div>
-                                <img src={item.img} className="w-full xl:min-h-[343px] md:min-h-[270px] md:max-h-[270px]  xl:max-h-[343px] object-cover mb-3" alt={item.title} />
+                                <img src={item.img} className="w-full xl:min-w-[343px] md:min-w-[270px] md:max-w-[270px]  xl:max-w-[343px] xl:min-h-[380px] md:min-h-[320px] md:max-h-[320px]  xl:max-h-[380px] object-cover mb-3" alt={item.title} />
                                 <h1 className="md:text-[40px] sm:text-3xl   font-vissa uppercase mt-2 sm:mt-4">{item.title}</h1>
                                 <p className="text-[#8D8D8D] font-houschka font-light sm:text-base text-[8px] sm:mb-3 mb-1.5 mt-1 sm:mt-2">{item.description}</p>
                                 <Button aspects="sm:size-auto size-7" dir={`/press`} title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
@@ -104,6 +86,10 @@ const PressAndReports = () => {
                         </SwiperSlide>
                     ))}
                 </Swiper>
+                    <div className="flex justify-center md:mt-20 mt-10">
+                    <Button aspects="sm:size-auto size-9" dir="/press" textStyles="sm:text-lg text-xs" title="View All Press" className="sm:w-[235px] w-[150px]" />
+
+                    </div>
             </div>
             <img className="md:mt-4 mt-20 mb-10 opacity-40 w-full object-cover" src={Newspaper} alt="News paper" />
             <div className="container">
@@ -112,12 +98,12 @@ const PressAndReports = () => {
                     {trendReports.map((report, index) => (
                         <div key={index} className="flex md:gap-5 gap-12 md:flex-row flex-col-reverse items-center md:text-start text-center">
                             <div className="space-y-6 md:w-auto w-full">
-                                <img src={report.img} className="lg:min-w-[450px] lg:max-w-[450px] w-full md:min-w-[380px] lg:min-h-[250px] max-h-[270px]  min-h-[195px] object-cover mb-3" alt={report.title} />
+                                <img src={report.img} className="lg:min-h-[480px] lg:max-h-[480px] w-full md:min-h-[380px] md:max-h-[380px] sm:max-h-[355px] max-h-[300px]  sm:min-h-[355px] min-h-[300px] object-cover mb-3 md:min-w-[400px] md:max-w-[400px]" alt={report.title} />
                                 <div className="md:hidden block">
                                     <Button aspects="sm:size-auto size-9" dir={`/trend-reports`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
                                 </div>
                             </div>
-                            <div>
+                            <div className="max-w-2xl">
                                 <div>
                                     <h1 className="mb-2 lg:text-5xl sm:text-3xl text-lg font-vissa uppercase tracking-[0.02em]">{report.title}</h1>
                                     <p className="text-[#D0D0D0] font-houschka font-light sm:text-base text-sm tracking-[0.02em] mb-3 mt-2">{report.description}</p>
@@ -129,6 +115,11 @@ const PressAndReports = () => {
                         </div>
                     ))}
                 </div>
+                <div className="flex justify-center md:mt-20 mt-10">
+                    <Button aspects="sm:size-auto size-9" dir="/press" textStyles="sm:text-lg text-xs" title="View All Reports" className="sm:w-[235px] w-[150px]" />
+
+                    </div>
+
         </div>
 
         </div>

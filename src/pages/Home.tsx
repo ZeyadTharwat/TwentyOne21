@@ -10,10 +10,9 @@ import WhatTheySay from "../components/Home/WhatTheySay"
 const Home = () => {
     return (
         <>
-             <HeroSection />
+            <HeroSection />
             <AboutAgency />
             <Services/>
-            <div className="lg:h-[165px]"/>
             <CreationsSection />
             <WhatTheySay />
             <Partners />
