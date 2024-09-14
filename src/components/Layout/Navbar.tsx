@@ -70,7 +70,7 @@ duration-300 z-[9999999999999999]  ${isLightPage || isScrolled
               <Link target="_blank" to={'https://www.linkedin.com/company/twentyone06'}>
                 <LinkedInIcon className="md:size-auto size-7" />
               </Link>
-              <Link target="_blank" to={'https://www.youtube.com/channel/UCW_AV7mByqRb96zEEeOCHSQ'}>
+              <Link target="_blank" to={'https://www.youtube.com/@TwentyOne06'}>
                 <YoutubeIcon className="md:size-auto size-7" />
               </Link>
             </div>
