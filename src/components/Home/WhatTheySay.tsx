@@ -133,10 +133,10 @@ const WhatTheySay = () => {
                                         <div>
                                             <div className="flex sm:gap-3 gap-2 items-center mb-1 sm:mb-1.5">
                                                 <h1 className="font-light sm:text-[22px] leading-none">{testimonial.name}</h1>
-                                                {testimonial.location && <>
+                                                {/* {testimonial.location && <>
                                                     <div className="w-[3px] h-6 bg-primary rounded-[11px]"></div>
                                                     <p className="text-[#D0D0D0] font-light sm:text-base text-xs font-houschka">{testimonial.location}</p>
-                                                </>}
+                                                </>} */}
                                             </div>
                                             {testimonial.title && testimonial.company &&
                                                 <div className="flex items-center gap-1.5 sm:gap-2">
@@ -146,7 +146,7 @@ const WhatTheySay = () => {
                                                 </div>
                                             }
                                         </div>
-                                        <div className="bg-primary h-0.5 w-10 sm:mb-16 mb-12"></div>
+                                        <div className="bg-primary h-0.5 w-10 sm:mb-16 mb-12 mt-5"></div>
 
                                         <div className="flex mb-8 items-center justify-between">
                                             <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />

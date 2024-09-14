@@ -17,30 +17,35 @@ const services = [
     title: "Interior Design",
     image: Service1,
     listItems: ["Restaurants & Bars", "Hospitality", "Resimerical", "Retail", "Bespoke Furniture"],
+    description:"TwentyOne06 crafts bespoke environments that seamlessly blend innovation and functionality, creating captivating spaces that elevate user experiences across hospitality, retail, and workspaces."
   },
   {
     icon: BrandDevelopment,
     title: "Brand Development",
     image: Service2,
     listItems: ["Logo Design", "Brand Guidelines", "Market Positioning", "Digital Presence", "Campaign Planning"],
+    description:"We forge distinctive, enduring brand identities by uniting visionary aesthetics with strategic insight, ensuring each brand resonates with authenticity and leaves a lasting impression."
   },
   {
     icon: MarketResearch,
     title: "Market Research",
     image: Service3,
     listItems: ["Surveys & Polls", "Focus Groups", "Data Analysis", "Industry Reports", "Customer Insights"],
+    description:"Our rigorous market research uncovers actionable insights, empowering clients to make informed, strategic decisions by understanding market trends and consumer behavior."
   },
   {
     icon: ExperienceStrategy,
     title: "Experience Strategy",
     image: Service4,
     listItems: ["Customer Journey", "UX Design", "Touchpoint Analysis", "Product Experience", "Service Design"],
+    description:"TwentyOne06 designs transformative experiences, integrating spatial efficiency with user engagement to create seamless, immersive environments that enhance customer connections."
   },
   {
     icon: FBConsulting,
     title: "F&B Consulting",
     image: Service5,
     listItems: ["Menu Development", "Kitchen Layout", "Staff Training", "Cost Control", "Supply Chain Management"],
+    description:"We design innovative, operationally efficient food and beverage concepts, combining culinary artistry with strategic insight to craft exceptional dining experiences."
   },
 ];
 
@@ -59,13 +64,13 @@ const Services = () => {
             <div className="z-50 top-1/2 left-1/2 w-full xl:-translate-y-0 -translate-y-1/2 -translate-x-1/2 absolute group-hover:opacity-100 opacity-0 transition-all duration-300 2xl:px-6 sm:px-3 px-1">
               <ul className="2xl:mb-20 xl:mb-10 mb-6 list-none p-0 ">
                 {service.listItems.map((item, idx) => (
-                  <li className="md:text-xs text-[7px] flex items-center py-1 relative md:pl-6 sm:pl-4 pl-2.5 before:content-[''] before:md:border-4 before:sm:border-2 before:border before:border-[#FFEADF] before:md:size-4 before:sm:size-2.5 before:size-1.5  before:inline-block before:mr-2 before:absolute before:left-0" key={idx}>
+                  <li className="md:text-xs text-[7px] flex items-center sm:py-1 relative md:pl-6 sm:pl-4 pl-2.5 before:content-[''] before:md:border-4 before:sm:border-2 before:border before:border-[#FFEADF] before:md:size-4 before:sm:size-2.5 before:size-1.5  before:inline-block before:mr-2 before:absolute before:left-0" key={idx}>
                     {item}
                   </li>
                 ))}
               </ul>
-              <p className="xl:text-sm md:text-xs text-[7px] sm:block hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis repellat sed velit dignissimos voluptatibus dolorum, temporibus eius corrupti, nisi ullam maxime consequatur animi doloremque blanditiis totam illo repellendus distinctio aperiam qui .</p>
-              <Link to={'contact-us'} className="text-primary  md:text-sm text-[8px] flex items-center sm:gap-3 gap-1.5 md:px-3 px-1 sm:py-1 py-0.5 2xl:mt-7 sm:mt-4 bg-[#FFEADF] w-fit rounded-full justify-center">Get In Touch <ArrowIcon className="sm:size-auto w-2" /></Link>
+              <p className="xl:text-sm md:text-xs text-[6px] ">{service.description}</p>
+              <Link to={'contact-us'} className="text-primary  md:text-sm text-[6px] flex items-center sm:gap-3 gap-1.5 md:px-3 px-1 sm:py-1 py-0.5 2xl:mt-7 mt-4 bg-[#FFEADF] w-fit rounded-full justify-center">Get In Touch <ArrowIcon className="sm:size-auto w-1.5" /></Link>
             </div>
             <img className="group-hover:scale-[1.3] relative w-full h-full transition-all duration-300" src={service.image} alt={service.title} />
           </div>

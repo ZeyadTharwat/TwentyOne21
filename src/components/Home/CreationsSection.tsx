@@ -1,9 +1,9 @@
 import Button from "../Shared/Button";
 import CreationsBg from "../../assets/CreationsBg.jpg";
 import HomeCreationCard from "../Shared/HomeCreationCard";
-import Creation1 from "../../assets/CreationPlaceholder.png"
-import Creation2 from "../../assets/Creation2.jpg"
-import Creation3 from "../../assets/Creation3.jpg"
+import Creation1 from "../../assets/NAMA YOSO.png"
+import Creation2 from "../../assets/Pitfire.png"
+import Creation3 from "../../assets/TERO.png"
 import Creation4 from "../../assets/Elix.png"
 
 const CreationsSection = () => {
