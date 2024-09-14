@@ -45,19 +45,18 @@ const Footer = () => {
                 </div>
                 <div className="lg:col-span-3 md:col-span-4 col-span-1">
                     <div>
-                        <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4">Call Us</h1>
+                        <h1 className=" font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4 uppercase">Call Us</h1>
                         <div className="md:block flex gap-12">
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">
-                        (971) 455-48082
+                        <a href="tel:+197145548082">(971) 455-48082</a>
                         </p>
-                        <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">(971) 525-977090</p>
+                        <p className=" font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]"><a href="tel:+1971525977090">(971) 525-977090</a>
                         </div>
                     </div>
                     <div className="md:mt-16 mt-9">
-                        <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-3">Drop Us Message</h1>
+                        <h1 className="font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-3 uppercase">Drop Us Message</h1>
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-loose">
-                        Info@twentyone06.com
-
+                        <a href="mailto:Info@twentyone06.com">Info@twentyone06.com</a>
                         </p>
                     </div>
                 </div>
