@@ -21,14 +21,17 @@ const Footer = () => {
                     <h1 className=" font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-1.5 mt-9 md:mt-14">Corporate Office</h1>
                     <p className="tracking-[0.02em]  md:text-2xl font-houschka font-light mb-2">Find us on social media</p>
                     <div className="flex gap-4">
-                        <Link to={'/'}>
+                        <Link to={'https://www.facebook.com/p/TwentyOne06-100054351738420/'}>
                             <FacebookIcon className="md:size-auto size-7" />
                         </Link>
-                        <Link to={'/'}>
+                        <Link to={'https://www.instagram.com/twentyone06/'}>
                             <InstagramIcon className="md:size-auto size-7" />
                         </Link>
-                        <Link to={'/'}>
+                        <Link to={'https://www.linkedin.com/company/twentyone06'}>
                             <LinkedInIcon className="md:size-auto size-7" />
+                        </Link>
+                        <Link to={'https://www.youtube.com/@TwentyOne06'}>
+                            <YoutubeIcon className="md:size-auto size-7" />
                         </Link>
                     </div>
                 </div>
