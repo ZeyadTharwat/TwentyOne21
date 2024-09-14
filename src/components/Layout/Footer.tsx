@@ -30,9 +30,6 @@ const Footer = () => {
                         <Link to={'https://www.linkedin.com/company/twentyone06'}>
                             <LinkedInIcon className="md:size-auto size-7" />
                         </Link>
-                        <Link to={'https://www.youtube.com/@TwentyOne06'}>
-                            <YoutubeIcon className="md:size-auto size-7" />
-                        </Link>
                     </div>
                 </div>
                 <div className="lg:col-span-4 md:col-span-1 col-span-1">
