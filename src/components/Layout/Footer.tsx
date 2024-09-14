@@ -33,18 +33,18 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="lg:col-span-4 md:col-span-1 col-span-1">
-                    <h1 className=" font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4 uppercase">Quick Link</h1>
+                    <h1 className="font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4 uppercase">Quick Links</h1>
                     <div className="gap-4 flex md:flex-col">
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/'}>Home</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About</Link>
-                        {/* <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/services'}>Service</Link> */}
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Project</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/faqs'}>FAQS</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Projects</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
                     </div>
                 </div>
                 <div className="lg:col-span-3 md:col-span-4 col-span-1">
                     <div>
-                        <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4">Call Us</h1>
+                        <h1 className="font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4">Call Us</h1>
                         <div className="md:block flex gap-12">
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-[2.25]">
                         (971) 455-48082
@@ -53,7 +53,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="md:mt-16 mt-9">
-                        <h1 className="font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-3">Drop Us Message</h1>
+                        <h1 className="font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-3">Drop Us Message</h1>
                         <p className="font-houschka md:text-2xl font-light tracking-[0.06em] leading-loose">
                         Info@twentyone06.com
                         </p>
