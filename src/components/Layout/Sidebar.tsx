@@ -30,9 +30,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   const links2: LinkItem[] = [
     { path: "/", label: "Home" },
     { path: "/about", label: "about us" },
-    { path: "/contact-us", label: "contact us" },
-    { path: "/faqs", label: "faqs" },
     { path: "/blogs", label: "blogs" },
+    { path: "/faqs", label: "faqs" },
+    { path: "/contact-us", label: "contact us" },
 
   ];
 
