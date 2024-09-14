@@ -36,9 +36,11 @@ const Footer = () => {
                     <h1 className=" font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2.5 md:mb-4 uppercase">Quick Link</h1>
                     <div className="gap-4 flex md:flex-col">
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/'}>Home</Link>
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About</Link>
-                        {/* <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/services'}>Service</Link> */}
-                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Project</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/about'}>About Us</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/blogs'}>Blogs</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/our-creations'}>Projects</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/press'}>Press</Link>
+                        <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/trend-reports'}>Trend Reports</Link>
                         <Link className="inline-block hover:text-primary duration-300 transition-all font-houschka font-light md:text-2xl md:hover:ml-5 md:hover:mt-0 hover:-mt-5" to={'/contact-us'}>Contact Us</Link>
 
                     </div>
