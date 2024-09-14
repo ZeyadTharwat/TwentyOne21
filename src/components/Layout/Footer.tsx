@@ -19,7 +19,7 @@ const Footer = () => {
                     <img className="md:size-auto w-[110px] h-12" src={Logo} />
                     </Link>
                     <h1 className=" font-vissa text-[#888888] text-[26px] md:text-4xl lg:text-5xl mb-1.5 mt-9 md:mt-14">Corporate Office</h1>
-                    <p className="tracking-[0.02em]  md:text-2xl font-houschka font-light mb-2">Pariatur eius dolorum ipsa qua</p>
+                    <p className="tracking-[0.02em]  md:text-2xl font-houschka font-light mb-2">Find us on social media</p>
                     <div className="flex gap-4">
                         <Link to={'/'}>
                             <FacebookIcon className="md:size-auto size-7" />

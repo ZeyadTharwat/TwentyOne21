@@ -24,7 +24,7 @@ experiences and relaxation, following the brand philosophy of "Small Change, Big
         <p className="sm:text-lg text-xs text-[#D0D0D0] leading-none">February, 2023</p>
       </div>
       <div className=" font-houschka space-y-2.5 font-light">
-        <h1 className="sm:text-[26px] text-sm leading-none">Venue :</h1>
+        <h1 className="sm:text-[26px] text-sm leading-none">Venue</h1>
         <p className="sm:text-lg text-xs text-[#D0D0D0] leading-none">Hotel Renovation</p>
       </div>
 

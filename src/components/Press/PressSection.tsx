@@ -82,7 +82,7 @@ const PressSection = () => {
                     <div className="flex flex-col items-center md:w-auto w-full">
                         <img
                             src={report.image}
-                            className="md:h-[680px] md:min-w-[538px] md:max-w-[538px] w-full object-cover h-[300px]"
+                            className="xl:min-w-[650px] xl:max-w-[650px] lg:max-w-[550px] lg:min-w-[550px]  w-full md:min-w-[380px] lg:min-h-[300px] max-h-[3000px] min-h-[195px] object-cover"
                             alt={report.title}
                         />
                         <div className="lg:hidden block sm:mt-8 mt-6">

@@ -15,7 +15,7 @@ const ProjectsSection = () => {
     const creationData = [
         {
             project: "NAMA YOSO",
-            type: "F&B Design, BRANDING",
+            type: "F&B Design",
             img: CreationPlacehoder
         },
         {

@@ -7,7 +7,7 @@ const OurHistory = () => {
       <img src={Historybg} className="absolute inset-0 object-cover h-full" alt="" />
     <div className="flex xl:gap-14 lg:gap-7 gap-12 h-full lg:flex-row items-center flex-col-reverse">
         <div className="lg:w-1/2 h-full">
-        <img src={HistoryImg} className='h-full w-full object-cover object-[75%_25%]' alt="" />
+        <img src={HistoryImg} className='h-full w-full object-cover object-[75%_25%] relative z-50' alt="" />
         </div>
         <div className="text-black lg:text-start text-center lg:max-w-full lg:w-1/2 lg:px-0 px-4 max-w-2xl">
             <h1 className="sm:mb-5 mb-4 md:text-[68px] sm:text-5xl text-2xl tracking-[0.04em] font-vissa">Discover the Essence of Design Excellence with TwentyOne06

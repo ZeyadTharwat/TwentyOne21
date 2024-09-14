@@ -12,15 +12,15 @@ import DesignDetailsPlaceholder11 from "../../assets/Elix/image-missing.jpg"
 import DesignDetailsPlaceholder12 from "../../assets/Voco/7.png"
 import DesignDetailsPlaceholder13 from "../../assets/Voco/8.png"
 import DesignDetailsPlaceholder14 from "../../assets/Voco/9.png"
-import DesignDetailsPlaceholder15 from "../../assets/Creation3.jpg"
-import DesignDetailsPlaceholder16 from "../../assets/Creation2.jpg"
-import DesignDetailsPlaceholder17 from "../../assets/Contact2.png"
 import DesignDetailsPlaceholder19 from "../../assets/Voco/C01 (1).jpg"
 import DesignDetailsPlaceholder20 from "../../assets/Voco/1.png"
 import DesignDetailsPlaceholder21 from "../../assets/Voco/2.png"
+import CreationPlacehoder from "../../assets/NAMA YOSO.png"
+import Creation2 from "../../assets/Pitfire.png"
+import Creation3 from "../../assets/TERO.png"
+import Creation4 from "../../assets/Elix.png"
 
 import ClientReview from "../../assets/ClientReview.png"
-import CreationPlaceholder from "../../assets/CreationPlaceholder.png"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
 import DesignPattern from "../../assets/DesignDetailsPattern.png"
@@ -30,42 +30,30 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 const projects = [
     {
-        id: 1,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
-        link: "/"
+        title: "NAMA YOSO",
+        type: "F&B Design",
+        image: CreationPlacehoder,
+        id:1
     },
-    {
-        id: 2,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder15,
-        link: "/"
-    },
-    {
-        id: 3,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder16,
-        link: "/"
-    },
-    {
-        id: 4,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder17,
-        link: "/"
-    },
-    {
-        id: 5,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder10,
-        link: "/"
-    },
-    {
-        id: 6,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder12,
-        link: "/"
-    }
 
+    {
+        title: "PITFIRE PIZZA - DUBAI HILLS",
+        type: "F&B Design",
+        image: Creation2,
+        id:2
+    },
+    {
+        title: "TERO",
+        type: "F&B Design, BRANDING",
+        image: Creation3,
+        id:3
+    },
+    {
+        title: "Elix Spa",
+        type: "BRANDING , Hospitality Design",
+        image: Creation4,
+        id:4
+    },
 ];
 
 
@@ -92,17 +80,17 @@ const DesignDetails = () => {
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>The VOCO™ Hotel Brand embodies an AllParty, Everyday spirit. Here, every moment is
-a celebration, and fun is seamlessly
-integrated into every experience, from
-check-in to check-out.</p>
+                                    a celebration, and fun is seamlessly
+                                    integrated into every experience, from
+                                    check-in to check-out.</p>
                                 <p>VOCO™ Hotels provide a refreshing
-alternative for travelers in search of
-something unique. Guests can unwind and
-enjoy themselves in a relaxed atmosphere
-that combines familiar comforts with
-exciting elements, resulting in a stay that is
-both dependable and distinctive.
-</p>
+                                    alternative for travelers in search of
+                                    something unique. Guests can unwind and
+                                    enjoy themselves in a relaxed atmosphere
+                                    that combines familiar comforts with
+                                    exciting elements, resulting in a stay that is
+                                    both dependable and distinctive.
+                                </p>
 
                             </div>
                         </div>
@@ -116,14 +104,14 @@ both dependable and distinctive.
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design direction</h1>
                             <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>The VOCO™ (Party) Hotel Design embodies the Design
-Philosophy of "Small Change, Big Impact," aligning with
-the brand pillars of VOCO™ Hotels. It aims to create a
-sleek and sophisticated atmosphere that offers adult
-guests a memorable and enjoyable experience, perfect for
-vibrant social interactions and relaxation.</p>
+                                    Philosophy of "Small Change, Big Impact," aligning with
+                                    the brand pillars of VOCO™ Hotels. It aims to create a
+                                    sleek and sophisticated atmosphere that offers adult
+                                    guests a memorable and enjoyable experience, perfect for
+                                    vibrant social interactions and relaxation.</p>
                                 <p>By focusing on details throughout the design—such as
-color schemes, finishes, lighting, décor, and furnishings—
-the ambiance is elevated to a refined and upscale level.</p>
+                                    color schemes, finishes, lighting, décor, and furnishings—
+                                    the ambiance is elevated to a refined and upscale level.</p>
 
                             </div>
                         </div>
@@ -140,12 +128,12 @@ the ambiance is elevated to a refined and upscale level.</p>
                         <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Arrival - Lounge Lobby                            </h1>
                             <p>Upon arriving at the VOCO™ (Party) Hotel, guests are welcomed by branded walls,
-signage, and artwork that create a familiar atmosphere. To establish a vibrant and
-immersive experience, guests are greeted with welcome drinks presented in a quirky
-manner. The reception area makes a bold statement with its hanging disco artwork and
-vibrant colors. To spark the party spirit and promise an unforgettable stay, guests are
-invited into a lively, playful, and energetic lobby lounge
-</p>
+                                signage, and artwork that create a familiar atmosphere. To establish a vibrant and
+                                immersive experience, guests are greeted with welcome drinks presented in a quirky
+                                manner. The reception area makes a bold statement with its hanging disco artwork and
+                                vibrant colors. To spark the party spirit and promise an unforgettable stay, guests are
+                                invited into a lively, playful, and energetic lobby lounge
+                            </p>
 
                         </div>
 
@@ -166,9 +154,9 @@ invited into a lively, playful, and energetic lobby lounge
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Hallways and Corridors
                     </h1>
                     <p>As guests walk through a hallway alive with vibrant disco vibes and an inviting, moody atmosphere, they are promised a one-of-a-kind journey during their stay. The hallway features
-bespoke carpets and wall finishes that align perfectly with the VOCO brand and its color palette. Both indirect and direct lighting are thoughtfully employed to create a striking visual impact.
+                        bespoke carpets and wall finishes that align perfectly with the VOCO brand and its color palette. Both indirect and direct lighting are thoughtfully employed to create a striking visual impact.
 
-</p>
+                    </p>
                 </div>
                 <div className="2xl:gap-x-9 lg:gap-x-4 gap-x-3 grid grid-cols-6 w-full 2xl:gap-y-6 gap-y-5 pb-28">
                     <div className="xl:col-span-4 2xl:gap-x-9 lg:gap-x-4 gap-x-3 col-span-6 grid grid-cols-2">
@@ -178,10 +166,10 @@ bespoke carpets and wall finishes that align perfectly with the VOCO brand and i
                                 <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
                             </div>
                             <p className="md:text-xl sm:text-lg text-[10px] font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">At voco Monaco, you'll find nine distinctively themed party
-suites, each crafted for the ultimate party experience: High
-Luxe, Red Room, Ladies Room, Miami Vice, Alice in
-Wonderland, Jungle Room, Formula 1, Bubbles and Foam,
-and Monaco Casino.</p>
+                                suites, each crafted for the ultimate party experience: High
+                                Luxe, Red Room, Ladies Room, Miami Vice, Alice in
+                                Wonderland, Jungle Room, Formula 1, Bubbles and Foam,
+                                and Monaco Casino.</p>
                         </div>
                         <div className="col-span-1 ">
                             <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px]  object-cover object-center w-full h-full" alt="" />
@@ -194,7 +182,7 @@ and Monaco Casino.</p>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="space-y-4 text-center mt-6 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0] xl:block hidden">
-                            <p>The High Luxe Room 
+                            <p>The High Luxe Room
                             </p>
                         </div>
                     </div>
@@ -226,15 +214,15 @@ and Monaco Casino.</p>
                         </h1>
                         <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
                             <p>This hotel renovation project in Dubai was crafted by
-integrating the VOCO DESIGN PRINCIPLES with the
-official brand guideline, "small changes, big impact." The
-VOCO™ Hotel strives to distinguish itself by achieving an
-ideal balance between reliability and uniqueness, offering
-upscale amenities in a relaxed atmosphere.</p>
+                                integrating the VOCO DESIGN PRINCIPLES with the
+                                official brand guideline, "small changes, big impact." The
+                                VOCO™ Hotel strives to distinguish itself by achieving an
+                                ideal balance between reliability and uniqueness, offering
+                                upscale amenities in a relaxed atmosphere.</p>
                             <p>The design philosophy of VOCO™ Hotel focuses on
-upholding a unified brand identity while celebrating the
-distinctive character of each location, resulting in efficient
-and high-quality experiences.</p>
+                                upholding a unified brand identity while celebrating the
+                                distinctive character of each location, resulting in efficient
+                                and high-quality experiences.</p>
 
                         </div>
                     </div>
@@ -323,8 +311,8 @@ and high-quality experiences.</p>
                         >
                             {projects.map((project, index) => (
                                 <SwiperSlide key={index}>
-                                    <Link key={project.id} to={project.link}>
-                                        <img
+                                    <Link key={project.id} to={`/project-details/${project.id}`}>
+                                    <img
                                             className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] h-[250px] md:max-h-full max-h-[200px] min-h-[124px]"
                                             src={project.image}
                                             alt={project.title}

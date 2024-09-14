@@ -83,8 +83,7 @@ function App() {
         <Route path='/blog-details/5' element={<BlogDetails5 />} />
         <Route path='/blog-details/6' element={<BlogDetails6 />} />
         <Route path='/blog-details/7' element={<BlogDetails7 />} />
-
-        <Route path='/awards/:id' element={<Awards />} />
+        <Route path='/awards' element={<Awards />} />
         <Route path='/press' element={<Press />} />
         <Route path='/*' element={<Error />} />
       </Route>

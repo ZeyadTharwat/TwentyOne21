@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const HeroSection = ({page , breadcrumb} : {page:string; breadcrumb:string}) => {
+const HeroSection = ({page , breadcrumb , back} : {page:string; breadcrumb:string , back?:string}) => {
 
   return (
     <div className='w-full lg:h-[400px] md:h-[300px] h-[180px] bg-about bg-no-repeat bg-cover bg-[75%_25%] '>
@@ -10,7 +10,7 @@ const HeroSection = ({page , breadcrumb} : {page:string; breadcrumb:string}) => 
                 <div className="flex justify-center cursor-pointer text-[#D0D0D0] font-houschka font-light md:text-lg text-xs gap-4 md:gap-10 uppercase">
                         <Link to={'/'}>Home</Link>
                         <span>/</span>
-                        <span>{breadcrumb}</span>
+                        <Link to={back ? `${back}` : '#'}>{breadcrumb}</Link>
                 </div>
             </div>
         </div>

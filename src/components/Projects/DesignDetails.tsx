@@ -12,60 +12,47 @@ import DesignDetailsPlaceholder11 from "../../assets/DesignDetails11.png"
 import DesignDetailsPlaceholder12 from "../../assets/DesignDetails12.png"
 import DesignDetailsPlaceholder13 from "../../assets/DesignDetails13.png"
 import DesignDetailsPlaceholder14 from "../../assets/DesignDetails14.png"
-import DesignDetailsPlaceholder15 from "../../assets/Creation3.jpg"
-import DesignDetailsPlaceholder16 from "../../assets/Creation2.jpg"
-import DesignDetailsPlaceholder17 from "../../assets/Contact2.png"
 import DesignDetailsPlaceholder19 from "../../assets/DesignDetails19.png"
 import DesignDetailsPlaceholder20 from "../../assets/DesignDetails20.png"
 import DesignDetailsPlaceholder21 from "../../assets/DesignDetails21.png"
 
 import ClientReview from "../../assets/ClientReview.png"
-import CreationPlaceholder from "../../assets/CreationPlaceholder.png"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
 import DesignPattern from "../../assets/DesignDetailsPattern.png"
 import PressBg2 from "../../assets/PressBg2.svg"
 import CreationBg from "../../assets/CreationsBg.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Creation2 from "../../assets/Pitfire.png"
+import Creation3 from "../../assets/TERO.png"
+import Creation4 from "../../assets/Elix.png"
+import Creation5 from "../../assets/Voco Monaco.png"
 
 const projects = [
     {
-        id: 1,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: CreationPlaceholder,
-        link: "/"
+        title: "PITFIRE PIZZA - DUBAI HILLS",
+        type: "F&B Design",
+        image: Creation2,
+        id:2
     },
     {
-        id: 2,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder15,
-        link: "/"
+        title: "TERO",
+        type: "F&B Design, BRANDING",
+        image: Creation3,
+        id:3
     },
     {
-        id: 3,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder16,
-        link: "/"
+        title: "Elix Spa",
+        type: "BRANDING , Hospitality Design",
+        image: Creation4,
+        id:4
     },
     {
-        id: 4,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder17,
-        link: "/"
+        title: "Voco Monaco",
+        type: "Hospitality Design",
+        image: Creation5,
+        id:5
     },
-    {
-        id: 5,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder10,
-        link: "/"
-    },
-    {
-        id: 6,
-        title: "INTERIOR DESIGN, BRANDING",
-        image: DesignDetailsPlaceholder12,
-        link: "/"
-    }
-
 ];
 
 
@@ -290,7 +277,7 @@ const DesignDetails = () => {
                         >
                             {projects.map((project, index) => (
                                 <SwiperSlide key={index}>
-                                    <Link key={project.id} to={project.link}>
+                                    <Link key={project.id} to={`/project-details/${project.id}`}>
                                         <img
                                             className="lg:mb-8 md:mb-5 mb-3  object-cover w-full lg:h-[310px] h-[250px] md:max-h-full max-h-[200px] min-h-[124px]"
                                             src={project.image}
