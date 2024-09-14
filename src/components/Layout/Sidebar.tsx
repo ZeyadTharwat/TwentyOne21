@@ -22,6 +22,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   const isActive = (path: string): boolean => location.pathname === path;
 
   const links: LinkItem[] = [
+    // { path: "/what-we-offer", label: "what we offer" },
     { path: "/our-creations", label: "creations" },
     { path: "/trend-reports", label: "Trend Reports" },
     { path: "/press", label: "press" },
