@@ -1,6 +1,6 @@
-import Partner1 from "../../assets/voco/Partner (1).png";
-import Partner2 from "../../assets/voco/Partner (2).png";
-import Partner3 from "../../assets/voco/Partner (3).png";
+import Partner1 from "../../assets/Voco/Partner (1).png";
+import Partner2 from "../../assets/Voco/Partner (2).png";
+import Partner3 from "../../assets/Voco/Partner (3).png";
 
 const Partners = () => {
     return (
