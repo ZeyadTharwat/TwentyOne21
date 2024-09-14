@@ -17,10 +17,6 @@ const testimonials = [
         title: "Multi-disciplinary Expertise",
     },
     {
-        image: SpecializedTeam,
-        paragraph: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volb",
-        title: "SPECIALIZED TEAM",
-    }, {
         image: WideNetwork,
         paragraph: "Our goal is to meet user needs while elevating the brand’s presence through thoughtful, purposeful design.",
         title: "Design with Purpose",
@@ -31,7 +27,7 @@ const testimonials = [
         title: "Strategic Vision, Creative Execution",
     },
     {
-        image: DataDriven, // Use the same image for dummy data
+        image: SpecializedTeam, // Use the same image for dummy data
         paragraph: "We ensure every project remains dynamic and cutting-edge without compromising quality.",
         title: "Flexibility and Adaptability",
     },

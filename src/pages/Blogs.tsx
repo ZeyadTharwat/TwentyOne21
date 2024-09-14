@@ -54,7 +54,7 @@ const Blogs = () => {
       />
       <div className="text-center md:mb-28 mb-12 px-5">
         <h1 className="font-vissa lg:text-[95px] sm:text-7xl text-[68px] tracking-[0.04em] leading-none mb-4 uppercase">
-          Blog Page
+          Our Blogs
         </h1>
         <p className="tracking-[0.06em] md:text-3xl text-lg font-houschka font-light">
           An interior design agency can create

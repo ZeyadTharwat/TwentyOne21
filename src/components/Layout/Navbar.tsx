@@ -45,7 +45,7 @@ const Navbar = () => {
         <img src={MenuButton} alt="Menu Button" />
       </button>
       <div className={`fixed w-full border-b  transition-all
-duration-300 z-[999999]  ${isLightPage || isScrolled
+duration-300 z-[9999999999999999]  ${isLightPage || isScrolled
           ? "bg-[#1a1a1a] border-b-white/40 "
           : "bg-transparent border-transparent"
         }`}>

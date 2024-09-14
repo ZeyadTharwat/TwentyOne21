@@ -66,13 +66,6 @@ Creative Director and Founder of TwentyOne06</h1>
         <div className="flex justify-center mb-4 sm:mt-12 mt-6">
           <QuoteFillIcon />
         </div>
-        <p className="md:text-[26px] ">
-          An interior design agency can create content that showcases its work,
-          highlights design trends, and provides educational resources for
-          clients and followers. Some potential content ideas for an interior
-          design agency. An interior design agency can create content that
-          showcases its work
-        </p>
       </div>
     </div>
   );
