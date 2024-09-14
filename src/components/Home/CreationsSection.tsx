@@ -31,9 +31,9 @@ const CreationsSection = () => {
     ];
  
     return (
-        <div className="h-full lg:py-44 md:py-32 sm:py-24 py-16   relative flex items-center justify-center">
+        <div className="max-h-full lg:py-44 md:py-32 sm:py-24 py-16  relative flex items-center justify-center">
             <img src={CreationsBg} className="absolute inset-0 lg:block hidden w-full h-full object-cover opacity-5 left-1/2 -translate-y-1/2 top-1/2 -translate-x-1/2" alt="" />
-            <div className=" flex flex-col items-center justify-around relative z-50 ">
+            <div className="relative z-50 ">
                 <h1 className="lg:text-6xl md:text-5xl sm:text-3xl text-2xl font-vissa uppercase tracking-[0.02em]  text-center lg:mb-28 md:mb-20 sm:mb-16 mb-8">Our Creations</h1>
                     <div className="grid grid-cols-2 xl:gap-x-11 gap-x-3 sm:gap-x-6 xl:gap-y-16 sm:gap-y-10 gap-y-3 container">
                         {creationData.map((creation, index) => (

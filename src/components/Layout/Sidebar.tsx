@@ -22,16 +22,16 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   const isActive = (path: string): boolean => location.pathname === path;
 
   const links: LinkItem[] = [
-    { path: "/", label: "What we offer" },
-    { path: "/our-creations", label: "our creations" },
+    { path: "/our-creations", label: "creations" },
     { path: "/trend-reports", label: "Trend Reports" },
     { path: "/press", label: "press" },
   ];
   const links2: LinkItem[] = [
     { path: "/", label: "Home" },
-    { path: "/about-us", label: "about us" },
+    { path: "/about", label: "about us" },
     { path: "/contact-us", label: "contact us" },
-    { path: "/", label: "Our Location" },
+    { path: "/faqs", label: "faqs" },
+    { path: "/blogs", label: "blogs" },
 
   ];
 
@@ -64,14 +64,19 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           </button> */}
           <div className="absolute top-1/2 left-1/2 z-[51] -translate-x-1/2 -translate-y-1/2">
             <div className="flex flex-col text-center min-w-[470px] sm:mb-16 mb-12">
+              <h1
+                onClick={toggleSidebar}
+                className={`font-vissa font-extralight text-primary md:text-6xl text-4xl  uppercase $`}
+              >
+                What we offer                </h1>
+
               {links.map((link) => (
                 <Link
                   onClick={toggleSidebar}
                   key={link.path}
                   to={link.path}
-                  className={`font-vissa font-extralight md:text-6xl text-4xl  uppercase ${
-                    isActive(link.path) ? "text-primary" : "text-black"
-                  }`}
+                  className={`font-vissa font-extralight md:text-6xl text-4xl  uppercase ${isActive(link.path) ? "text-primary" : "text-black"
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -83,9 +88,8 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
                   onClick={toggleSidebar}
                   key={link.path}
                   to={link.path}
-                  className={` sm:text-2xl font-semibold uppercase ${
-                    isActive(link.path) ? "text-primary" : "text-black"
-                  }`}
+                  className={` sm:text-2xl font-semibold uppercase ${isActive(link.path) ? "text-primary" : "text-black"
+                    }`}
                 >
                   {link.label}
                 </Link>
