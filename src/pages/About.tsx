@@ -2,7 +2,7 @@ import BlogsSection from "../components/About/BlogsSection"
 import HeroSection from "../components/Shared/HeroSection"
 import Milestones from "../components/About/Milestones"
 import OurHistory from "../components/About/OurHistory"
-import Partners from "../components/Home/Partners"
+import Partners from "../components/About/Partners"
 import WhyUs from "../components/About/WhyUs"
 import WorkSection from "../components/About/WorkSection"
 const About = () => {
