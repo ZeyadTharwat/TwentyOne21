@@ -56,9 +56,6 @@ const Blogs = () => {
         <h1 className="font-vissa lg:text-[95px] sm:text-7xl text-[68px] tracking-[0.04em] leading-none mb-4 uppercase">
           Our Blogs
         </h1>
-        <p className="tracking-[0.06em] md:text-3xl text-lg font-houschka font-light">
-          An interior design agency can create
-        </p>
       </div>
       <div className="relative">
         <img src={BlogsBg2} className="absolute -top-14 left-0" alt="" />
