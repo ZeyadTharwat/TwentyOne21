@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
 import Service1 from "../../assets/1.jpg";
 import Service2 from "../../assets/2.jpg";
 import Service3 from "../../assets/3.jpg";
 import Service4 from "../../assets/4.jpg";
 import Service5 from "../../assets/5.jpg";
-import ArrowIcon from "../Icons/ArrowIcon";
 import InteriorDesign from "../../assets/ServicesIcons/Interior Design.svg";
 import ExperienceStrategy from "../../assets/ServicesIcons/Experience Strategy.svg";
 import FBConsulting from "../../assets/ServicesIcons/F&B Consulting.svg";
@@ -62,15 +60,14 @@ const Services = () => {
               </h1>
             </div>
             <div className="z-50 top-1/2 left-1/2 w-full xl:-translate-y-0 -translate-y-1/2 -translate-x-1/2 absolute group-hover:opacity-100 opacity-0 transition-all duration-300 2xl:px-6 sm:px-3 px-1">
-              <ul className="2xl:mb-20 xl:mb-10 mb-6 list-none p-0 ">
+              <ul className="2xl:mb-20 xl:mb-10 mb-6 list-disc ">
                 {service.listItems.map((item, idx) => (
-                  <li className="md:text-xs text-[7px] flex items-center sm:py-1 relative md:pl-6 sm:pl-4 pl-2.5 before:content-[''] before:md:border-4 before:sm:border-2 before:border before:border-[#FFEADF] before:md:size-4 before:sm:size-2.5 before:size-1.5  before:inline-block before:mr-2 before:absolute before:left-0" key={idx}>
+                  <li className="md:text-xs text-[7px] flex items-center sm:py-1 relative md:pl-6 sm:pl-4 pl-2.5 " key={idx}>
                     {item}
                   </li>
                 ))}
               </ul>
-              <p className="xl:text-sm md:text-xs text-[6px] ">{service.description}</p>
-              <Link to={'contact-us'} className="text-primary  md:text-sm text-[6px] flex items-center sm:gap-3 gap-1.5 md:px-3 px-1 sm:py-1 py-0.5 2xl:mt-7 mt-4 bg-[#FFEADF] w-fit rounded-full justify-center">Get In Touch <ArrowIcon className="sm:size-auto w-1.5" /></Link>
+              <p className="xl:text-sm md:text-xs text-[6px]">{service.description}</p>
             </div>
             <img className="group-hover:scale-[1.3] relative w-full h-full transition-all duration-300" src={service.image} alt={service.title} />
           </div>

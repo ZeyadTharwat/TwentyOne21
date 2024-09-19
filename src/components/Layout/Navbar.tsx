@@ -43,7 +43,7 @@ const Navbar = () => {
         className="fixed object-cover bottom-5 left-1/2 -translate-x-1/2 z-[999999999999999] md:block hidden size-[100px]"
       >
         <div className="relative">
-        <img src={MenuButton} alt="Menu Button" />
+          <img src={MenuButton} alt="Menu Button" />
           <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-vissa text-3xl mt-1">MENU</h1>
         </div>
       </button>

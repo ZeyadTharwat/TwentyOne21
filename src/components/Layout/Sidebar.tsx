@@ -1,6 +1,7 @@
 import { motion, Variants } from "framer-motion";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import DashedBorder from "../../assets/Dashedborder.png";
+import { useEffect } from "react";
 
 type LinkItem = {
   path: string;
@@ -22,6 +23,17 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   };
 
   const isActive = (path: string): boolean => location.pathname === path;
+
+  useEffect(() => {
+        if (isOpen) {
+            document.documentElement.style.overflow = 'hidden';
+        } else {
+            document.documentElement.style.overflow = 'auto';
+        }
+        return () => {
+            document.documentElement.style.overflow = 'auto';
+        };
+  }, [isOpen]);
 
   const links: LinkItem[] = [
     { path: "/our-creations", label: "our creations" },
@@ -50,7 +62,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   return (
     <>
       <motion.div
-        className="fixed inset-0 bg-black bg-opacity-50 z-[999999999999999999]"
+        className="fixed inset-0 bg-black bg-opacity-50 z-[99999999999999999999999]"
         initial={{ opacity: 0 }}
         animate={isOpen ? { opacity: 1 } : { opacity: 0 }}
         exit={{ opacity: 0 }}
