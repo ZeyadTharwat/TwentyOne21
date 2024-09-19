@@ -60,9 +60,9 @@ const Services = () => {
               </h1>
             </div>
             <div className="z-50 top-1/2 left-1/2 w-full xl:-translate-y-0 -translate-y-1/2 -translate-x-1/2 absolute group-hover:opacity-100 opacity-0 transition-all duration-300 2xl:px-6 sm:px-3 px-1">
-              <ul className="2xl:mb-20 xl:mb-10 mb-6 list-disc ">
+              <ul className="2xl:mb-20 xl:mb-10 mb-6 list-disc sm:pl-4 pl-2.5">
                 {service.listItems.map((item, idx) => (
-                  <li className="md:text-xs text-[7px] flex items-center sm:py-1 relative md:pl-6 sm:pl-4 pl-2.5 " key={idx}>
+                  <li className="md:text-xs text-[7px]  sm:py-1 relative " key={idx}>
                     {item}
                   </li>
                 ))}
