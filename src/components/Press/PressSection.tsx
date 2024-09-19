@@ -15,52 +15,62 @@ const reports = [
     {
         title: "Trophy time: CID Award-winners strike a pose ",
         image: Article1,
-        article: 'https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose'
+        article: 'https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose',
+        featuredOn:'Commercial Interior Design'
     },
     {
         title: "On stage: The CID Awards 2024 MENA winners ",
         image: Article2,
-        article: 'https://www.commercialinteriordesign.com/news/on-stage-the-cid-awards-2024-mena-winners'
+        article: 'https://www.commercialinteriordesign.com/news/on-stage-the-cid-awards-2024-mena-winners',
+        featuredOn:'Commercial Interior Design'
     },
     {
         title: "Nama Yoso featured on Food In Space",
         image: Article3,
-        article: 'https://www.foodinspace.net/project/nama-yoso-dubai-united-arab-emirates/'
+        article: 'https://www.foodinspace.net/project/nama-yoso-dubai-united-arab-emirates/',
+        featuredOn:'Food In Space'
     },
     {
         title: "Ethical sourcing - CID Power Panels with ClayArk ",
         image: Article4,
-        article: 'https://www.commercialinteriordesign.com/events/ethical-sourcing-and-surface-stereotypes-notes-from-cid-power-panels-with-clayark'
+        article: 'https://www.commercialinteriordesign.com/events/ethical-sourcing-and-surface-stereotypes-notes-from-cid-power-panels-with-clayark',
+        featuredOn:' Commercial Interior Design'
     },
     {
         title: "Hoe Lee Kow featured on Food In Space",
         image: Article5,
-        article: 'https://www.foodinspace.net/project/hoe-lee-kow-dubai-united-arab-emirates/'
+        article: 'https://www.foodinspace.net/project/hoe-lee-kow-dubai-united-arab-emirates/',
+        featuredOn:'Food In Space'
     },
     {
         title: "Nama Yoso awarded ‘Honorable Mention in Interior Design’ at the LIV Hospitality Awards 2024",
         image: Article6,
-        article: 'https://livawards.com/winner/hm/2023/131-53260-24/0/'
+        article: 'https://livawards.com/winner/hm/2023/131-53260-24/0/',
+        featuredOn:'Liv Awards'
     },
     {
         title: "How older venues can subtly tweak their design to reinvigorate business",
         image: Article7,
-        article: 'https://www.caterermiddleeast.com/people/opinion/how-older-venues-can-subtly-tweak-their-design-to-reinvigorate-business'
+        article: 'https://www.caterermiddleeast.com/people/opinion/how-older-venues-can-subtly-tweak-their-design-to-reinvigorate-business',
+        featuredOn:'Caterer Middle East'
     },
     {
         title: "How the alchemy of baking inspired the design of Pitfire Pizza’s first licensed venue in Dubai Hills",
         image: Article8,
-        article: 'https://www.commercialinteriordesign.com/projects/how-the-alchemy-of-baking-inspired-the-design-of-pitfire-pizzas-first-licensed-venue-in-dubai-hills'
+        article: 'https://www.commercialinteriordesign.com/projects/how-the-alchemy-of-baking-inspired-the-design-of-pitfire-pizzas-first-licensed-venue-in-dubai-hills',
+        featuredOn:' Commercial Interior Design'
     },
     {
         title: "The Art of Detailing",
         image: Article9,
-        article: 'https://design-middleeast.com/how-twentyone06-and-havelock-one-interiors-redefined-luxe-at-this-resimercial-workspace-in-dubai/'
+        article: 'https://design-middleeast.com/how-twentyone06-and-havelock-one-interiors-redefined-luxe-at-this-resimercial-workspace-in-dubai/',
+        featuredOn:'Design Middle East'
     },
     {
         title: "Behind the design of Reif Othman’s Nama Yoso",
         image: Article10,
-        article: 'https://www.commercialinteriordesign.com/projects/behind-the-design-of-reif-othmans-nama-yoso'
+        article: 'https://www.commercialinteriordesign.com/projects/behind-the-design-of-reif-othmans-nama-yoso',
+        featuredOn:'Commercial Interior Design'
     }
 
 
@@ -93,14 +103,15 @@ const PressSection = () => {
                                 height={64}
                                 className="sm:w-[260px] w-[150px]"
                                 textStyles="font-light font-houschka sm:text-lg text-[10px]"
-                                title={"Checkout Article"}
+                                title={"Take me there"}
                             />
                         </div>
                     </div>
                     <div>
-                        <h1 className="font-vissa lg:text-start text-center uppercase lg:text-6xl md:text-5xl sm:text-4xl text-[32px] xl:text-[64px] tracking-[0.04em] lg:mb-10">
+                        <h1 className="font-vissa lg:text-start text-center uppercase lg:text-6xl md:text-5xl sm:text-4xl text-[32px] xl:text-[64px] tracking-[0.04em] ">
                             {report.title}
                         </h1>
+                        <p className="text-gray-400 lg:text-xl sm:text-lg lg:text-start text-center  font-houschka font-light  tracking-[0.02em] lg:mb-10">Featured on ({report.featuredOn})</p>
                         <div className="lg:block hidden">
                             <Button
                                 dir={report.article}
@@ -108,7 +119,7 @@ const PressSection = () => {
                                 height={64}
                                 className="w-[300px]"
                                 textStyles="font-light font-houschka text-lg"
-                                title={"Checkout Article"}
+                                title={"Take me there"}
                             />
                         </div>
                     </div>

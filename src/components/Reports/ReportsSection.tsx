@@ -43,14 +43,19 @@ const ReportsSection = () => {
     return (
         <div className="md:container xl:py-48 lg:py-36 md:py-28 sm:py-20 py-14">
             <p className="text-[#D0D0D0] font-light font-houschka lg:text-[26px] md:text-xl sm:text-lg xl:mb-40 lg:mb-28 md:mb-20 mb-16 lg:pb-5 text-center md:px-0 px-5">
-                An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency.
+                Download our in-depth trend reports— Comprehensive documents designed to
+                highlight recent micro and macro trends in the F&B, Hospitality and Commercial
+                design industry. Download our free design insights into the strategies, research, and
+                creative processes behind our award-winning designs.
+                <br/>
+                <br/>
+                We learn with you. 
             </p>
             {reports.map((report, index) => (
                 <div
                     key={index}
-                    className={`flex xl:gap-[73px] lg:gap-12 gap-8 items-center flex-col-reverse lg:mb-40 md:mb-32 lg:pb-5 mb-16  ${
-                        index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse '
-                    }`}
+                    className={`flex xl:gap-[73px] lg:gap-12 gap-8 items-center flex-col-reverse lg:mb-40 md:mb-32 lg:pb-5 mb-16  ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse '
+                        }`}
                 >
                     <div className="flex flex-col items-center md:w-auto w-full">
                         <img
@@ -65,9 +70,9 @@ const ReportsSection = () => {
                                 aspects="sm:size-auto size-9"
                                 width={60}
                                 height={64}
-                                className="sm:w-[260px] w-[150px]"
+                                className="sm:w-[280px] w-[170px]"
                                 textStyles="font-light font-houschka sm:text-lg text-[10px]"
-                                title={"Checkout report"}
+                                title={"Download Full Report"}
                             />
                         </div>
                     </div>
@@ -83,7 +88,7 @@ const ReportsSection = () => {
                                 height={64}
                                 className="w-[300px]"
                                 textStyles="font-light font-houschka text-lg"
-                                title={"Checkout report"}
+                                title={"Download Full Report"}
                             />
                         </div>
                     </div>

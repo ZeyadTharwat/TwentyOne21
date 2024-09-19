@@ -8,33 +8,33 @@ import ArrowIcon from '../Icons/ArrowIcon';
 const testimonials = [
     {
         image: ClientFocus,
-        paragraph: "As an independent studio, we offer the personalized service of a boutique agency with the capabilities of a global firm.",
-        title: "Boutique Approach, Global Reach",
+        paragraph: "Locally and internationally recognized by top design publications for our impactful concepts.",
+        title: "Award-Winning Designs",
     },
     {
-        image: DataDriven, // Use the same image for dummy data
-        paragraph: "We create cohesive, functional spaces that address every detail, ensuring a seamless end-to-end experience.",
-        title: "Multi-disciplinary Expertise",
+        image: DataDriven,
+        paragraph: "At its core, every design project tells a story and heroes the guest experience.",
+        title: "Human-centric design with a story",
     },
     {
         image: WideNetwork,
-        paragraph: "Our goal is to meet user needs while elevating the brand’s presence through thoughtful, purposeful design.",
-        title: "Design with Purpose",
+        paragraph: "A hands-on team delivering big-scale projects with flexibility and a personalized attention to detail.",
+        title: "Boutique Approach, Large Impact",
     },
     {
         image: ClientFocus,
-        paragraph: "From concept to completion, we align designs with business goals, delivering both visual impact and commercial success.",
-        title: "Strategic Vision, Creative Execution",
+        paragraph: "If it doesn't work, we don't work on it. We design with efficiency, practicality and durability in mind at all times. ",
+        title: "Our fundamentals - Functional and Durable Design",
     },
     {
-        image: SpecializedTeam, // Use the same image for dummy data
-        paragraph: "We ensure every project remains dynamic and cutting-edge without compromising quality.",
-        title: "Flexibility and Adaptability",
+        image: SpecializedTeam, 
+        paragraph: "Comprehensive research guides our designs, addressing both micro and macro trends in any particular industry.",
+        title: "Data-driven Insights",
     },
     {
-        image: DataDriven, // Use the same image for dummy data
-        paragraph: "Client testimonials affirm our ability to turn innovative ideas into successful, impactful projects.",
-        title: "Proven Success Across Industries",
+        image: DataDriven,
+        paragraph: "Adapting our approach to each client’s unique needs is one of our strong suits. Together, we push the boundaries of design.",
+        title: "Personalized to your needs.",
     },
 
 ];

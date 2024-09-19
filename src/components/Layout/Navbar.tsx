@@ -2,8 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import HamburgerMenu from "../Icons/HamburgerMenu";
-import Logo from "../../assets/Logo.png";
-import MenuButton from "../../assets/Menu-button.svg";
+import Logo from "../../assets/Logo-White.png";
+import MenuButton from "../../assets/MenuButton.png";
 import FacebookIcon from "../Icons/FacebookIcon";
 import LinkedInIcon from "../Icons/LinkedInIcon";
 import InstagramIcon from "../Icons/InstagramIcon";
@@ -42,7 +42,10 @@ const Navbar = () => {
         onClick={toggleSidebar}
         className="fixed object-cover bottom-5 left-1/2 -translate-x-1/2 z-[999999999999999] md:block hidden size-[100px]"
       >
+        <div className="relative">
         <img src={MenuButton} alt="Menu Button" />
+          <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-vissa text-3xl mt-1">MENU</h1>
+        </div>
       </button>
       <div className={`fixed w-full border-b  transition-all
 duration-300 z-[9999999999999999]  ${isLightPage || isScrolled
@@ -55,7 +58,7 @@ duration-300 z-[9999999999999999]  ${isLightPage || isScrolled
           <Link to={"/"}>
             <img
               src={Logo}
-              className="md:w-[100px] md:h-auto w-[74px] h-[30px]"
+              className="md:w-[150px] w-[120px]"
               alt=""
             />
           </Link>

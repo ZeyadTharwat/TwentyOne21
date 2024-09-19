@@ -13,8 +13,8 @@ const ContactSection = () => {
       <div className="container flex xl:gap-20 gap-10 lg:flex-row flex-col items-center">
         <div className="lg:w-1/2 md:w-2/3 w-full">
           <div className="sm:mb-14 mb-8">
-            <h1 className="xl:text-[32px] sm:text-[28px] text-xl tracking-[0.04em] font-vissa uppercase">Its Time To</h1>
-            <h2 className="xl:text-6xl text-4xl tracking-[0.04em] font-vissa uppercase">Discus Your project</h2>
+            {/* <h1 className="xl:text-[32px] sm:text-[28px] text-xl tracking-[0.04em] font-vissa uppercase">Its Time To</h1> */}
+            <h2 className="xl:text-6xl text-4xl tracking-[0.04em] font-vissa">Ask us anything</h2>
           </div>
           <form className="space-y-9 sm:space-y-14">
             <Input name="name" inputStyles="w-full" placeholder="Name" />

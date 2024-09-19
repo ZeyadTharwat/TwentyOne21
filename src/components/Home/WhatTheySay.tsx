@@ -161,7 +161,7 @@ const WhatTheySay = () => {
                                                 </button>
                                             </div>
                                         </div>
-                                        <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg uppercase">
+                                        <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg ">
                                             {testimonial.quote}
                                         </p>
                                     </div>

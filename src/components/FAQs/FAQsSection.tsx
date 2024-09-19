@@ -1,5 +1,6 @@
 import { Accordion } from "@szhsin/react-accordion";
 import { AccordionItem } from "../Shared/AccordionItem";
+import BlogBg from "../../assets/CreationsBg.png";
 
 const accordionData = [
     {
@@ -47,8 +48,14 @@ const accordionData = [
 
 const FAQsSection = () => {
   return (
-    <div className="bg-[#FFEADF] sm:pt-28 pt-14 sm:pb-40 pb-24">    
-    <div className="max-w-[944px] px-5 mx-auto">
+    <div className="bg-[#FFEADF] sm:pt-28 pt-14 sm:pb-40 pb-24 relative">   
+          <img
+        src={BlogBg}
+        className="absolute top-1/2 -translate-y-1/2 opacity-70 right-0 scale-x-[-1] w-full"
+        alt=""
+      />
+ 
+    <div className="max-w-[944px] px-5 mx-auto relative z-50">
     <Accordion className="sm:space-y-8 space-y-3" transition transitionTimeout={200}>
     {accordionData.map((item, index) => (
         <AccordionItem

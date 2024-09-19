@@ -2,33 +2,22 @@ import { Link } from "react-router-dom"
 import Button from "../Shared/Button"
 import ArrowIcon from "../Icons/ArrowIcon"
 import { Swiper, SwiperSlide } from "swiper/react";
-const blogs = [
-  {
-    id: 1,
-    title: "Sustainable Design: How to Create an…",
-    description: "An interior design agency can create content that showcases its…",
-  },
-  {
-    id: 2,
-    title: "Innovative Ideas for Modern Interiors…",
-    description: "Discover the latest trends in interior design with our…",
-  },
-  {
-    id: 3,
-    title: "Maximizing Small Spaces with Style…",
-    description: "Learn how to make the most of limited space with these tips…",
-  },
-  {
-    id: 5,
-    title: "Maximizing Small Spaces with Style…",
-    description: "Learn how to make the most of limited space with these tips…",
-  },
-  {
-    id: 6,
-    title: "Maximizing Small Spaces with Style…",
-    description: "Learn how to make the most of limited space with these tips…",
-  },
+import BlogPlaceholder from "../../assets/Blogs/Blog1.jpg";
+import Blog2 from "../../assets/Blogs/Blog2.png";
+import Blog3 from "../../assets/Blogs/Blog3.png";
+import Blog4 from "../../assets/Blogs/Blog4.png";
+import Blog5 from "../../assets/Blogs/Blog5.png";
+import Blog6 from "../../assets/Blogs/Blog6.jpg";
+import Blog7 from "../../assets/Blogs/Blog7.png";
 
+const blogs = [
+  {id:1, img: BlogPlaceholder, title: "Responsible Design" },
+  {id:2, img: Blog2, title: "Design storytelling/press at TwentyOne06 - 2024 for far." },
+  {id:3, img: Blog3, title: "How the F&B industry ignites hyper-responsiveness and adaptability in design" },
+  {id:4, img: Blog4, title: "Harnessing the 'Power of Weird' in Design Thinking" },
+  {id:5, img: Blog5, title: '"Can You Do This Quicker?" - Dubai Interior Designers answer the burning age-old question.' },
+  {id:6, img: Blog6, title: "Plate to perception - The marketing impact of a restaurant's interior design." },
+  {id:7, img: Blog7, title: "Why UAE restaurant owners should consider brand development when designing F&B spaces." },
 ];
 
 
@@ -54,31 +43,29 @@ const BlogsSection = () => {
             },
 
             768: {
-              slidesPerView: 2.2,
+              slidesPerView: 2  ,
               spaceBetween: 20,
             },
             900: {
-              slidesPerView: 2.5,
+              slidesPerView: 1.8,
               spaceBetween: 20,
             },
             1280: {
-                slidesPerView: 3,
+                slidesPerView: 2,
                 spaceBetween: 30,
               },
           }}          
           pagination={{ clickable: true }}
         >
           {blogs.map((blog) => (
-            <SwiperSlide className="bg-[#0E0E0E] py-10 sm:py-14 px-6 lg:pl-10 lg:pr-14 !h-auto" key={blog.id}>
+            <SwiperSlide className="bg-[#0E0E0E] !h-auto" key={blog.id}>
               <Link to={`/blog-details/${blog.id}`} className="group">
-                <div className="py-1.5">
+              <img className="w-full lg:max-h-[300px] lg:h-[300px] sm:h-[250px] sm:max-h-[250px] h-[180px] max-h-[180px] object-cover" src={blog.img} alt="" />
+                <div className="py-7 md:py-14 px-6 lg:pl-10 lg:pr-14  my-1.5">
                   <h1 className="font-vissa text-sm sm:text-[22px] tracking-[0.02em] mb-4 sm:mb-9 group-hover:text-primary duration-300 transition-all">
                     {blog.title}
                   </h1>
                   <div className="h-1 w-5 bg-primary sm:mb-6 mb-4 sm:mt-7" />
-                  <p className="text-[#8D8D8D] sm:text-base text-[10px] font-light font-houschka mb-7 sm:mb-11">
-                    {blog.description}
-                  </p>
                   <Link
                     to={`/blog-details/${blog.id}`}
                     className="flex group-hover:text-primary items-center gap-1.5 sm:gap-0.5 font-light font-houschka text-[10px] sm:text-lg uppercase"
@@ -91,7 +78,7 @@ const BlogsSection = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="md:hidden block mt-8">
+        <div className="md:hidden flex justify-center mt-8">
           <Button aspects="sm:size-auto size-9" dir="/blogs" title="view all blogs" width={60} height={64} className="sm:w-[200px] w-[120px]" textStyles="sm:text-lg text-[10px] font-light" />
         </div>
 

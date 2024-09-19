@@ -78,9 +78,8 @@ const Blogs = () => {
             {Array.from({ length: totalPages }, (_, i) => (
               <button
                 key={i + 1}
-                className={`font-light md:text-[22px] text-base font-houschka ${
-                  currentPage === i + 1 ? "text-primary" : ""
-                }`}
+                className={`font-light md:text-[22px] text-base font-houschka ${currentPage === i + 1 ? "text-primary" : ""
+                  }`}
                 onClick={() => setCurrentPage(i + 1)}
               >
                 {`0${i + 1}`}

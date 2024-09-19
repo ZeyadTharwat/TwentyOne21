@@ -31,7 +31,8 @@ const WorkSection = () => {
               </div>
               <div>
                 <div>
-                  <h1 className="mb-2 text-3xl font-vissa uppercase tracking-[0.02em]">Trophy time: CID Award-winners strike a pose                   </h1>
+                  <h1 className="mb-2 text-3xl font-vissa uppercase tracking-[0.02em]">Trophy time: CID Award-winners strike a pose</h1>
+                  <p className="text-gray-400 text-sm font-houschka font-light  tracking-[0.02em]">Featured on (Commercial Interior Design)</p>
                   <p className="text-[#D0D0D0] font-houschka font-light  tracking-[0.02em] mb-3 mt-2">TwentyOne06 has once again solidified its position as a leader in innovative design by winning the prestigious "Interior Design Concept of the Year: Hotel" award at the 2024 CID Awards. The recognition was for their exceptional work on Voco Monaco Dubai, showcasing their ability to blend creativity with functionality in the competitive hospitality sector. This accolade highlights TwentyOne06's commitment to pushing the boundaries of design while delivering commercially successful projects that resonate globally.
                   </p>
                 </div>
@@ -52,6 +53,7 @@ const WorkSection = () => {
                 <div>
                   <h1 className="mb-2 text-3xl font-vissa uppercase tracking-[0.02em]">On stage: The CID Awards 2024 MENA winners 
                   </h1>
+                  <p className="text-gray-400 text-sm font-houschka font-light  tracking-[0.02em]">Featured on (Commercial Interior Design)</p>
                   <p className="text-[#D0D0D0] font-houschka font-light  tracking-[0.02em] mb-3 mt-2">At the 18th annual CID Awards: MENA, TwentyOne06 was honored with the prestigious "Interior Design Concept of the Year: Hotel" award. Celebrated at Madinat Jumeirah on September 4, 2024, the event recognized TwentyOne06's exceptional work on the Voco Monaco Dubai project. Competing against over 700 nominations, the award highlights the ability to blend innovation and functionality in hospitality design, cementing their status as leaders in the industry.
                   </p>
                 </div>
@@ -63,6 +65,10 @@ const WorkSection = () => {
             </div>
 
           </div>
+          <div className="flex justify-center md:mt-20 mt-10">
+                    <Button aspects="sm:size-auto size-9" dir="/press" textStyles="sm:text-lg text-xs" title="View All Press" className="sm:w-[235px] w-[150px]" />
+
+                </div>
 
         </div>
       </div>
