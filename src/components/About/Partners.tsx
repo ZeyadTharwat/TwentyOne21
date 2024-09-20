@@ -22,7 +22,7 @@ const partners = [
   { src: Partner5, alt: "Partner 5" },
   { src: Partner6, alt: "Partner 6" },
   { src: Partner7, alt: "Partner 7" },
-  { src: Partner8, alt: "Partner 8" },
+ // { src: Partner8, alt: "Partner 8" },
   { src: Partner9, alt: "Partner 9" },
   { src: Partner10, alt: "Partner 10" },
   { src: Partner11, alt: "Partner 11" },
