@@ -11,7 +11,6 @@ import Partner10 from "../../assets/Partners/Partner (10).png";
 import Partner11 from "../../assets/Partners/Partner (11).png";
 import Partner12 from "../../assets/Partners/Partner (12).png";
 import Partner13 from "../../assets/Partners/Partner (13).png";
-import Partner14 from "../../assets/Partners/Partner (14).png";
 import Partner15 from "../../assets/Partners/Partner (15).png";
 
 const partners = [
@@ -22,13 +21,12 @@ const partners = [
   { src: Partner5, alt: "Partner 5" },
   { src: Partner6, alt: "Partner 6" },
   { src: Partner7, alt: "Partner 7" },
- // { src: Partner8, alt: "Partner 8" },
+  { src: Partner8, alt: "Partner 8" },
   { src: Partner9, alt: "Partner 9" },
   { src: Partner10, alt: "Partner 10" },
   { src: Partner11, alt: "Partner 11" },
   { src: Partner12, alt: "Partner 12" },
   { src: Partner13, alt: "Partner 13" },
-  { src: Partner14, alt: "Partner 14" },
   { src: Partner15, alt: "Partner 15" },
 ];
 
