@@ -12,7 +12,7 @@ import Review5 from "../../assets/Reviews/Review (5).png"
 import Review6 from "../../assets/Reviews/Review (6).jpg"
 import Review7 from "../../assets/Reviews/Review (7).png"
 import Review8 from "../../assets/Reviews/Review (8).png"
-import Review9 from "../../assets/Reviews/Review (1).png"
+import Review9 from "../../assets/Reviews/Review (10).png"
 import Review10 from "../../assets/Reviews/Review (2).png"
 import Review11 from "../../assets/Reviews/Review (3).png"
 
