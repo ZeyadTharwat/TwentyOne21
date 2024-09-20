@@ -1,5 +1,5 @@
-import DesignDetailsPlaceholder from "../../assets/Elix/image-missing.jpg"
-import DesignDetailsPlaceholder2 from "../../assets/Elix/image-missing.jpg"
+import DesignDetailsPlaceholder from "../../assets/Elix/e9ffbc55c49fb564bb05e65ace0b3d77.jpg"
+import DesignDetailsPlaceholder2 from "../../assets/Elix/46c6fd8b3f86e1b518e37352d49d0ca1.jpg"
 import DesignDetailsPlaceholder3 from "../../assets/Elix/V10_Edited.jpg"
 import DesignDetailsPlaceholder4 from "../../assets/Elix/V07-op2.jpg"
 import DesignDetailsPlaceholder5 from "../../assets/Elix/V07-op1.jpg"
@@ -7,7 +7,7 @@ import DesignDetailsPlaceholder6 from "../../assets/Elix/image-missing.jpg"
 import DesignDetailsPlaceholder7 from "../../assets/Elix/image-missing.jpg"
 import DesignDetailsPlaceholder8 from "../../assets/Elix/V05.jpg"
 import DesignDetailsPlaceholder9 from "../../assets/Elix/image-missing.jpg"
-import DesignDetailsPlaceholder10 from "../../assets/Elix/image-missing.jpg"
+import DesignDetailsPlaceholder10 from "../../assets/Elix/487a85f27c951a0d068b79a669243ed9.jpg"
 import DesignDetailsPlaceholder11 from "../../assets/Elix/image-missing.jpg"
 import DesignDetailsPlaceholder12 from "../../assets/Elix/v02.jpg"
 import DesignDetailsPlaceholder13 from "../../assets/Elix/V12.jpg"
@@ -23,6 +23,7 @@ import ClientReview from "../../assets/ClientReview.png"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
 import DesignPattern from "../../assets/DesignDetailsPattern.png"
+import DesignDirection from "../../assets/design-direction.jpg"
 import PressBg2 from "../../assets/PressBg2.svg"
 import CreationBg from "../../assets/CreationsBg.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -96,7 +97,7 @@ and interior designs.
                     </div>
                 </div>
                 <div className="lg:pb-48 md:pb-36 sm:pb-28 pb-16 relative">
-                    <img src={DesignPattern} className="absolute bottom-0 opacity-15 -left-20 scale-x-[-1] lg:w-[1200px]" alt="" />
+                    <img src={DesignDirection} className="absolute bottom-0 opacity-15 -left-20 scale-x-[-1] lg:w-[1200px]" alt="" />
 
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
