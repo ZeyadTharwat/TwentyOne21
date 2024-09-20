@@ -4,14 +4,14 @@ import QuoteIcon from "../Icons/QuoteIcon";
 import ChevronIcon from "../Icons/ChevronIcon";
 import ButtonVector from "../../assets/ButtonVector.svg";
 import ManagerImg from "../../assets/ManagerImg.png";
-import Review1 from "../../assets/Reviews/Review (1).jpg"
-import Review2 from "../../assets/Reviews/Review (2).jpg"
+import Review1 from "../../assets/Reviews/Review (1).png"
+import Review2 from "../../assets/Reviews/Review (9).png"
 import Review3 from "../../assets/Reviews/Review (3).jpg"
 import Review4 from "../../assets/Reviews/Review (4).jpg"
-import Review5 from "../../assets/Reviews/Review (5).jpg"
+import Review5 from "../../assets/Reviews/Review (5).png"
 import Review6 from "../../assets/Reviews/Review (6).jpg"
-import Review7 from "../../assets/Reviews/Review (7).jpg"
-import Review8 from "../../assets/Reviews/Review (8).jpg"
+import Review7 from "../../assets/Reviews/Review (7).png"
+import Review8 from "../../assets/Reviews/Review (8).png"
 import Review9 from "../../assets/Reviews/Review (1).png"
 import Review10 from "../../assets/Reviews/Review (2).png"
 import Review11 from "../../assets/Reviews/Review (3).png"
