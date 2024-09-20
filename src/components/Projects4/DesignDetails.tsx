@@ -96,7 +96,7 @@ and interior designs.
                     </div>
                 </div>
                 <div className="lg:pb-48 md:pb-36 sm:pb-28 pb-16 relative">
-                    <img src={DesignDirection} className="absolute bottom-0 opacity-15 -left-20 scale-x-[-1] lg:w-[1200px]" alt="" />
+                    <img src={DesignPattern} className="absolute bottom-0 opacity-15 -left-20 scale-x-[-1] lg:w-[1200px]" alt="" />
 
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
