@@ -23,7 +23,6 @@ import ClientReview from "../../assets/ClientReview.png"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
 import DesignPattern from "../../assets/DesignDetailsPattern.png"
-import DesignDirection from "../../assets/design-direction.jpg"
 import PressBg2 from "../../assets/PressBg2.svg"
 import CreationBg from "../../assets/CreationsBg.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
