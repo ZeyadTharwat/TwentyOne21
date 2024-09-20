@@ -70,7 +70,7 @@ const testimonials = [
     {
         image: Review4,
         quote: "I had the pleasure of working with Govind Shepley, Mike, Hannah, Sabiha and Satinder on Voco Monaco Lobby renovation and ELIX Spa. Twentyone06’s creativity, hard work, passion and patience is truly inspiring on all project portfolios we collaborate on. Well done to you all!  ",
-        name: "Jane Smith",
+        name: "Marwa Sharaky",
         location: "From UAE",
         title: "Senior Design Manager ",
         company: "Kleindienst Group (Voco Monaco, Elix Spa)",
