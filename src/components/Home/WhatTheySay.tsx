@@ -19,7 +19,7 @@ import Review11 from "../../assets/Reviews/Review (3).png"
 const testimonials = [
     {
         image: Review6,
-        quote: "The process of collaborating with TwentyOne06 began with them getting to know me personally and understanding where I'm coming from. They adapted to my expectations while adding their own unique design input. It was a challenge for TwentyOne06 because many restaurant designers tend to replicate designs, but they didn’t. Instead, they transformed the design into what it is today, which is commendable.",
+        quote: "1The process of collaborating with TwentyOne06 began with them getting to know me personally and understanding where I'm coming from. They adapted to my expectations while adding their own unique design input. It was a challenge for TwentyOne06 because many restaurant designers tend to replicate designs, but they didn’t. Instead, they transformed the design into what it is today, which is commendable.",
         name: "Reif Othman",
         location: "From UAE",
         title: "Owner",
