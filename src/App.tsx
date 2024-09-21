@@ -70,11 +70,11 @@ function App() {
         <Route path='/faqs' element={<FAQs />} />
         <Route path='/contact-us' element={<ContactUs />} />
         {/* <Route path='/services' element={<Services />} /> */}
-        <Route path='/project-details/1' element={<ProjectDetails />} />
-        <Route path='/project-details/2' element={<ProjectDetails2 />} />
-        <Route path='/project-details/3' element={<ProjectDetails3 />} />
-        <Route path='/project-details/4' element={<ProjectDetails4 />} />
-        <Route path='/project-details/5' element={<ProjectDetails5 />} />
+        <Route path='/project-details/nama-yoso' element={<ProjectDetails />} />
+        <Route path='/project-details/pitfire-pizza' element={<ProjectDetails2 />} />
+        <Route path='/project-details/tero' element={<ProjectDetails3 />} />
+        <Route path='/project-details/elix-spa' element={<ProjectDetails4 />} />
+        <Route path='/project-details/voco-monaco' element={<ProjectDetails5 />} />
         <Route path='/trend-reports' element={<TrendReports />} />
         <Route path='/blog-details/1' element={<BlogDetails />} />
         <Route path='/blog-details/2' element={<BlogDetails2 />} />

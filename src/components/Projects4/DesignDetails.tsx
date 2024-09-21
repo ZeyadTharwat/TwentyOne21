@@ -19,7 +19,7 @@ import CreationPlacehoder from "../../assets/NAMA YOSO.png"
 import Creation3 from "../../assets/TERO.png"
 import Creation5 from "../../assets/Voco Monaco.png"
 import Creation2 from "../../assets/Pitfire.png"
-import ClientReview from "../../assets/ClientReview.png"
+import Review4 from "../../assets/Reviews/Review (4).jpg"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
 import DesignPattern from "../../assets/DesignDetailsPattern.png"
@@ -32,25 +32,25 @@ const projects = [
         title: "NAMA YOSO",
         type: "F&B Design",
         image: CreationPlacehoder,
-        id:1
+        id:'nama-yoso'
     },
     {
         title: "PITFIRE PIZZA - DUBAI HILLS",
         type: "F&B Design",
         image: Creation2,
-        id:2
+        id:'pitfire-pizza'
     },
     {
         title: "TERO",
         type: "F&B Design, BRANDING",
         image: Creation3,
-        id:3
+        id:'tero'
     },
     {
         title: "Voco Monaco",
         type: "Hospitality Design",
         image: Creation5,
-        id:5
+        id:'voco-monaco'
     },
 ];
 
@@ -229,9 +229,9 @@ into every treatment offered, broadening the definition of
                 <img src={CreationBg} className="absolute left-0 bottom-0 h-full opacity-50 w-full" alt="" />
 
                 <div className="max-w-[1832px] mx-auto px-4 w-full relative">
-                    <div className="flex justify-between items-center 2xl:gap-28 xl:gap-12 lg:gap-5 border-b-2 border-primary lg:pb-20 pb-10 lg:mb-20  mb-12">
+                <div className="flex justify-between items-center 2xl:gap-28 xl:gap-12 lg:gap-5 border-b-2 border-primary lg:pb-20 pb-10 lg:mb-20  mb-12">
                         <div className="2xl:size-[731px] 2xl:min-w-[731px] xl:max-w-1/2 max-w-[45%] lg:block hidden">
-                            <img src={ClientReview} className=" w-full h-full object-cover" />
+                            <img src={Review4} className=" w-full h-full object-cover" />
                         </div>
                         <div className="2xl:w-auto xl:max-w-1/2 w-full lg:max-w-[55%]">
                             <h1 className="font-vissa lg:text-5xl md:text-4xl sm:text-3xl text-2xl tracking-[0.02em] md:mb-11 mb-9 md:text-start text-center uppercase">
@@ -241,23 +241,19 @@ into every treatment offered, broadening the definition of
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
                             <p className="font-houschka font-light xl:text-[35px] md:text-[28px] sm:text-xl text-sm leading-none">
-                                “From start to finish, the whole TwenyOne06 team remained committed
-                                and dedicated to achieving the outcome despite the numerous changes
-                                along the way. <br /> <br />Govind especially was a pleasure to deal with. His creativity
-                                and ability to deliver is simply remarkable - a true professional.”
-                                David
+                            I had the pleasure of working with Govind Shepley, Mike, Hannah, Sabiha and Satinder on Voco Monaco Lobby renovation and ELIX Spa. Twentyone06’s creativity, hard work, passion and patience is truly inspiring on all project portfolios we collaborate on. Well done to you all!  
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>
                             <div className="sm:mt-7 mt-5">
                                 <div className="flex sm:gap-3 gap-2 items-center mb-1 sm:mb-1.5">
-                                    <h1 className="font-light sm:text-[22px] leading-none">David Cook</h1>
+                                    <h1 className="font-light sm:text-[22px] leading-none">Marwa Sharaky</h1>
                                     <div className="w-[3px] h-6 bg-primary rounded-[11px]"></div>
                                     <p className="text-[#D0D0D0] font-light sm:text-base text-xs font-houschka">From UAE</p>
                                 </div>
                                 <div className="flex items-center gap-1.5 sm:gap-2">
-                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">CEO</h1>
+                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">Senior Design Manager</h1>
                                     <div className="bg-white/80 size-1.5 rounded-full"></div>
-                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">Contractors Direct</h1>
+                                    <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">Kleindienst Group (Voco Monaco, Elix Spa)</h1>
                                 </div>
                             </div>
                         </div>

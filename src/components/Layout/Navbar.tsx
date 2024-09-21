@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import HamburgerMenu from "../Icons/HamburgerMenu";
@@ -12,7 +12,6 @@ import YoutubeIcon from "../Icons/YoutubeIcon";
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const location = useLocation();
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -33,7 +32,6 @@ const Navbar = () => {
     };
   }, []);
 
-  const isLightPage = location.pathname === "/blogs";
 
   return (
     <nav>
@@ -48,7 +46,7 @@ const Navbar = () => {
         </div>
       </button>
       <div className={`fixed w-full border-b  transition-all
-duration-300 z-[9999999999999999]  ${isLightPage || isScrolled
+duration-300 z-[9999999999999999]  ${isScrolled
           ? "bg-[#1a1a1a] border-b-white/40 "
           : "bg-transparent border-transparent"
         }`}>

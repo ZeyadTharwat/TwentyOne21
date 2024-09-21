@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HomeCreationCard = ({project , type , dir = "" , img} : {project:string; type:string; dir?:string; img:string;}) => {
   return (
-    <Link to={dir}>
+    <Link target="_blank" to={dir}>
         <div className="group relative h-full">
     <img className="lg:max-h-[433px] md:max-h-[360px] md:h-[360px] sm:max-h-[290px] sm:h-[290px] h-full max-h-[120px] min-h-[120px] lg:h-[433px] w-full object-cover" src={img} />
     <div className="h-full w-full absolute bg-black/40 inset-0 group-hover:opacity-100 opacity-0 transition-all duration-300 flex flex-col items-center justify-center font-houschka uppercase">

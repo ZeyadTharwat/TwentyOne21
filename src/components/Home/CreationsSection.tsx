@@ -11,22 +11,26 @@ const CreationsSection = () => {
         {
             project: "NAMA YOSO",
             type: "F&B Design, BRANDING",
-            img: Creation1
+            img: Creation1,
+            id:"nama-yoso"
         },
         {
             project: "PITFIRE PIZZA - DUBAI HILLS",
             type: "F&B Design",
-            img: Creation2
+            img: Creation2,
+            id:"pitfire-pizza"
         },
         {
             project: "TERO",
             type: "F&B Design, BRANDING",
-            img: Creation3
+            img: Creation3,
+            id:"tero"
         },
         {
             project: "Elix Spa",
             type: "BRANDING , Hospitality Design",
-            img: Creation4
+            img: Creation4,
+            id:"elix-spa"
         },
     ];
  
@@ -39,7 +43,7 @@ const CreationsSection = () => {
                         {creationData.map((creation, index) => (
                             <HomeCreationCard
                                 img={creation.img}
-                                dir={`/project-details/${index + 1}`}
+                                dir={`/project-details/${creation.id}`}
                                 key={index}
                                 project={creation.project}
                                 type={creation.type}

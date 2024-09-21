@@ -10,6 +10,7 @@ import Blog4 from "../assets/Blogs/Blog4.png";
 import Blog5 from "../assets/Blogs/Blog5.png";
 import Blog6 from "../assets/Blogs/Blog6.jpg";
 import Blog7 from "../assets/Blogs/Blog7.png";
+import HeroSection from "../components/Shared/HeroSection";
 
 const Blogs = () => {
   const blogData = [
@@ -46,17 +47,15 @@ const Blogs = () => {
   };
 
   return (
-    <div className="md:py-44 py-24 bg-[#FFEADF] text-black relative">
+    <>
+            <HeroSection page="Our Blogs" breadcrumb="blogs"/>
+
+        <div className="md:py-44 py-24 bg-[#FFEADF] text-black relative">
       <img
         src={BlogBg}
         className="absolute top-1/2 -translate-y-1/2 opacity-70 right-0 scale-x-[-1] w-full"
         alt=""
       />
-      <div className="text-center md:mb-28 mb-12 px-5">
-        <h1 className="font-vissa lg:text-[95px] sm:text-7xl text-[68px] tracking-[0.04em] leading-none mb-4 uppercase">
-          Our Blogs
-        </h1>
-      </div>
       <div className="relative">
         <img src={BlogsBg2} className="absolute -top-14 left-0" alt="" />
         <div className="grid container lg:grid-cols-3 sm:grid-cols-2 xl:gap-x-14 md:gap-x-8 gap-x-4 xl:gap-y-16 md:gap-y-12 gap-y-8 mb-20 relative">
@@ -98,6 +97,7 @@ const Blogs = () => {
         </div>
       </div>
     </div>
+</>
   );
 };
 

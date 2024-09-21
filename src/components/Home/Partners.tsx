@@ -14,6 +14,9 @@ import Partner12 from "../../assets/Partners/Partner (12).png";
 import Partner13 from "../../assets/Partners/Partner (13).png";
 import Partner14 from "../../assets/Partners/Partner (14).png";
 import Partner15 from "../../assets/Partners/Partner (15).png";
+import "swiper/css/free-mode";
+import "swiper/css/autoplay";
+import { Autoplay , FreeMode } from "swiper/modules";
 
 const partners = [
     { src: Partner1, alt: "Partner 1" },
@@ -40,8 +43,18 @@ const Partners = () => {
             <div className="absolute inset-0 h-full w-full blur-[52.5px] z-50"></div>
             <div className='gradient-bg h-full w-full absolute inset-0'></div>
             <div className="h-full  flex items-center justify-center relative">
-                <div className="relative z-[9999999] container mx-1 ">
+                <div className="relative z-[9999999] max-w-full">
                     <Swiper
+                              loop={true}
+                              freeMode={true}
+                              autoplay={{
+                                delay: 2000,
+                                disableOnInteraction: false,
+                              }}
+                              modules={[Autoplay, FreeMode]}
+                    
+                              speed={5000}
+                    
                         slidesPerView={3}
                         spaceBetween={10}
                         breakpoints={{
@@ -57,11 +70,11 @@ const Partners = () => {
                                 slidesPerView: 6,
                                 spaceBetween: 40,
                             },
-                        }}
-                        loop={true}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
+                            1280: {
+                                slidesPerView: 8,
+                                spaceBetween: 40,
+                            },
+
                         }}
                         className='!items-center'
                     >

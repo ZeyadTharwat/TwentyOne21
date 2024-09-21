@@ -15,28 +15,33 @@ const ProjectsSection = () => {
     const creationData = [
         {
             project: "NAMA YOSO",
-            type: "F&B Design",
-            img: CreationPlacehoder
+            type: "F&B Design, Branding",
+            img: CreationPlacehoder,
+            id:"nama-yoso"
         },
         {
             project: "PITFIRE PIZZA - DUBAI HILLS",
             type: "F&B Design",
-            img: Creation2
+            img: Creation2,
+            id:"pitfire-pizza"
         },
         {
             project: "TERO",
             type: "F&B Design, BRANDING",
-            img: Creation3
+            img: Creation3,
+            id:"tero"
         },
         {
             project: "Elix Spa",
             type: "BRANDING , Hospitality Design",
-            img: Creation4
+            img: Creation4,
+            id:"elix-spa"
         },
         {
             project: "Voco Monaco",
             type: "Hospitality Design",
-            img: Creation5
+            img: Creation5,
+            id:"voco-monaco"
         },
 
     ];
@@ -79,7 +84,7 @@ const ProjectsSection = () => {
                 </div>
                 <div className="grid lg:grid-cols-2 xl:gap-x-11 gap-x-5  xl:gap-y-16 md:gap-y-12 gap-y-7 md:mt-24 mt-9 relative z-[99999]">
                     {filteredData.map((creation, index) => (
-                        <CreationCard img={creation.img} dir={`/project-details/${index + 1}`}
+                        <CreationCard img={creation.img} dir={`/project-details/${creation.id}`}
                             key={index} project={creation.project} type={creation.type} />
                     ))}
                 </div>
