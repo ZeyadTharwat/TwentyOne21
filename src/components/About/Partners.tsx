@@ -9,20 +9,20 @@ import Partner10 from "../../assets/Partners/Partner (10).png";
 import Partner11 from "../../assets/Partners/Partner (11).png";
 import Partner13 from "../../assets/Partners/Partner (13).png";
 import Partner15 from "../../assets/Partners/Partner (15).png";
-import NewPartner1 from "../../assets/Partners/New Partners (1).png";
-import NewPartner2 from "../../assets/Partners/New Partners (2).png";
-import NewPartner3 from "../../assets/Partners/New Partners (3).png";
-import NewPartner4 from "../../assets/Partners/New Partners (4).png";
-import NewPartner5 from "../../assets/Partners/New Partners (5).png";
-import NewPartner6 from "../../assets/Partners/New Partners (6).png";
-import NewPartner7 from "../../assets/Partners/New Partners (7).png";
-import NewPartner8 from "../../assets/Partners/New Partners (8).png";
-import NewPartner9 from "../../assets/Partners/New Partners (9).png";
-import NewPartner10 from "../../assets/Partners/New Partners (10).png";
-import NewPartner11 from "../../assets/Partners/New Partners (11).png";
-import NewPartner12 from "../../assets/Partners/New Partners (12).png";
-import NewPartner13 from "../../assets/Partners/New Partners (13).png";
-import NewPartner14 from "../../assets/Partners/New Partners (14).png";
+import NewPartner1 from "../../assets/Partners/NEWPARTNERS (1).png";
+import NewPartner2 from "../../assets/Partners/NEWPARTNERS (2).png";
+import NewPartner3 from "../../assets/Partners/NEWPARTNERS (3).png";
+import NewPartner4 from "../../assets/Partners/NEWPARTNERS (4).png";
+import NewPartner5 from "../../assets/Partners/NEWPARTNERS (5).png";
+import NewPartner6 from "../../assets/Partners/NEWPARTNERS (6).png";
+import NewPartner7 from "../../assets/Partners/NEWPARTNERS (7).png";
+import NewPartner8 from "../../assets/Partners/NEWPARTNERS (8).png";
+import NewPartner9 from "../../assets/Partners/NEWPARTNERS (9).png";
+import NewPartner10 from "../../assets/Partners/NEWPARTNERS (10).png";
+import NewPartner11 from "../../assets/Partners/NEWPARTNERS (11).png";
+import NewPartner12 from "../../assets/Partners/NEWPARTNERS (12).png";
+import NewPartner13 from "../../assets/Partners/NEWPARTNERS (13).png";
+import NewPartner14 from "../../assets/Partners/NEWPARTNERS (14).png";
 
 
 
