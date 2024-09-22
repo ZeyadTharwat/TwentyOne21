@@ -4,36 +4,56 @@ import Partner2 from "../../assets/Partners/Partner (2).png";
 import Partner3 from "../../assets/Partners/Partner (3).png";
 import Partner4 from "../../assets/Partners/Partner (4).png";
 import Partner5 from "../../assets/Partners/Partner (5).png";
-import Partner6 from "../../assets/Partners/Partner (6).png";
 import Partner7 from "../../assets/Partners/Partner (7).png";
-import Partner8 from "../../assets/Partners/Partner (8).png";
 import Partner9 from "../../assets/Partners/Partner (9).png";
 import Partner10 from "../../assets/Partners/Partner (10).png";
 import Partner11 from "../../assets/Partners/Partner (11).png";
-import Partner12 from "../../assets/Partners/Partner (12).png";
 import Partner13 from "../../assets/Partners/Partner (13).png";
-import Partner14 from "../../assets/Partners/Partner (14).png";
 import Partner15 from "../../assets/Partners/Partner (15).png";
+import NewPartner1 from "../../assets/Partners/NEWPARTNERS (1).png";
+import NewPartner2 from "../../assets/Partners/NEWPARTNERS (2).png";
+import NewPartner3 from "../../assets/Partners/NEWPARTNERS (3).png";
+import NewPartner4 from "../../assets/Partners/NEWPARTNERS (4).png";
+import NewPartner5 from "../../assets/Partners/NEWPARTNERS (5).png";
+import NewPartner6 from "../../assets/Partners/NEWPARTNERS (6).png";
+import NewPartner7 from "../../assets/Partners/NEWPARTNERS (7).png";
+import NewPartner8 from "../../assets/Partners/NEWPARTNERS (8).png";
+import NewPartner9 from "../../assets/Partners/NEWPARTNERS (9).png";
+import NewPartner10 from "../../assets/Partners/NEWPARTNERS (10).png";
+import NewPartner11 from "../../assets/Partners/NEWPARTNERS (11).png";
+import NewPartner12 from "../../assets/Partners/NEWPARTNERS (12).png";
+import NewPartner13 from "../../assets/Partners/NEWPARTNERS (13).png";
+import NewPartner14 from "../../assets/Partners/NEWPARTNERS (14).png";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 import { Autoplay , FreeMode } from "swiper/modules";
 
 const partners = [
-    { src: Partner1, alt: "Partner 1" },
-    { src: Partner2, alt: "Partner 2" },
-    { src: Partner3, alt: "Partner 3" },
-    { src: Partner4, alt: "Partner 4" },
-    { src: Partner5, alt: "Partner 5" },
-    { src: Partner6, alt: "Partner 6" },
-    { src: Partner7, alt: "Partner 7" },
-    { src: Partner8, alt: "Partner 8" },
-    { src: Partner9, alt: "Partner 9" },
-    { src: Partner10, alt: "Partner 10" },
-    { src: Partner11, alt: "Partner 11" },
-    { src: Partner12, alt: "Partner 12" },
-    { src: Partner13, alt: "Partner 13" },
-    { src: Partner14, alt: "Partner 14" },
-    { src: Partner15, alt: "Partner 15" },
+  { src: Partner1, alt: "Partner 1" },
+  { src: Partner2, alt: "Partner 2" },
+  { src: Partner3, alt: "Partner 3" },
+  { src: Partner4, alt: "Partner 4" },
+  { src: Partner5, alt: "Partner 5" },
+  { src: Partner7, alt: "Partner 7" },
+  { src: Partner9, alt: "Partner 9" },
+  { src: Partner10, alt: "Partner 10" },
+  { src: Partner11, alt: "Partner 11" },
+  { src: Partner13, alt: "Partner 13" },
+  { src: Partner15, alt: "Partner 15" },
+  { src: NewPartner1, alt: "New Partners 1" },
+  { src: NewPartner2, alt: "New Partners 2" },
+  { src: NewPartner3, alt: "New Partners 3" },
+  { src: NewPartner4, alt: "New Partners 4" },
+  { src: NewPartner5, alt: "New Partners 5" },
+  { src: NewPartner6, alt: "New Partners 6" },
+  { src: NewPartner7, alt: "New Partners 7" },
+  { src: NewPartner8, alt: "New Partners 8" },
+  { src: NewPartner9, alt: "New Partners 9" },
+  { src: NewPartner10, alt: "New Partners 10" },
+  { src: NewPartner11, alt: "New Partners 11" },
+  { src: NewPartner12, alt: "New Partners 12" },
+  { src: NewPartner13, alt: "New Partners 13" },
+  { src: NewPartner14, alt: "New Partners 14" },
 ];
 
 const Partners = () => {
