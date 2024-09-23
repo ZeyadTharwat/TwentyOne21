@@ -22,13 +22,10 @@ const Partners = () => {
                             <img className="mx-auto" src={Partner3} alt="Partner 3" />
                         </div>
                         <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
-                            <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                            <img className="mx-auto" src={Partner4} alt="Partner 4" />
                         </div>
                         <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
-                            <img className="mx-auto" src={Partner4} alt="Partner 3" />
-                        </div>
-                        <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
-                            <img className="mx-auto" src={Partner5} alt="Partner 3" />
+                            <img className="mx-auto" src={Partner5} alt="Partner 5" />
                         </div>
                     </div>
                 </div>
