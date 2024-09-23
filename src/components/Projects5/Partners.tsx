@@ -1,6 +1,8 @@
-import Partner1 from "../../assets/Voco/Partner (1).png";
-import Partner2 from "../../assets/Voco/Partner (2).png";
-import Partner3 from "../../assets/Voco/Partner (3).png";
+import Partner1 from "../../assets/tero/CATERER MIDDLE EAST.png";
+import Partner2 from "../../assets/tero/DESIGN ET AL.png";
+import Partner3 from "../../assets/tero/FACT.png";
+import Partner4 from "../../assets/tero/FRAME.png";
+import Partner5 from "../../assets/tero/MICHELIN.png";
 
 const Partners = () => {
     return (
@@ -18,6 +20,12 @@ const Partners = () => {
                         </div>
                         <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
                             <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                        </div>
+                        <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
+                            <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                        </div>
+                        <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
+                            <img className="mx-auto" src={Partner4} alt="Partner 3" />
                         </div>
                     </div>
                 </div>
