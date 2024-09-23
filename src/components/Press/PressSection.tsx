@@ -98,7 +98,6 @@ const PressSection = () => {
                         <div className="lg:hidden block sm:mt-8 mt-6">
                             <Button
                                 dir={report.article}
-                                target="_blank"
                                 aspects="sm:size-auto size-9"
                                 width={60}
                                 height={64}
