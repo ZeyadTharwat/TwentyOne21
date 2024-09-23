@@ -1,8 +1,7 @@
-import Partner1 from "../../assets/tero/CATERER MIDDLE EAST.png";
-import Partner2 from "../../assets/tero/DESIGN ET AL.png";
-import Partner3 from "../../assets/tero/FACT.png";
-import Partner4 from "../../assets/tero/FRAME.png";
-import Partner5 from "../../assets/tero/MICHELIN.png";
+import Partner1 from "../../assets/Voco/CID MENA - WINNER.png";
+import Partner2 from "../../assets/Voco/HEART OF EUROPE.png";
+import Partner3 from "../../assets/Voco/VOCO MONACO.png";
+
 
 const Partners = () => {
     return (
