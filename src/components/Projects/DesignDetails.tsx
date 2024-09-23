@@ -216,7 +216,7 @@ const DesignDetails = () => {
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
-                            <p className="font-houschka font-light xl:text-[35px] md:text-[28px] sm:text-xl text-sm leading-none">
+                            <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg">
                             The process of collaborating with TwentyOne06 began with them getting to know me personally and understanding where I'm coming from. They adapted to my expectations while adding their own unique design input. It was a challenge for TwentyOne06 because many restaurant designers tend to replicate designs, but they didn’t. Instead, they transformed the design into what it is today, which is commendable.
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>
