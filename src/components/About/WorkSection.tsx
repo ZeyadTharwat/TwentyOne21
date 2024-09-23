@@ -1,5 +1,5 @@
 import ReadyToWork from "../../assets/ReadyToWorkBg.jpg"
-import Button from "../Shared/Button"
+import Button from "../Shared/Button2"
 import Press1 from "../../assets/Press - Cover Photos/Interior Design Concept of the Year Hotel.jpg"
 import Philosophy from "../../assets/Philosophy.webp"
 import Press2 from "../../assets/Press - Cover Photos/Interior-Design-Concept-of-the-Year-Hotel-Voco-Monaco-Dubai-TwentyOne06-1000x750 (1).jpg"
