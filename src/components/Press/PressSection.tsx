@@ -9,7 +9,7 @@ import Article8 from "../../assets/Press - Cover Photos/How the alchemy of bakin
 import Article9 from "../../assets/Press - Cover Photos/MEK_2868-min-min-1536x1023.jpg"
 import Article10 from "../../assets/Press - Cover Photos/Behind the design of Reif Othman’s Nama Yoso.jpg"
 
-import Button from "../Shared/Button";
+import Button from "../Shared/Button2";
 
 const reports = [
     {
@@ -98,7 +98,6 @@ const PressSection = () => {
                         <div className="lg:hidden block sm:mt-8 mt-6">
                             <Button
                                 dir={report.article}
-                                target="_blank"
                                 aspects="sm:size-auto size-9"
                                 width={60}
                                 height={64}
@@ -116,7 +115,6 @@ const PressSection = () => {
                         <div className="lg:block hidden">
                             <Button
                                 dir={report.article}
-                                target="_blank"
                                 width={60}
                                 height={64}
                                 className="w-[300px]"
