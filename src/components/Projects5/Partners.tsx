@@ -12,13 +12,13 @@ const Partners = () => {
                 <div className="relative z-[9999999] container mx-1">
                     <div className="flex justify-center lg:gap-10 sm:gap-5 gap-x-4 gap-y-6 items-center scale-x-[-1] sm:flex-nowrap flex-wrap">
                     <div className="col-span-1 max-w-[170px]">
-                            <img className="mx-auto" src={Partner1} alt="Partner 1" />
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
                         </div>
                         <div className="col-span-1 sm:min-w-[100px] sm:w-auto w-20">
-                            <img className="mx-auto" src={Partner2} alt="Partner 2" />
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner2} alt="Partner 2" />
                         </div>
                         <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
-                            <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner3} alt="Partner 3" />
                         </div>
                     </div>
                 </div>
