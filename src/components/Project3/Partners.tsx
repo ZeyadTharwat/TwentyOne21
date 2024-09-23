@@ -1,4 +1,6 @@
-import Partner1 from "../../assets/Voco/image-missing.jpg";
+import Partner1 from "../../assets/Voco/CID MENA - WINNER.png";
+import Partner2 from "../../assets/Voco/HEART OF EUROPE.png";
+import Partner3 from "../../assets/Voco/VOCO MONACO.png";
 const Partners = () => {
     return (
         <div className="w-full sm:h-[200px] h-[250px] bg-[#1A1A1A] relative">
@@ -11,13 +13,10 @@ const Partners = () => {
                             <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
                         </div>
                         <div className="col-span-1">
-                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner2} alt="Partner 2" />
                         </div>
                         <div className="col-span-1">
-                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
-                        </div>
-                        <div className="col-span-1">
-                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner3} alt="Partner 3" />
                         </div>
                     </div>
                 </div>
