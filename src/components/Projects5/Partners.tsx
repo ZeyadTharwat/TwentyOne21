@@ -27,6 +27,9 @@ const Partners = () => {
                         <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
                             <img className="mx-auto" src={Partner4} alt="Partner 3" />
                         </div>
+                        <div className="col-span-1 sm:max-w-[300px] max-w-[200px]">
+                            <img className="mx-auto" src={Partner5} alt="Partner 3" />
+                        </div>
                     </div>
                 </div>
             </div>
