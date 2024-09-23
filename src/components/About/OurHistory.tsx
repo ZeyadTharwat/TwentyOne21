@@ -28,11 +28,12 @@ const OurHistory = () => {
             story.
           </p>
 
-
+          <a href="/contact-us" target="_blank" rel="noopener noreferrer">
           <button className="relative" dir="/contact-us">
             <span className="font-houschka font-light uppercase xl:text-lg sm:text-base text-[10px] absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full">Let Us Design Your Story</span>
             <img height={180} width={180} className='scale-x-[-1] xl:size-auto size-[90px] sm:size-[140px]' src={ButtonVector} alt="Button Vector" />
           </button>
+          </a>
         </div>
       </div>
     </div>
