@@ -1,7 +1,11 @@
-import Partner1 from "../../assets/NAMA YOSO/Partner (1).png";
-import Partner2 from "../../assets/NAMA YOSO/Partner (2).png";
-import Partner3 from "../../assets/NAMA YOSO/Partner (3).png";
-import Partner4 from "../../assets/NAMA YOSO/Partner (4).png";
+import Partner1 from "../../assets/NAMA YOSO/CID AWARDS - HOSPITALITY.png";
+import Partner2 from "../../assets/NAMA YOSO/CID MENA - HIGHLY COMMENDED.png";
+import Partner3 from "../../assets/NAMA YOSO/FOOD IN SPACE (3).png";
+import Partner4 from "../../assets/NAMA YOSO/INT DESIGN AWARDS.png";
+import Partner5 from "../../assets/NAMA YOSO/LIV HOSPITALITY AWARDS (2).png";
+import Partner6 from "../../assets/NAMA YOSO/LOVE THAT DESIGN.png";
+import Partner7 from "../../assets/NAMA YOSO/LUXURY LIFESTYLE AWARDS.png";
+import Partner8 from "../../assets/NAMA YOSO/RESTAURANT AND BAR DESIGN AWARDS.png";
 
 const Partners = () => {
     return (
@@ -22,6 +26,18 @@ const Partners = () => {
                         </div>
                         <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
                             <img className="mx-auto" src={Partner4} alt="Partner 4" />
+                        </div>
+                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
+                            <img className="mx-auto" src={Partner5} alt="Partner 4" />
+                        </div>
+                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
+                            <img className="mx-auto" src={Partner6} alt="Partner 4" />
+                        </div>
+                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
+                            <img className="mx-auto" src={Partner7} alt="Partner 4" />
+                        </div>
+                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
+                            <img className="mx-auto" src={Partner8} alt="Partner 4" />
                         </div>
                     </div>
                 </div>
