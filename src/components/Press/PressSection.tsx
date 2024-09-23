@@ -116,7 +116,6 @@ const PressSection = () => {
                         <div className="lg:block hidden">
                             <Button
                                 dir={report.article}
-                                target="_blank"
                                 width={60}
                                 height={64}
                                 className="w-[300px]"
