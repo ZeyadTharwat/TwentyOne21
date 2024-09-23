@@ -92,7 +92,7 @@ const PressAndReports = () => {
                                 <img src={item.img} className="w-full xl:min-h-[343px] md:min-h-[270px] md:max-h-[270px] xl:max-h-[343px] object-cover mb-3" alt={item.title} />
                                 <h1 className="md:text-[40px] sm:text-3xl   font-vissa uppercase mt-2 sm:mt-4">{item.title}</h1>
                                 <p className="text-[#8D8D8D] font-houschka font-light sm:text-base text-[8px] sm:mb-3 mb-1.5 mt-1 sm:mt-2">{item.description}</p>
-                                <a href={item.article} target="_blank" rel="noopener noreferrer"><Button aspects="sm:size-auto size-7" title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} /></a>
+                                <Button aspects="sm:size-auto size-7" title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
                             </Link>
                         </SwiperSlide>
                     ))}
