@@ -13,7 +13,7 @@ const Partners = () => {
                             <img  src={Partner1} alt="Partner 1" />
                         </div>
                     <div className="md:max-w-[400px] max-w-[250px]">
-                            <img  src={Partner1} alt="Partner 2" />
+                            <img  src={Partner2} alt="Partner 2" />
                         </div>
                     </div>
                 </div>
