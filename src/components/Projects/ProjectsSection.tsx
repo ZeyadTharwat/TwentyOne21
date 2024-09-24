@@ -3,7 +3,7 @@ import Button from "../Shared/Button";
 import CreationCard from "../Shared/CreationCard";
 import CreationBg from "../../assets/CreationsBg.png";
 import PressBg2 from "../../assets/PressBg2.svg";
-import CreationPlacehoder from "../../assets/twenty-one-06-hero-image.webp";
+import CreationPlacehoder from "../../assets/NAMA YOSO.png";
 import Creation2 from "../../assets/Pitfire.png";
 import Creation3 from "../../assets/TERO.png";
 import Creation4 from "../../assets/Elix.png";
