@@ -1,4 +1,4 @@
-import HeroBg from "../../assets/NAMA YOSO.png";
+import HeroBg from "../../assets/twenty-one-06-hero-image.webp";
 // import HeroSignature from "../../assets/HeroSignature.png";
 
 const HeroSection = () => {
