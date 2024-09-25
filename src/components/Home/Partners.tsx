@@ -68,7 +68,7 @@ const Partners = () => {
                               loop={true}
                               freeMode={true}
                               autoplay={{
-                                delay: 2000,
+                                delay: 100,
                                 disableOnInteraction: false,
                               }}
                               modules={[Autoplay, FreeMode]}
