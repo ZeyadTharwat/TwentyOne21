@@ -100,7 +100,7 @@ const Partners = () => {
                     >
                         {partners.map((partner, index) => (
                             <SwiperSlide className='!h-auto !flex !items-center !justify-center' key={index}>
-                                <img className="mx-auto md:max-w-[165px] max-w-[110px]" src={partner.src} alt={partner.alt} />
+                                <img className="mx-auto md:max-w-[145px] max-w-[100px]" src={partner.src} alt={partner.alt} />
                             </SwiperSlide>
                         ))}
                     </Swiper>
