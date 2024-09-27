@@ -65,13 +65,13 @@ const DesignDetails = () => {
                     <div className="flex 2xl:gap-8 xl:flex-row flex-col-reverse lg:gap-4 gap-8 items-center relative">
                         <div className="flex 2xl:gap-8 md:gap-4 gap-2">
                             <div>
-                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[475px] object-cover" src={DesignDetailsPlaceholder} alt="" />
+                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] h-full w-[475px] object-cover" src={DesignDetailsPlaceholder} alt="" />
                             </div>
                             <div>
-                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[326px] object-cover" src={DesignDetailsPlaceholder2} alt="" />
+                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] h-full w-[326px] object-cover" src={DesignDetailsPlaceholder2} alt="" />
                             </div>
                             <div>
-                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] w-[475px] object-cover" src={DesignDetailsPlaceholder10} alt="" />
+                                <img className="lg:h-[634px] md:h-[500px] sm:h-[300px] min-h-[200px] h-full w-[475px] object-cover" src={DesignDetailsPlaceholder10} alt="" />
                             </div>
 
                         </div>
@@ -180,21 +180,21 @@ const DesignDetails = () => {
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="space-y-4 text-center mt-6 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0] xl:block hidden">
+                        <div className="space-y-4 text-center sm:mt-6 mt-2 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0]">
                             <p>The High Luxe Room
                             </p>
                         </div>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder13} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] lg:w-full w-[200%]">
+                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
                             <p>The Jungle Room</p>
                         </div>
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder14} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] lg:w-full w-[200%]">
+                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
                             <p>The Ladies Room</p>
                         </div>
 

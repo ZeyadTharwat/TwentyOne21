@@ -36,15 +36,26 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
     };
   }, [isOpen]);
 
-  const handleServicesClick = () => {
+const handleServicesClick = () => {
+  // Check if already on the home page
+  if (location.pathname === "/") {
+    const servicesSection = document.getElementById("Services");
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  } else {
     navigate("/");
-    setTimeout(() => {
-      const servicesSection = document.getElementById("Services");
-      if (servicesSection) {
-        servicesSection.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 10);
-  };
+  }
+};
+  console.log('location.hash',location.hash)
+useEffect(() => {
+  if (location.hash === "#services") {
+    const servicesSection = document.getElementById("Services");
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+}, [location]);
 
   const links: LinkItem[] = [
     { path: "/our-creations", label: "Our Creations" },
