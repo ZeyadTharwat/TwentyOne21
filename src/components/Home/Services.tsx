@@ -11,6 +11,9 @@ import MarketResearch from "../../assets/ServicesIcons/Market Research.svg";
 import ArrowIcon from "../Icons/ArrowIcon";
 import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/free-mode";
+import "swiper/css/autoplay";
+import { Autoplay , FreeMode } from "swiper/modules";
 
 const services = [
   {
@@ -59,7 +62,16 @@ const Services = () => {
   return (
     <div id="Services" className="overflow-hidden max-h-full">
         <Swiper
-          loop={true}
+        loop={true}
+        freeMode={true}
+        autoplay={{
+        delay: 50,
+        disableOnInteraction: false,
+        }}
+        modules={[Autoplay, FreeMode]}
+        
+        speed={2500}
+                    
           breakpoints={{
             0: {
               slidesPerView: 3,

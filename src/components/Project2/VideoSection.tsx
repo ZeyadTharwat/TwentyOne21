@@ -1,6 +1,6 @@
-import VideoPlaceholder from "../../assets/Project2-2.png";
+import VideoPlaceholder from "../../assets/Project2-1.jpg";
 import Partners from "./Partners"
-import Project from "../../assets/Project2-1.jpg";
+import Project from "../../assets/Project2-2.png";
 
 const VideoSection = () => {
 
