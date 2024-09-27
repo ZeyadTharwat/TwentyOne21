@@ -104,18 +104,18 @@ const DesignDetails = () => {
                     </div>
 
                 </div>
-<div>
-    <img src={DesignDetailsPlaceholder19} className="lg:max-h-[940px] md:h-[460px] lg:h-full w-full object-cover" alt="" />
-    <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
-        <h1 className="font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Ceiling & Lighting Design:</h1>
-        <p>The central ceiling feature above the main dining area at Nama Yoso was a key element. Adorned with beige linen and canvas fabric curtains, featuring traditional Japanese drawings, it strategically reflects the brand pattern. Woven fabric with blue wave-like patterns and flexible light strips creates a visually captivating design element.</p>
-    </div>
-</div>
+                <div className="flex md:gap-8 sm:gap-5 gap-2 lg:pb-40 md:pb-32 sm:pb-24 pb-16 relative">
+                    <div className="w-1/2 basis-1/2 h-full">
+                        <img src={DesignDetailsPlaceholder19} className="lg:max-h-[940px] md:h-[460px] lg:h-full w-full object-cover" alt="" />
+                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Ceiling & Lighting Design:</h1>
+                            <p>The central ceiling feature above the main dining area at Nama Yoso was a key element. Adorned with beige linen and canvas fabric curtains, featuring traditional Japanese drawings, it strategically reflects the brand pattern. Woven fabric with blue wave-like patterns and flexible light strips creates a visually captivating design element.</p>
+                        </div>
 
-<div className="w-full sm:w-1/2 basis-1/2 sm:mt-12 mt-4">
-    <img src={DesignDetailsPlaceholder4} className="w-full object-cover" alt="" />
-</div>
-
+                    </div>
+                    <div className="w-1/2 basis-1/2">
+                        <img src={DesignDetailsPlaceholder4} className="w-full object-cover" alt="" />
+                    </div>
                     <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                 </div>
