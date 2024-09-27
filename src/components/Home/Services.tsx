@@ -62,15 +62,15 @@ const Services = () => {
   return (
     <div id="Services" className="overflow-hidden max-h-full">
         <Swiper
-                              loop={true}
-                              freeMode={true}
-                              autoplay={{
-                                delay: 100,
-                                disableOnInteraction: false,
-                              }}
-                              modules={[Autoplay, FreeMode]}
-                    
-                              speed={5000}
+        loop={true}
+        freeMode={true}
+        autoplay={{
+        delay: 50,
+        disableOnInteraction: false,
+        }}
+        modules={[Autoplay, FreeMode]}
+        
+        speed={2500}
                     
           breakpoints={{
             0: {
