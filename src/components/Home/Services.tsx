@@ -10,6 +10,8 @@ import BrandDevelopment from "../../assets/ServicesIcons/Brand Development.svg";
 import MarketResearch from "../../assets/ServicesIcons/Market Research.svg";
 import ArrowIcon from "../Icons/ArrowIcon";
 import { Link } from "react-router-dom"
+import { Swiper, SwiperSlide } from "swiper/react";
+
 const services = [
   {
     icon: InteriorDesign,
@@ -56,9 +58,24 @@ const services = [
 const Services = () => {
   return (
     <div id="Services" className="overflow-hidden max-h-full">
-      <div className="grid lg:grid-cols-5 grid-cols-4 w-full ">
+        <Swiper
+          loop={true}
+          breakpoints={{
+            0: {
+              slidesPerView: 3,
+            },
+
+            768: {
+              slidesPerView: 4,
+            },
+            1024: {
+                slidesPerView: 5,
+              },
+          }}          
+        >
         {services.map((service, index) => (
-          <div key={index} className={`overflow-hidden relative cursor-pointer group ${index === 4 ? 'lg:block hidden' : ''}`}>
+            <SwiperSlide className="bg-[#0E0E0E] !h-auto" key={index}>
+          <div className={`overflow-hidden relative cursor-pointer group `}>
             <div className="z-50 absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 group-hover:2xl:top-1/3 group-hover:top-1/4 transition-all duration-300 group-hover:xl:opacity-100 group-hover:opacity-0">
               <img className="mx-auto 2xl:mb-20 lg:mb-10 mb-5 2xl:size-14 md:size-12 sm:size-10 size-8" src={service.icon} alt={service.title} />
               <h1 className="font-vissa 2xl:text-7xl xl:text-6xl md:text-5xl sm:text-3xl text-xl text-center text-[#FFEADF] capitalize ">
@@ -79,8 +96,10 @@ const Services = () => {
             </div>
             <img className="group-hover:scale-[1.3] relative w-full h-full transition-all duration-300" src={service.image} alt={service.title} />
           </div>
+                      </SwiperSlide>
+
         ))}
-      </div>
+        </Swiper>
     </div>
   );
 };
