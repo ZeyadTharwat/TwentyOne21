@@ -75,7 +75,7 @@ const DesignDetails = () => {
                         </div>
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
-                            <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Inspired by the alchemy of bakery, the design concept mirrors Pinfire's dough-makingprocess, where two or more ingredients merge to evoke a reaction. Pairing materials strategically, the design seeks to create harmony akin to the synthesis of flour antiwater in dough preparation.</p>
 
                             </div>
@@ -88,7 +88,7 @@ const DesignDetails = () => {
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design journey</h1>
-                            <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>International Characterized by rustic textures and materials that can be refined, the space revolves around a central bar, serving assist focal point. Raw textures and layered details contribute to an immersive experience that embodies the brand's rebellious spirit.</p>
                                 <p>At the heart of Pinfire's brand essence lie four primary categories an architecture, counterculture, knowledge, and quality. These pillars encapsulate the brand's ethos of raw rebellion, celebrating the religion of baking and respecting the craft of dough-making</p>
 
@@ -105,7 +105,7 @@ const DesignDetails = () => {
                 <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
                     <div className="w-1/2 basis-1/2 md:h-full">
                         <img src={DesignDetailsPlaceholder5} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
-                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
+                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
                                 trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
@@ -119,7 +119,7 @@ const DesignDetails = () => {
                     <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                 </div>
-                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
+                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
                                 trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
@@ -133,7 +133,7 @@ const DesignDetails = () => {
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                     <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
                         trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
@@ -166,7 +166,7 @@ const DesignDetails = () => {
                     </div>
 
                 </div>
-                <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] ">
+                <div className="md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] ">
                     <p>Original Pitfire signage art adds a nostalgic touch, further enriching the space's cultural tapestry. Art takes center stage in the design narrative, echoing Pitfire's collaboration with local artists. Portraits of iconic figures such as 'The Grateful Dead' adorn the walls, as well as a wall full of vibrant poster art encapsulating the brand’s love of creating visuals, creating Instagram-worthy moments that pay homage to the brand's counter-cultural roots.</p>
                 </div>
             </div>
@@ -176,8 +176,8 @@ const DesignDetails = () => {
             <div className="lg:pt-48 md:pt-36 sm:pt-28 pt-16 relative max-w-[1832px] mx-auto px-4 w-full">
                 <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                     <div className="2xl:max-w-[572px] lg:max-w-[490px]">
-                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">F&B Brand Evolution</h1>
-                        <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">F&B Brand Evolution</h1>
+                        <div className="md:text-2xl sm:text-xl text-lg font-light font-houschka space-y-4 sm:space-y-6">
                             <p>Ito create an evolution of an existing brand, TwentyOne06
                                 weaves the brand's values and culture into the new offering.
                                 Drawing inspiration from the brand's storytelling narrative,

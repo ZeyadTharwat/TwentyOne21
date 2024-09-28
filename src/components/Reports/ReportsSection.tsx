@@ -41,7 +41,7 @@ const reports = [
 
 const ReportsSection = () => {
     return (
-        <div className="md:container xl:py-48 lg:py-36 md:py-28 sm:py-20 py-14">
+        <div className="md:container xl:pt-48 lg:pt-36 md:pt-28 sm:pt-20 pt-14">
             <p className="text-[#D0D0D0] font-light font-houschka lg:text-[26px] md:text-xl sm:text-lg xl:mb-40 lg:mb-28 md:mb-20 mb-16 lg:pb-5 text-center md:px-0 px-5">
                 Download our in-depth trend reports— Comprehensive documents designed to
                 highlight recent micro and macro trends in the F&B, Hospitality and Commercial

@@ -144,7 +144,7 @@ twist to the minimalist design.</p>
                             <div>
                                 <img src={DesignDetailsPlaceholder8} className="lg:h-[667px] md:h-[480px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
                                 <div className="md:text-xl sm:text-lg text-[10px] font-light font-houschka space-y-4  md:mt-6 mt-2 text-[#D0D0D0] ">
-                    <p>The ambiance at TERO, meticulously curated throughdetailed attention to curved feature walls, customupholstery and lighting, and flooring, creates an etherealsanctuary that transcends the conventional dininglandscape.</p>
+                    <p>The ambiance at TERO, meticulously curated through detailed attention to curved feature walls, custom upholstery and lighting, and flooring, creates an ethereal sanctuary that transcends the conventional dining landscape.</p>
                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ twist to the minimalist design.</p>
 
                 </div>
                 <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] ">
-                    <p>Each restaurant has its own unique brand and philosophy. For Chef Reif, it’s all about creating unconventional flavors and culinary journeys infused with personal flair. TwentyOne06 embracedthis philosophy, translating it into the interior and brand design elements of this restaurant. From the layout, menu design and the décor, every detail was meticulously crafted to reflect thechef’s approach to food.The</p>
+                    <p>Each restaurant has its own unique brand and philosophy. For Chef Reif, it’s all about creating unconventional flavors and culinary journeys infused with personal flair. TwentyOne06 embracedthis philosophy, translating it into the interior and brand design elements of this restaurant. From the layout, menu design and the décor, every detail was meticulously crafted to reflect thechef’s approach to food.</p>
                 </div>
             </div>
             <div className="w-full pt-28">
