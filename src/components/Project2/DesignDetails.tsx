@@ -214,7 +214,7 @@ const DesignDetails = () => {
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
-                            <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg">
+                            <p className="font-houschka font-light text-[#D0D0D0] text-2xl sm:text-2xl">
                             I recently had the pleasure of working with TwentyOne06, and I can confidently say they are a fantastic design company. Their commitment to authenticity and quality is evident in every aspect of their work. The team is not only highly professional but also incredibly responsive, making the entire process seamless and enjoyable. From the initial consultation to the final delivery, TwentyOne06 exceeded my expectations. Their innovative designs reflect a deep understanding of client needs and current trends, resulting in truly unique and impactful solutions. If you’re looking for a design partner who values excellence and creativity, I wholeheartedly recommend TwentyOne06. They are a cut above the rest!
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>
