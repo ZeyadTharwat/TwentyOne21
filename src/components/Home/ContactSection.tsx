@@ -3,7 +3,7 @@ import Contact1 from "../../assets/Contact1.png"
 import Contact3 from "../../assets/Contact3.png"
 import Button from "../Shared/Button"
 import PressBg2 from "../../assets/PressBg2.svg"
-import Contact2 from "../../assets/Project3-9.png"
+import Contact2 from "../../assets/contact-2.png"
 
 const ContactSection = () => {
   return (
