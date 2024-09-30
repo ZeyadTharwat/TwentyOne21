@@ -9,7 +9,7 @@ const Partners = () => {
             <div className="h-full gradient-bg flex items-center justify-center relative " >
                 <div className="relative z-[9999999] container mx-1">
                     <div className="flex justify-center lg:gap-10 sm:gap-5 gap-x-4 gap-y-6 items-center scale-x-[-1]">
-                    <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/2">
+                    <div className="col-span-1 max-w-[300px] sm:max-w-[350px] basis-1/2">
                             <img  src={Partner1} alt="Partner 1" />
                         </div>
                     <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/2">

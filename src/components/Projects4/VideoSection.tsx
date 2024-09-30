@@ -7,7 +7,7 @@ const VideoSection = () => {
   return (
     <div>
       <div className="relative">
-        <div className="absolute w-full h-full bg-black/40 inset-0 z-10"></div>
+        <div className="absolute w-full h-full inset-0 z-10"></div>
         <img
         src={VideoPlaceholder}
         className="lg:h-[900px] sm:h-[600px] sm:max-h-full max-h-[400px] min-h-[250px] w-full object-cover"

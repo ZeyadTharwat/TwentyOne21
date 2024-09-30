@@ -9,7 +9,7 @@ import Partner8 from "../../assets/NAMA YOSO/RESTAURANT AND BAR DESIGN AWARDS.pn
 
 const Partners = () => {
     return (
-        <div className="w-full sm:h-[200px] h-[450px] bg-[#1A1A1A] relative">
+        <div className="w-full sm:h-[300px] h-[500px] bg-[#1A1A1A] relative">
             <div className="w-full h-full gradient-border absolute "></div>
             <div className="absolute inset-0 h-full w-full blur-[52.5px] z-50"></div>
             <div className="h-full gradient-bg flex items-center justify-center relative " >
