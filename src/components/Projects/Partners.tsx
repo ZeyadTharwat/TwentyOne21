@@ -16,28 +16,28 @@ const Partners = () => {
                 <div className="relative z-[9999999] container mx-1">
                     <div className="flex justify-center lg:gap-10 sm:gap-5 gap-x-4 gap-y-6 items-center sm:flex-nowrap flex-wrap scale-x-[-1]">
                     <div className="col-span-1">
-                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
+                            <img className="mx-auto md:max-w-[150] max-w-[100px] basis-1/4" src={Partner1} alt="Partner 1" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner2} alt="Partner 2" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner2} alt="Partner 2" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner3} alt="Partner 3" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[125px] max-w-[100px] basis-1/4" src={Partner3} alt="Partner 3" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner4} alt="Partner 4" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[125px] max-w-[100px] basis-1/4" src={Partner4} alt="Partner 4" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner5} alt="Partner 4" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner5} alt="Partner 4" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner6} alt="Partner 4" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner6} alt="Partner 4" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner7} alt="Partner 4" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner7} alt="Partner 4" />
                         </div>
-                        <div className="col-span-1 max-w-[250px] sm:max-w-[200px] basis-1/4">
-                            <img className="mx-auto" src={Partner8} alt="Partner 4" />
+                        <div className="col-span-1">
+                            <img className="mx-auto md:max-w-[150px] max-w-[100px] basis-1/4" src={Partner8} alt="Partner 4" />
                         </div>
                     </div>
                 </div>

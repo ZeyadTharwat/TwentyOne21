@@ -74,7 +74,7 @@ const DesignDetails = () => {
                         </div>
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
-                            <div className="md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Designed as "the chef's table," TERO is an homage to Reef, almost a cathedral of biunique personality. Every design element, from the intimate seating arrangement to the eclectic personal touches, embraces his innovative spirit.</p>
                                 <p>The restaurant-within-a-restaurant concept allows diners to experience the chef's journey, moving from the heart-of-house to a lounge for aperitifs and bites, and finally to a front-row seat at the chef’s cooking station.</p>
 
@@ -88,7 +88,7 @@ const DesignDetails = () => {
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design journey</h1>
-                            <div className="md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>The restaurant is designed as a restaurant within arestaurant, where diners move from the heart-of-houseto a lounge for aperitifs and bites, followed by a front-row seat at the chef’s cooking station.</p>
                                 <p>Eclectic elements like sneakers, skateboards, a Pac-Manmachine, and a Bearbrick art piece add character,complementing TERO’s surprise tasting menu andproviding diners with a memorable, immersive experience</p>
 
@@ -105,7 +105,7 @@ const DesignDetails = () => {
                 <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
                     <div className="w-1/2 basis-1/2 md:h-full">
                         <img src={DesignDetailsPlaceholder5} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
-                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
+                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
 trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
@@ -119,7 +119,7 @@ twist to the minimalist design.</p>
                     <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                 </div>
-                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
+                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
                 <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
 trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
@@ -134,7 +134,7 @@ twist to the minimalist design.</p>
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The 12-seater dining area</h1>
                     <p className="max-w-[880px]">Wooden table forms a U-shape, paired with custom chairs, in front of a preparation counter and open show kitchen, allowing diners a front-row seat at the chef’s cooking station.</p>
                 </div>
@@ -143,7 +143,7 @@ twist to the minimalist design.</p>
                         <div className="col-span-1">
                             <div>
                                 <img src={DesignDetailsPlaceholder8} className="lg:h-[667px] md:h-[480px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
-                                <div className="md:text-2xl sm:text-xl text-[10px] font-light font-houschka space-y-4  md:mt-6 mt-2 text-[#D0D0D0] ">
+                                <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4  md:mt-6 mt-2 text-[#D0D0D0] ">
                     <p>The ambiance at TERO, meticulously curated through detailed attention to curved feature walls, custom upholstery and lighting, and flooring, creates an ethereal sanctuary that transcends the conventional dining landscape.</p>
                 </div>
                             </div>
@@ -167,7 +167,7 @@ twist to the minimalist design.</p>
                     </div>
 
                 </div>
-                <div className="md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] ">
+                <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] ">
                     <p>Each restaurant has its own unique brand and philosophy. For Chef Reif, it’s all about creating unconventional flavors and culinary journeys infused with personal flair. TwentyOne06 embracedthis philosophy, translating it into the interior and brand design elements of this restaurant. From the layout, menu design and the décor, every detail was meticulously crafted to reflect thechef’s approach to food.</p>
                 </div>
             </div>
@@ -178,7 +178,7 @@ twist to the minimalist design.</p>
                 <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                     <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Designing the Chef’s Table.</h1>
-                        <div className="md:text-2xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                        <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                             <p>The journey with Chef Reif began with deep conversations to uncover the chef’s passion, his love for food, and the stories he wanted to tell through his culinary creations.</p>
                             <p>This relationship allowed TwentyOne06 to infuse the essence of Chef Reif’s personality into every corner of the restaurants, ensuring that the spaces resonated with his innovative twists on Asian cuisine.</p>
 
@@ -207,7 +207,7 @@ twist to the minimalist design.</p>
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
-                            <p className="font-houschka font-light text-[#D0D0D0] text-2xl sm:text-2xl">
+                            <p className="font-houschka font-light text-[#D0D0D0] text-xl sm:text-xl">
                             The process of collaborating with TwentyOne06 began with them getting to know me personally and understanding where I'm coming from. They adapted to my expectations while adding their own unique design input. It was a challenge for TwentyOne06 because many restaurant designers tend to replicate designs, but they didn’t. Instead, they transformed the design into what it is today, which is commendable.
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>

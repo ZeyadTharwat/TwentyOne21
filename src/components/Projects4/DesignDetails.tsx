@@ -76,7 +76,7 @@ const DesignDetails = () => {
                         </div>
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
-                            <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>ELIX is establishing itself as a unique “party
 spa” dedicated to revitalizing hotel guests
 and “bringing them back to life.” With this
@@ -101,7 +101,7 @@ and interior designs.
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design direction</h1>
-                            <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Elix Spa is crafted to offer a one-of-a-kind and
 refreshing experience that revitalizes guests,
 harmoniously blending vibrancy with tranquility for an
@@ -124,7 +124,7 @@ welcoming ambiance.</p>
                 <div className="flex md:gap-8 sm:gap-5 gap-2 lg:pb-40 md:pb-32 sm:pb-24 pb-16 relative">
                     <div className="w-1/2 basis-1/2 h-full">
                         <img src={DesignDetailsPlaceholder19} className="lg:max-h-[940px] md:h-[460px] lg:h-[940px] w-full object-cover" alt="" />
-                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
+                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Treatment Rooms                            </h1>
                             <p className="mb-4">The incorporation of contemporary and soothing materials like blue fluted ceramic tiles,
 light timber flooring, blue fluted panels, beige travertine, beige marble wall panels, antique
@@ -149,7 +149,7 @@ every treatment room and enriching the overall guest experience.
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-2xl sm:text-lg text-sm font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Relaxation Areas                    </h1>
                     <p>The Entrance Design Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage to traditional Japanese canvases and wall partitions. The brand pattern, resembling Damascus steel, epitomizes a traditional Japanese forging technique, creating a cohesive and meaningful narrative for Nama Yoso.
 </p>
@@ -161,7 +161,7 @@ every treatment room and enriching the overall guest experience.
                                 <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
                                 <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
                             </div>
-                            <p className="md:text-xl sm:text-lg text-[10px] font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Consistent Brand Identity: Distinctive Elix Elements
+                            <p className="md:text-xl sm:text-xl text-[15px] font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Consistent Brand Identity: Distinctive Elix Elements
 The design upholds a robust brand identity by integrating
 features that resonate with Elix Spa's philosophy of
 natural healing and rejuvenation.</p>
@@ -176,20 +176,20 @@ natural healing and rejuvenation.</p>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="space-y-4 text-center sm:mt-6 mt-2 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0]">
+                        <div className="space-y-4 text-center sm:mt-6 mt-2 md:text-xl sm:text-xl text-base font-light font-houschka text-[#D0D0D0]">
                             <p>Changing Rooms Large </p>
                         </div>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder13} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
+                        <div className="md:text-xl text-center sm:text-xl text-base font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
                             <p>Co-ed Wet Areas</p>
                         </div>
 
                     </div>
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder14} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
-                        <div className="md:text-xl text-center sm:text-lg text-sm font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
+                        <div className="md:text-xl text-center sm:text-xl text-base font-light font-houschka space-y-4  mt-6 text-[#D0D0D0] w-full">
                             <p>Jacuzzi Pool</p>
                         </div>
 
@@ -205,7 +205,7 @@ natural healing and rejuvenation.</p>
                     <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">THE SPA EXPERIENCE
                         </h1>
-                        <div className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6">
+                        <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                             <p>The inspiration behind ELIX Spa stems from the belief that
 elixirs are natural potions designed to rejuvenate and heal
 individuals. This idea is intricately embedded in the brand's
@@ -240,7 +240,7 @@ into every treatment offered, broadening the definition of
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
-                            <p className="font-houschka font-light text-[#D0D0D0] text-sm sm:text-lg">
+                            <p className="font-houschka font-light text-[#D0D0D0] text-xl sm:text-xl">
                             I had the pleasure of working with Govind Shepley, Mike, Hannah, Sabiha and Satinder on Voco Monaco Lobby renovation and ELIX Spa. Twentyone06’s creativity, hard work, passion and patience is truly inspiring on all project portfolios we collaborate on. Well done to you all!  
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>

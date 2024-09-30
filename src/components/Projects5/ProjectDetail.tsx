@@ -6,7 +6,7 @@ const ProjectDetail = () => {
     
           <div className="container  text-center relative z-50">
       <h1 className="uppercase font-vissa tracking-[0.04em] lg:text-[68px] md:text-6xl sm:text-5xl text-4xl leadng-none">VOCO MONACO HOTEL      </h1>
-      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-2xl sm:text-lg text-sm">
+      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-xl sm:text-xl text-xl">
   The VOCO™ Monaco Hotel refurbishment project in Dubai transforms the hotel into a vibrant destination, blending
   familiar comforts with unique elements. It offers a relaxed atmosphere for adult guests seeking vibrant social
   experiences and relaxation, following the brand philosophy of “Small Change, Big Impact.”
