@@ -76,7 +76,7 @@ const DesignDetails = () => {
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>Inspired by the alchemy of bakery, the design concept mirrors Pitfire's dough-making process, where two or more ingredients merge to evoke a reaction. Pairing materials strategically, the design seeks to create harmony akin to the synthesis of flour antiwater in dough preparation.</p>
+                                <p>Inspired by the alchemy of bakery, the design concept mirrors Pitfire's dough-making process, where two or more ingredients merge to evoke a reaction. Pairing materials strategically, the design seeks to create harmony akin to the synthesis of flour and water in dough preparation.</p>
 
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const DesignDetails = () => {
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design journey</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Characterized by rustic textures and materials that can be refined, the space revolves around a central bar, serving assist as a focal point. Raw textures and layered details contribute to an immersive experience that embodies the brand's rebellious spirit.</p>
-                                <p>At the heart of Pinfire's brand essence lie four primary categories an architecture, counterculture, knowledge, and quality. These pillars encapsulate the brand's ethos of raw rebellion, celebrating the religion of baking and respecting the craft of dough-making</p>
+                                <p>At the heart of Pitfire's brand essence lie four primary categories an architecture, counterculture, knowledge, and quality. These pillars encapsulate the brand's ethos of raw rebellion, celebrating the religion of baking and respecting the craft of dough-making</p>
 
                             </div>
                         </div>
@@ -106,10 +106,10 @@ const DesignDetails = () => {
                     <div className="w-1/2 basis-1/2 md:h-full">
                         <img src={DesignDetailsPlaceholder5} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
                         <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
-                            <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
-                                trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
-                                twist to the minimalist design.</p>
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
+                            <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
+                            designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and 
+                            oxidized black metal finishes contribute to its allure.</p>
                         </div>
 
                     </div>
@@ -120,10 +120,10 @@ const DesignDetails = () => {
 
                 </div>
                 <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
-                            <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
-                                trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
-                                twist to the minimalist design.</p>
+                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
+                            <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
+                            designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and 
+                            oxidized black metal finishes contribute to its allure.</p>
                         </div>
 
                 </div>
@@ -134,10 +134,10 @@ const DesignDetails = () => {
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
                 <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
-                    <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
-                    <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
-                        trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky
-                        twist to the minimalist design.</p>
+                    <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - Booth Seating</h1>
+                    <p>Slim and minimalistic furniture, adorned in brand colors, complements the space. Low freestanding walls
+                    and waiting bench seating, crafted with rustic wood framing and black leather
+                    upholstery, add to the ambiance.</p>
                 </div>
                 <div className="2xl:gap-x-9 lg:gap-x-4 gap-x-3 grid grid-cols-6 w-full 2xl:gap-y-6 gap-y-5 ">
                     <div className="xl:col-span-4 2xl:gap-x-9 lg:gap-x-4 gap-x-3 col-span-6 grid grid-cols-2">
