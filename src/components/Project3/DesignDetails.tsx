@@ -134,7 +134,7 @@ twist to the minimalist design.</p>
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[200%] lg:mb-36 md:mb-28 sm:mb-16 mb-8">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The 12-seater dining area</h1>
                     <p className="max-w-[880px]">Wooden table forms a U-shape, paired with custom chairs, in front of a preparation counter and open show kitchen, allowing diners a front-row seat at the chef’s cooking station.</p>
                 </div>
