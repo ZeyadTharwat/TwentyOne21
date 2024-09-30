@@ -184,18 +184,12 @@ const DesignDetails = () => {
             <div className="lg:pt-48 md:pt-36 sm:pt-28 pt-16 relative max-w-[1832px] mx-auto px-4 w-full">
                 <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                     <div className="2xl:max-w-[572px] lg:max-w-[490px]">
-                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">F&B Brand Evolution</h1>
+                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">THE DESIGN DETAILS</h1>
                         <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                            <p>Ito create an evolution of an existing brand, TwentyOne06
-                                weaves the brand's values and culture into the new offering.
-                                Drawing inspiration from the brand's storytelling narrative,
-                                designers craft an authentic design concept that enhances
-                                existing strengths and adds value in areas that require
-                                attention.</p>
-                            <p>When approaching design for existing F&B brands, we are
-                                not reinventing the wheel. “Govind Shepley. Creative
-                                Director and Founder of TwentyOne06 states, “We play on
-                                their strengths”."</p>
+                            <p>An interior design agency can create content that showcases its work, highlights design trends, and 
+                            provides educational resources for clients and followers. Some potential content ideas for an interior 
+                            design agency An interior design agency can create content that showcases its work, highlights design 
+                            trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
 
                         </div>
                     </div>
