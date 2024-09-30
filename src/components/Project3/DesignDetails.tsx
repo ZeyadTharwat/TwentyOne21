@@ -75,7 +75,7 @@ const DesignDetails = () => {
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>Designed as "the chef's table," TERO is an homage to Reef, almost a cathedral of biunique personality. Every design element, from the intimate seating arrangement to the eclectic personal touches, embraces his innovative spirit.</p>
+                                <p>Designed as &ldquo;the chef's table&rdquo;. TERO is an homage to Reef, almost a cathedral of biunique personality. Every design element, from the intimate seating arrangement to the eclectic personal touches, embraces his innovative spirit.</p>
                                 <p>The restaurant-within-a-restaurant concept allows diners to experience the chef's journey, moving from the heart-of-house to a lounge for aperitifs and bites, and finally to a front-row seat at the chef’s cooking station.</p>
 
                             </div>

@@ -79,7 +79,7 @@ const DesignDetails = () => {
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage nontraditional Japanese canvases and wall partitions.</p>
-                                <p>The brand pattern, resembling Damascussteel, epitomizes a traditional Japaneseforging technique, creating a cohesive andmeaningful narrative for Nama Yoso.</p>
+                                <p>The brand pattern, resembling Damascus steel, epitomizes a nontraditional Japanese forging technique, creating a cohesive and meaningful narrative for Nama Yoso.</p>
 
                             </div>
                         </div>
@@ -92,8 +92,8 @@ const DesignDetails = () => {
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design direction</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>2023A robust branding and storytelling concept master fully guided the interior design of Nama Yoso. Inspired byTwentyOne06's comprehensive "Nature Provides research report, the restaurant's color palette and brand pattern were curated around the essence of raw ingredients.</p>
-                                <p>The material selection, marked by natural wood, natural stone boulders, and brass accents, seamlessly complements the restaurant's brand direction, creating cohesive and immersive ambiance. Ceiling</p>
+                                <p>2023 A robust branding and storytelling concept master fully guided the interior design of Nama Yoso. Inspired by TwentyOne06's comprehensive &ldquo;Nature Provides&rdquo; research report, the restaurant's color palette and brand pattern were curated around the essence of raw ingredients.</p>
+                                <p>The material selection, marked by natural wood, natural stone boulders, and brass accents, seamlessly complements the restaurant's brand direction, creating cohesive and immersive ambiance.</p>
 
                             </div>
                         </div>

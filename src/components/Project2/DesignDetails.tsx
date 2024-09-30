@@ -76,7 +76,7 @@ const DesignDetails = () => {
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>Inspired by the alchemy of bakery, the design concept mirrors Pinfire's dough-makingprocess, where two or more ingredients merge to evoke a reaction. Pairing materials strategically, the design seeks to create harmony akin to the synthesis of flour antiwater in dough preparation.</p>
+                                <p>Inspired by the alchemy of bakery, the design concept mirrors Pitfire's dough-making process, where two or more ingredients merge to evoke a reaction. Pairing materials strategically, the design seeks to create harmony akin to the synthesis of flour antiwater in dough preparation.</p>
 
                             </div>
                         </div>
@@ -89,7 +89,7 @@ const DesignDetails = () => {
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design journey</h1>
                             <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
-                                <p>International Characterized by rustic textures and materials that can be refined, the space revolves around a central bar, serving assist focal point. Raw textures and layered details contribute to an immersive experience that embodies the brand's rebellious spirit.</p>
+                                <p>Characterized by rustic textures and materials that can be refined, the space revolves around a central bar, serving assist as a focal point. Raw textures and layered details contribute to an immersive experience that embodies the brand's rebellious spirit.</p>
                                 <p>At the heart of Pinfire's brand essence lie four primary categories an architecture, counterculture, knowledge, and quality. These pillars encapsulate the brand's ethos of raw rebellion, celebrating the religion of baking and respecting the craft of dough-making</p>
 
                             </div>
@@ -170,7 +170,7 @@ const DesignDetails = () => {
                     <p>Original Pitfire signage art adds a nostalgic touch, further enriching the space's cultural tapestry. Art takes center stage in the design narrative, echoing Pitfire's collaboration with local artists. Portraits of iconic figures such as 'The Grateful Dead' adorn the walls, as well as a wall full of vibrant poster art encapsulating the brand’s love of creating visuals, creating Instagram-worthy moments that pay homage to the brand's counter-cultural roots.</p>
                 </div>
             </div>
-            <div className="w-full pt-28">
+            <div className="w-full pt-[20px]">
                 <img src={DesignDetailsPlaceholder14} className="2xl:h-[900px] w-full xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-cover" alt="" />
             </div>
             <div className="lg:pt-48 md:pt-36 sm:pt-28 pt-16 relative max-w-[1832px] mx-auto px-4 w-full">

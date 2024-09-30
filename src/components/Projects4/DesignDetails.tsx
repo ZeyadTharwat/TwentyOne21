@@ -149,9 +149,9 @@ every treatment room and enriching the overall guest experience.
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1650px]">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Relaxation Areas                    </h1>
-                    <p>The Entrance Design Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage to traditional Japanese canvases and wall partitions. The brand pattern, resembling Damascus steel, epitomizes a traditional Japanese forging technique, creating a cohesive and meaningful narrative for Nama Yoso.
+                    <p>Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage to traditional Japanese canvases and wall partitions. The brand pattern, resembling Damascus steel, epitomizes a traditional Japanese forging technique, creating a cohesive and meaningful narrative for Nama Yoso.
 </p>
                 </div>
                 <div className="2xl:gap-x-9 lg:gap-x-4 gap-x-3 grid grid-cols-6 w-full 2xl:gap-y-6 gap-y-5 pb-28">
