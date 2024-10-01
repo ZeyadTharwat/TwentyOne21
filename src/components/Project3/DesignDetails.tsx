@@ -104,7 +104,7 @@ const DesignDetails = () => {
                 <div className="lg:pb-40 md:pb-32 sm:pb-24 pb-16">
                 <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
                     <div className="w-1/2 basis-1/2 md:h-full">
-                        <img src={DesignDetailsPlaceholder5} className="lg:max-h-[490px] md:h-[460px] lg:h-full h-full w-full  max-h-[175px] object-cover" alt="" />
+                        <img src={DesignDetailsPlaceholder5} className="lg:max-h-[490px] md:h-[460px] lg:h-full h-full w-full  max-h-[186px] object-cover" alt="" />
                         <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
@@ -114,12 +114,12 @@ twist to the minimalist design.</p>
 
                     </div>
                     <div className="w-1/2 basis-1/2">
-                        <img src={DesignDetailsPlaceholder6} className="w-full object-cover sm:max-h-full max-h-[300px] " alt="" />
+                        <img src={DesignDetailsPlaceholder6} className="w-full object-cover sm:max-h-full max-h-[186px] " alt="" />
                     </div>
                     <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                 </div>
-                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
+                <div className="lg:mt-16 sm:mt-10 mt-10 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
                 <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Loung bEach</h1>
                             <p>Reifs admiration for Japanese pop culture is evident in the incorporation of items such as
 trainers, skateboards. a Pac-Man machine. and a Bear brick art piece. which bring a funky

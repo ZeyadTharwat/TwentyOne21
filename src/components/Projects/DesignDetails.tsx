@@ -145,7 +145,7 @@ const DesignDetails = () => {
                                 <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
                                 <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
                             </div>
-                            <p className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Using a blend of sand and stone, the design’s artistic stone feature showcases the restaurant's logo on hand-picked boulders in raked sand. The arrangement aligns with the brand's pattern, creating a cohesive link to the restaurant's natural theme.</p>
+                            <p className="md:text-xl sm:text-lg text-base font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Using a blend of sand and stone, the design’s artistic stone feature showcases the restaurant's logo on hand-picked boulders in raked sand. The arrangement aligns with the brand's pattern, creating a cohesive link to the restaurant's natural theme.</p>
                         </div>
                         <div className="col-span-1 ">
                             <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px]  object-cover object-center w-full h-full" alt="" />
