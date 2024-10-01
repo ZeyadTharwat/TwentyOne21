@@ -1,9 +1,9 @@
 import DesignDetailsPlaceholder from "../../assets/Pitfire/Project2-3.png"
 import DesignDetailsPlaceholder2 from "../../assets/Pitfire/Project-2-4.png"
 import DesignDetailsPlaceholder3 from "../../assets/Pitfire/Project2-5.png"
-import DesignDetailsPlaceholder4 from "../../assets/Pitfire/Project2-6.png"
-import DesignDetailsPlaceholder5 from "../../assets/Pitfire/Project2-7.png"
-import DesignDetailsPlaceholder6 from "../../assets/Pitfire/Project2-8.png"
+import DesignDetailsPlaceholder4 from "../../assets/Pitfire/Project2-6.webp"
+import DesignDetailsPlaceholder5 from "../../assets/Pitfire/Project2-7.webp"
+import DesignDetailsPlaceholder6 from "../../assets/Pitfire/Project2-8.webp"
 import DesignDetailsPlaceholder7 from "../../assets/Pitfire/Project2-9.png"
 import DesignDetailsPlaceholder8 from "../../assets/Pitfire/Project2-10.png"
 import DesignDetailsPlaceholder9 from "../../assets/Pitfire/Project2-11.png"
@@ -11,9 +11,9 @@ import DesignDetailsPlaceholder11 from "../../assets/Pitfire/Project2-12.png"
 import DesignDetailsPlaceholder12 from "../../assets/Pitfire/Project2-13.png"
 import DesignDetailsPlaceholder13 from "../../assets/Pitfire/Project2-14.png"
 import DesignDetailsPlaceholder10 from "../../assets/Pitfire/Project2-15.png"
-import DesignDetailsPlaceholder14 from "../../assets/Pitfire/Project2-16.png"
+import DesignDetailsPlaceholder14 from "../../assets/Pitfire/Project2-16.webp"
 import DesignDetailsPlaceholder18 from "../../assets/Pitfire/Project2-17.png"
-import DesignDetailsPlaceholder16 from "../../assets/Pitfire/Creation2.jpg"
+import DesignDetailsPlaceholder16 from "../../assets/Pitfire/Creation2.webp"
 import ClientReview from "../../assets/Reviews/Review (3).jpg"
 import QuoteIcon from "../Icons/QuoteIcon"
 import { Link } from "react-router-dom"
@@ -171,7 +171,7 @@ const DesignDetails = () => {
                 </div>
             </div>
             <div className="w-full pt-[20px]">
-                <img src={DesignDetailsPlaceholder14} className="2xl:h-[900px] w-full xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-cover" alt="" />
+                <img src={DesignDetailsPlaceholder14} className="2xl:h-[1000px] w-full xl:h-[800px] lg:h-[720px] md:h-[620px] sm:h-[590px] sm:max-h-full min-h-[240px] max-h-[400px] relative z-50 object-fit: cover" alt="" />
             </div>
             <div className="lg:pt-48 md:pt-36 sm:pt-28 pt-16 relative max-w-[1832px] mx-auto px-4 w-full">
                 <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">

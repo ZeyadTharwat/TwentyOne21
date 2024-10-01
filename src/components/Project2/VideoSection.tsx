@@ -1,4 +1,4 @@
-import VideoPlaceholder from "../../assets/Pitfire/Project2-1.jpg";
+import VideoPlaceholder from "../../assets/Pitfire/Project2-1.webp";
 import Partners from "./Partners"
 import Project from "../../assets/Pitfire/Project2-2.png";
 
