@@ -1,6 +1,6 @@
-import VideoPlaceholder from "../../assets/Project3-1.png";
+import VideoPlaceholder from "../../assets/tero/Project3-1.png";
 import Partners from "./Partners";
-import Project from "../../assets/Project3-2.png";
+import Project from "../../assets/tero/Project3-2.png";
 
 const VideoSection = () => {
   return (

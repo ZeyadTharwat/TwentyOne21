@@ -1,20 +1,20 @@
-import DesignDetailsPlaceholder from "../../assets/DesignDetails.png"
-import DesignDetailsPlaceholder2 from "../../assets/DesignDetails2.png"
-import DesignDetailsPlaceholder3 from "../../assets/DesignDetails3.png"
-import DesignDetailsPlaceholder4 from "../../assets/DesignDetails4.png"
-import DesignDetailsPlaceholder5 from "../../assets/DesignDetails5.png"
-import DesignDetailsPlaceholder6 from "../../assets/DesignDetails6.png"
-import DesignDetailsPlaceholder7 from "../../assets/DesignDetails7.png"
-import DesignDetailsPlaceholder8 from "../../assets/DesignDetails8.png"
-import DesignDetailsPlaceholder9 from "../../assets/DesignDetails9.png"
-import DesignDetailsPlaceholder10 from "../../assets/DesignDetails10.png"
-import DesignDetailsPlaceholder11 from "../../assets/DesignDetails11.png"
-import DesignDetailsPlaceholder12 from "../../assets/DesignDetails12.png"
-import DesignDetailsPlaceholder13 from "../../assets/DesignDetails13.png"
-import DesignDetailsPlaceholder14 from "../../assets/DesignDetails14.png"
-import DesignDetailsPlaceholder19 from "../../assets/DesignDetails19.png"
-import DesignDetailsPlaceholder20 from "../../assets/DesignDetails20.png"
-import DesignDetailsPlaceholder21 from "../../assets/DesignDetails21.png"
+import DesignDetailsPlaceholder from "../../assets/NAMA YOSO/DesignDetails.png"
+import DesignDetailsPlaceholder2 from "../../assets/NAMA YOSO/DesignDetails2.png"
+import DesignDetailsPlaceholder3 from "../../assets/NAMA YOSO/DesignDetails3.png"
+import DesignDetailsPlaceholder4 from "../../assets/NAMA YOSO/DesignDetails4.png"
+import DesignDetailsPlaceholder5 from "../../assets/NAMA YOSO/DesignDetails5.png"
+import DesignDetailsPlaceholder6 from "../../assets/NAMA YOSO/DesignDetails6.png"
+import DesignDetailsPlaceholder7 from "../../assets/NAMA YOSO/DesignDetails7.png"
+import DesignDetailsPlaceholder8 from "../../assets/NAMA YOSO/DesignDetails8.jpg"
+import DesignDetailsPlaceholder9 from "../../assets/NAMA YOSO/DesignDetails9.png"
+import DesignDetailsPlaceholder10 from "../../assets/NAMA YOSO/DesignDetails10.jpg"
+import DesignDetailsPlaceholder11 from "../../assets/NAMA YOSO/DesignDetails11.png"
+import DesignDetailsPlaceholder12 from "../../assets/NAMA YOSO/DesignDetails12.png"
+import DesignDetailsPlaceholder13 from "../../assets/NAMA YOSO/DesignDetails13.png"
+import DesignDetailsPlaceholder14 from "../../assets/NAMA YOSO/DesignDetails14.png"
+import DesignDetailsPlaceholder19 from "../../assets/NAMA YOSO/DesignDetails19.png"
+import DesignDetailsPlaceholder20 from "../../assets/NAMA YOSO/DesignDetails20.jpg"
+import DesignDetailsPlaceholder21 from "../../assets/NAMA YOSO/DesignDetails21.jpg"
 
 import Review6 from "../../assets/Reviews/Review (6).jpg"
 import QuoteIcon from "../Icons/QuoteIcon"
@@ -158,7 +158,7 @@ const DesignDetails = () => {
                     <div className="xl:col-span-2 col-span-3">
                         <img src={DesignDetailsPlaceholder12} className="lg:h-[864px] md:h-[660px] sm:h-[560px] sm:max-h-full min-h-[260px] max-h-[390px] object-cover object-center w-full" alt="" />
                         <div className="space-y-4 sm:mt-6 mt-2 md:text-xl sm:text-lg text-sm font-light font-houschka text-[#D0D0D0]">
-                            <p>Zen Garden feature - Artistic stone and sand artwork.</p>
+                            <p>Zen Garden feature - Artistic stone and sand artwork</p>
                         </div>
                     </div>
                     <div className="xl:col-span-2 col-span-3">
@@ -189,7 +189,7 @@ const DesignDetails = () => {
                             <p>An interior design agency can create content that showcases its work, highlights design trends, and 
                             provides educational resources for clients and followers. Some potential content ideas for an interior 
                             design agency An interior design agency can create content that showcases its work, highlights design 
-                            trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency</p>
+                            trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency.</p>
 
                         </div>
                     </div>
