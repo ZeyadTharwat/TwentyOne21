@@ -62,7 +62,7 @@ const BlogsSection = () => {
               <Link to={`/blog-details/${blog.id}`} className="group">
               <img className="w-full lg:max-h-[300px] lg:h-[300px] sm:h-[250px] sm:max-h-[250px] h-[180px] max-h-[180px]" src={blog.img} alt="" />
                 <div className="py-7 md:py-14 px-6 lg:pl-10 lg:pr-14  my-1.5">
-                  <h1 className="font-vissa text-sm sm:text-[22px] tracking-[0.02em] mb-4 sm:mb-9 group-hover:text-primary duration-300 transition-all">
+                  <h1 className="font-vissa text-base sm:text-[22px] tracking-[0.02em] mb-4 sm:mb-9 group-hover:text-primary duration-300 transition-all">
                     {blog.title}
                   </h1>
                   <div className="h-1 w-5 bg-primary sm:mb-6 mb-4 sm:mt-7" />

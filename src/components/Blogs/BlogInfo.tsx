@@ -10,7 +10,7 @@ const BlogInfo = () => {
             <span>18 Feb 2023</span>
         </div>
         </div>
-        <div className="md:text-xl sm:text-lg text-sm tracking-[0.01em] sm:mt-12 mt-6"> 
+        <div className="md:text-xl sm:text-lg text-base tracking-[0.01em] sm:mt-12 mt-6"> 
         <img src={Placeholder} className="w-full md:h-[500px] md:max-h-full h-full max-h-[450px] object-cover mb-5" alt="" />
         <div className="md:space-y-11 space-y-5">
         <p>

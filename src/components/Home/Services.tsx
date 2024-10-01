@@ -102,8 +102,8 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-              <p className="xl:text-sm md:text-xs text-[6px]">{service.description}</p>
-              {service.cta &&               <Link to={'contact-us'} className="text-primary  md:text-sm text-[6px] flex items-center sm:gap-3 gap-1.5 md:px-3 px-1 sm:py-1 py-0.5 2xl:mt-7 mt-4 bg-[#FFEADF] w-fit rounded-full justify-center">Get In Touch <ArrowIcon className="sm:size-auto w-1.5" /></Link>
+              <p className="xl:text-base md:text-xs text-[6px]">{service.description}</p>
+              {service.cta &&               <Link to={'contact-us'} className="text-primary  md:text-base text-[6px] flex items-center sm:gap-3 gap-1.5 md:px-3 px-1 sm:py-1 py-0.5 2xl:mt-7 mt-4 bg-[#FFEADF] w-fit rounded-full justify-center">Get In Touch <ArrowIcon className="sm:size-auto w-1.5" /></Link>
             }
             </div>
             <img className="group-hover:scale-[1.3] relative w-full h-full transition-all duration-300" src={service.image} alt={service.title} />

@@ -92,7 +92,7 @@ const PressAndReports = () => {
                                 <img src={item.img} className="w-full xl:min-h-[343px] md:min-h-[270px] md:max-h-[270px] xl:max-h-[343px] object-cover mb-3" alt={item.title} />
                                 <h1 className="md:text-[40px] sm:text-3xl   font-vissa uppercase mt-2 sm:mt-4">{item.title}</h1>
                                 <p className="text-[#8D8D8D] font-houschka font-light sm:text-base text-[8px] sm:mb-3 mb-1.5 mt-1 sm:mt-2">{item.description}</p>
-                                <Button aspects="sm:size-auto size-7" dir={item.article} title="Show More" height={48} textStyles="font-light sm:text-sm text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
+                                <Button aspects="sm:size-auto size-7" dir={item.article} title="Show More" height={48} textStyles="font-light sm:text-base text-[8px]" className="sm:w-[160px] w-[110px]" width={44} />
                             </Link>
                         </SwiperSlide>
                     ))}
@@ -111,19 +111,19 @@ const PressAndReports = () => {
                             <div className="space-y-6 md:w-auto w-full">
                                 <img src={report.img} className="lg:min-w-[550px] lg:max-w-[550px] w-full md:min-w-[380px] lg:min-h-[250px] max-h-[270px] min-h-[195px] object-cover mb-3" alt={report.title} />
                                 <div className="md:hidden block">
-                                    <Button aspects="sm:size-auto size-9" dir={`/trend-reports`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
+                                    <Button aspects="sm:size-auto size-9" dir={`/trend-reports`} title="Show More" height={48} textStyles="font-light text-[10px] sm:text-base" className="sm:w-[140px] w-[100px]" width={44} />
                                 </div>
                             </div>
                             <div className="max-w-2xl">
                                 <div>
                                     <h1 className="mb-2 lg:text-5xl sm:text-3xl text-lg font-vissa uppercase tracking-[0.02em]">{report.title}</h1>
-                                    <p className="text-[#D0D0D0] font-houschka font-light sm:text-base text-sm tracking-[0.02em] mb-3 mt-2">{report.description}</p>
+                                    <p className="text-[#D0D0D0] font-houschka font-light sm:text-base text-base tracking-[0.02em] mb-3 mt-2">{report.description}</p>
                                 </div>
                                 <div className="md:block hidden">
                                     <Button download={`Report : ${report.title}`}
 
                                         dir={report.file}
-                                        title="Show More" height={48} textStyles="font-light text-sm" className="w-[140px]" width={44} />
+                                        title="Show More" height={48} textStyles="font-light text-base" className="w-[140px]" width={44} />
                                 </div>
                             </div>
                         </div>

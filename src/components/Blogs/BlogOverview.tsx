@@ -7,7 +7,7 @@ const BlogOverview = () => {
   return (
     <div className="container sm:py-24 py-10">
         <img src={Placeholder} className="sm:h-[450px] max-h-[300px] sm:max-h-full w-full object-cover sm:mb-14 mb-8" alt="" />
-        <div className="space-y-5 sm:mb-10 mb-5 sm:text-base text-sm">
+        <div className="space-y-5 sm:mb-10 mb-5 sm:text-base text-base">
         <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work.</p>
         <p>An interior design agency can create content that showcases its work, highlights design trends, and provides educational resources for clients and followers. Some potential content ideas for an interior design agency. An interior design agency can create content that showcases its work</p>
         </div>

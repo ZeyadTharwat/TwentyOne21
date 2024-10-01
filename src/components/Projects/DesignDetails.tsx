@@ -77,7 +77,7 @@ const DesignDetails = () => {
                         </div>
                         <div className="2xl:max-w-[422px] xl:max-w-[380px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design concept</h1>
-                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones pay homage nontraditional Japanese canvases and wall partitions.</p>
                                 <p>The brand pattern, resembling Damascus steel, epitomizes a nontraditional Japanese forging technique, creating a cohesive and meaningful narrative for Nama Yoso.</p>
 
@@ -91,7 +91,7 @@ const DesignDetails = () => {
                     <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                         <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                             <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">The Design direction</h1>
-                            <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                            <div className="md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 sm:space-y-6">
                                 <p>2023 A robust branding and storytelling concept master fully guided the interior design of Nama Yoso. Inspired by TwentyOne06's comprehensive &ldquo;Nature Provides&rdquo; research report, the restaurant's color palette and brand pattern were curated around the essence of raw ingredients.</p>
                                 <p>The material selection, marked by natural wood, natural stone boulders, and brass accents, seamlessly complements the restaurant's brand direction, creating cohesive and immersive ambiance.</p>
 
@@ -108,7 +108,7 @@ const DesignDetails = () => {
                 <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
                     <div className="w-1/2 basis-1/2 md:h-full">
                         <img src={DesignDetailsPlaceholder19} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
-                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
+                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Ceiling & Lighting Design:</h1>
                             <p>The central ceiling feature above the main dining area at Nama Yoso was a key element. Adorned with beige linen and canvas fabric curtains, featuring traditional Japanese drawings, it strategically reflects the brand pattern. Woven fabric with blue wave-like patterns and flexible light strips creates a visually captivating design element.</p>
                         </div>
@@ -120,7 +120,7 @@ const DesignDetails = () => {
                     <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                 </div>
-                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
+                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
                 <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">Ceiling & Lighting Design:</h1>
                             <p>The central ceiling feature above the main dining area at Nama Yoso was a key element. Adorned with beige linen and canvas fabric curtains, featuring traditional Japanese drawings, it strategically reflects the brand pattern. Woven fabric with blue wave-like patterns and flexible light strips creates a visually captivating design element.</p>
                         </div>
@@ -132,7 +132,7 @@ const DesignDetails = () => {
                 <img src={PressBg2} className="absolute lg:top-16 top-6 right-0 opacity-40" alt="" />
             </div>
             <div className="max-w-[1832px] mx-auto px-4 w-full">
-                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
+                <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">The Entrance Design</h1>
                     <p>The Entrance Design Drawing inspiration from the sea and water, the restaurant's distinctive blue color, reminiscent of the ocean, symbolizes tranquility. The orange hue roots in raw salmon, while beige tones
                         pay homage to traditional Japanese canvases and wall partitions. The brand pattern, resembling Damascus steel, epitomizes a traditional Japanese forging technique, creating a cohesive and
@@ -145,7 +145,7 @@ const DesignDetails = () => {
                                 <img src={DesignDetailsPlaceholder7} className="md:h-[384px] sm:h-[340px] md:mb-6 mb-3 object-cover object-center w-full" alt="" />
                                 <img src={DesignDetailsPlaceholder11} className="md:h-[258px] sm:h-[210px] object-cover object-center w-full" alt="" />
                             </div>
-                            <p className="md:text-xl sm:text-lg text-[10px] font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Using a blend of sand and stone, the design’s artistic stone feature showcases the restaurant's logo on hand-picked boulders in raked sand. The arrangement aligns with the brand's pattern, creating a cohesive link to the restaurant's natural theme.</p>
+                            <p className="md:text-xl sm:text-lg text-sm font-light font-houschka space-y-4 sm:space-y-6 lg:w-full sm:w-[200%] sm:mt-7 mt-3">Using a blend of sand and stone, the design’s artistic stone feature showcases the restaurant's logo on hand-picked boulders in raked sand. The arrangement aligns with the brand's pattern, creating a cohesive link to the restaurant's natural theme.</p>
                         </div>
                         <div className="col-span-1 ">
                             <img src={DesignDetailsPlaceholder6} className="lg:h-[864px] md:h-[660px] sm:h-[560px]  object-cover object-center w-full h-full" alt="" />
@@ -185,7 +185,7 @@ const DesignDetails = () => {
                 <div className="2xl:gap-8 gap-4 flex lg:flex-row flex-col items-center relative">
                     <div className="2xl:max-w-[572px] lg:max-w-[490px]">
                         <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] mb-5 sm:mb-8 md:mb-12 uppercase">THE DESIGN DETAILS</h1>
-                        <div className="md:text-xl sm:text-xl text-xl font-light font-houschka space-y-4 sm:space-y-6">
+                        <div className="md:text-xl sm:text-xl text-sm font-light font-houschka space-y-4 sm:space-y-6">
                             <p>An interior design agency can create content that showcases its work, highlights design trends, and 
                             provides educational resources for clients and followers. Some potential content ideas for an interior 
                             design agency An interior design agency can create content that showcases its work, highlights design 
@@ -217,7 +217,7 @@ const DesignDetails = () => {
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
-                            <p className="font-houschka font-light text-[#D0D0D0] text-xl sm:text-xl">
+                            <p className="font-houschka font-light text-[#D0D0D0] text-base sm:text-xl">
                             The process of collaborating with TwentyOne06 began with them getting to know me personally and understanding where I'm coming from. They adapted to my expectations while adding their own unique design input. It was a challenge for TwentyOne06 because many restaurant designers tend to replicate designs, but they didn’t. Instead, they transformed the design into what it is today, which is commendable.
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>

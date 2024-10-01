@@ -12,7 +12,7 @@ const AboutAgency = () => {
         </div>
         <div className="md:text-start text-center">
           <h1 className="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-vissa uppercase tracking-[0.02em] sm:mb-8 mb-4">Award-Winning Interior Design & Branding Studio</h1>
-          <p className="font-houschka font-light text-[#D0D0D0] sm:text-lg text-sm md:mb-16 mb-12 md:pb-1.5">At TwentyOne06, we are an award-winning interior design and branding studio
+          <p className="font-houschka font-light text-[#D0D0D0] sm:text-lg text-base md:mb-16 mb-12 md:pb-1.5">At TwentyOne06, we are an award-winning interior design and branding studio
             specializing in creating immersive spaces that tell a story. Based in the Middle East, our
             expertise lies in the F&B, hospitality, and commercial sectors, where we develop design
             concepts that go beyond form —prioritizing guest experiences and emotional connections.

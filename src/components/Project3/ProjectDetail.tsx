@@ -6,7 +6,7 @@ const ProjectDetail = () => {
     
           <div className="container  text-center relative z-50">
       <h1 className="uppercase font-vissa tracking-[0.04em] lg:text-[68px] md:text-6xl sm:text-5xl text-4xl leadng-none">TERO - THE EXPERIENCE BY REIF OTHMAN</h1>
-      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-xl sm:text-xl text-xl">Crafted for Reif Othman, TERO (The Experience) is not just a Chef's Table; it's an immersive journey through theenchanting lounge, culminating in the exclusive 12-seater sanctuary where culinary artistry takes center stage.</p>
+      <p className="text-[#D0D0D0] max-w-[1411px] mx-auto font-houschka font-light md:text-xl sm:text-xl text-base">Crafted for Reif Othman, TERO (The Experience) is not just a Chef's Table; it's an immersive journey through theenchanting lounge, culminating in the exclusive 12-seater sanctuary where culinary artistry takes center stage.</p>
       <div className="flex sm:justify-between justify-center gap-3 gap-y-5 sm:flex-nowrap flex-wrap sm:mt-10 mt-7 lg:mt-16">
       <div className=" font-houschka space-y-2.5 font-light">
         <h1 className="sm:text-[26px] text-sm leading-none">Client</h1>
