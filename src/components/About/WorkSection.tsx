@@ -13,7 +13,7 @@ const WorkSection = () => {
           <div className="absolute inset-0 w-full h-full bg-black/45" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center flex-col w-full">
             <h1 className=" font-vissa lg:text-6xl sm:text-4xl text-[28px] tracking-[0.04em] sm:mb-7 uppercase">Ready to Work Together?</h1>
-            <Button aspects="sm:size-auto size-8" width={60} height={64} title="Build together" textStyles="font-light text-[10px] sm:text-lg" className="sm:w-[210px] w-[115px]" />
+            <Button aspects="sm:size-auto size-8" width={60} height={64} title="Contact us" textStyles="font-light text-[10px] sm:text-lg" className="sm:w-[210px] w-[115px]" />
           </div>
           <img src={ReadyToWork} className="w-full md:h-[444px] sm:h-[300px] h-[200px] object-cover" alt="" />
         </div>

@@ -73,7 +73,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="container flex justify-center md:justify-between pb-7 items-center relative z-[9999999999999] bg-[#0E0E0E]">
-                    <h1 className="font-vissa text-[#888888] md:block hidden">2024 – Twenty one</h1>
+                    <h1 className="font-vissa text-[#888888] md:block hidden">2024 – TwentyOne06</h1>
                     <div className="flex flex-col items-center">
                         <h1 className=" font-vissa text-[26px] md:text-4xl lg:text-5xl mb-2 md:mb-4 uppercase">Got A Project?</h1>
                         <Button title="tell us about it" aspects="sm:size-auto size-8" textStyles="sm:text-sm text-[10px]" width={44} height={47} className="sm:w-[174px] w-[120px]" />
