@@ -31,25 +31,25 @@ const projects = [
         title: "NAMA YOSO",
         type: "F&B Design",
         image: CreationPlacehoder,
-        id:'nama-yoso'
+        id: 'nama-yoso'
     },
     {
         title: "TERO",
         type: "F&B Design, BRANDING",
         image: Creation3,
-        id:'tero'
+        id: 'tero'
     },
     {
         title: "Elix Spa",
         type: "BRANDING , Hospitality Design",
         image: Creation4,
-        id:'elix-spa'
+        id: 'elix-spa'
     },
     {
         title: "Voco Monaco",
         type: "Hospitality Design",
         image: Creation5,
-        id:'voco-monaco'
+        id: 'voco-monaco'
     },
 ];
 
@@ -102,29 +102,29 @@ const DesignDetails = () => {
 
                 </div>
                 <div className="lg:pb-40 md:pb-32 sm:pb-24 pb-16">
-                <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
-                    <div className="w-1/2 basis-1/2 md:h-full">
-                        <img src={DesignDetailsPlaceholder5} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
-                        <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
-                            <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
-                            designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and 
-                            oxidized black metal finishes contribute to its allure.</p>
+                    <div className="flex md:gap-8 sm:gap-5 gap-2 relative">
+                        <div className="w-1/2 basis-1/2 md:h-full">
+                            <img src={DesignDetailsPlaceholder5} className="lg:max-h-[940px] md:h-[460px] lg:h-full h-full w-full object-cover" alt="" />
+                            <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full md:block hidden">
+                                <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
+                                <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
+                                    designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and
+                                    oxidized black metal finishes contribute to its allure.</p>
+                            </div>
+
                         </div>
+                        <div className="w-1/2 basis-1/2">
+                            <img src={DesignDetailsPlaceholder6} className="w-full object-cover sm:max-h-full max-h-[300px]" alt="" />
+                        </div>
+                        <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
 
                     </div>
-                    <div className="w-1/2 basis-1/2">
-                        <img src={DesignDetailsPlaceholder6} className="w-full object-cover sm:max-h-full max-h-[300px]" alt="" />
-                    </div>
-                    <img src={PressBg2} className="absolute bottom-0 left-0 opacity-40" alt="" />
-
-                </div>
-                <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
-                            <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
-                            <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
-                            designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and 
+                    <div className="lg:mt-16 sm:mt-10 mt-4 mb-4 md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 w-full block md:hidden">
+                        <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - The Bar</h1>
+                        <p>The central island bar, a first for Pitfire, commands attention with its impactful presence. The bar's ceiling
+                            designed as a dome, enhances its prominence, while meticulous details such as textured brick walls and
                             oxidized black metal finishes contribute to its allure.</p>
-                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -136,8 +136,8 @@ const DesignDetails = () => {
                 <div className="lg:mt-16 sm:mt-10 mt-4  md:text-xl sm:text-xl text-base font-light font-houschka space-y-4 md:space-y-8 md:w-full w-[100%] lg:mb-36 md:mb-28 sm:mb-16 mb-8 max-w-[1550px]">
                     <h1 className=" font-vissa lg:text-[64px] md:text-5xl sm:text-4xl text-2xl leading-none tracking-[0.02em] uppercase">Design Details - Booth Seating</h1>
                     <p>Slim and minimalistic furniture, adorned in brand colors, complements the space. Low freestanding walls
-                    and waiting bench seating, crafted with rustic wood framing and black leather
-                    upholstery, add to the ambiance.</p>
+                        and waiting bench seating, crafted with rustic wood framing and black leather
+                        upholstery, add to the ambiance.</p>
                 </div>
                 <div className="2xl:gap-x-9 lg:gap-x-4 gap-x-3 grid grid-cols-6 w-full 2xl:gap-y-6 gap-y-5 ">
                     <div className="xl:col-span-4 2xl:gap-x-9 lg:gap-x-4 gap-x-3 col-span-6 grid grid-cols-2">
@@ -208,14 +208,21 @@ const DesignDetails = () => {
                             <img src={ClientReview} className=" w-full h-full object-cover" />
                         </div>
                         <div className="2xl:w-auto xl:max-w-1/2 w-full lg:max-w-[55%]">
-                            <h1 className="font-vissa lg:text-5xl md:text-4xl sm:text-3xl text-2xl tracking-[0.02em] md:mb-11 mb-9 md:text-start text-center uppercase">
-                                Client Review
-                            </h1>
+                            <div className="flex justify-between items-center md:mb-11 mb-9">
+                                <h1 className="font-vissa lg:text-5xl md:text-4xl sm:text-3xl text-2xl tracking-[0.02em] md:text-start text-center uppercase">
+                                    Client Review
+                                </h1>
+
+                                <div className='lg:hidden block'>
+                                    <img src={ClientReview} className='md:size-40 sm:size-28 size-20 rounded-full object-cover object-top' alt="" />
+                                </div>
+
+                            </div>
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>
                             <p className="font-houschka font-light text-[#D0D0D0] text-base sm:text-xl">
-                            I recently had the pleasure of working with TwentyOne06, and I can confidently say they are a fantastic design company. Their commitment to authenticity and quality is evident in every aspect of their work. The team is not only highly professional but also incredibly responsive, making the entire process seamless and enjoyable. From the initial consultation to the final delivery, TwentyOne06 exceeded my expectations. Their innovative designs reflect a deep understanding of client needs and current trends, resulting in truly unique and impactful solutions. If you’re looking for a design partner who values excellence and creativity, I wholeheartedly recommend TwentyOne06. They are a cut above the rest!
+                                I recently had the pleasure of working with TwentyOne06, and I can confidently say they are a fantastic design company. Their commitment to authenticity and quality is evident in every aspect of their work. The team is not only highly professional but also incredibly responsive, making the entire process seamless and enjoyable. From the initial consultation to the final delivery, TwentyOne06 exceeded my expectations. Their innovative designs reflect a deep understanding of client needs and current trends, resulting in truly unique and impactful solutions. If you’re looking for a design partner who values excellence and creativity, I wholeheartedly recommend TwentyOne06. They are a cut above the rest!
                             </p>
                             <div className="bg-primary h-0.5 w-10 lg:mt-10 mt-5"></div>
                             <div className="sm:mt-7 mt-5">

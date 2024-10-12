@@ -201,9 +201,16 @@ twist to the minimalist design.</p>
                             <img src={Review6} className=" w-full h-full object-cover" />
                         </div>
                         <div className="2xl:w-auto xl:max-w-1/2 w-full lg:max-w-[55%]">
-                            <h1 className="font-vissa lg:text-5xl md:text-4xl sm:text-3xl text-2xl tracking-[0.02em] md:mb-11 mb-9 md:text-start text-center uppercase">
-                                Client Review
-                            </h1>
+                        <div className="flex justify-between items-center md:mb-11 mb-9">
+                                <h1 className="font-vissa lg:text-5xl md:text-4xl sm:text-3xl text-2xl tracking-[0.02em] md:text-start text-center uppercase">
+                                    Client Review
+                                </h1>
+
+                                <div className='lg:hidden block'>
+                                    <img src={Review6} className='md:size-40 sm:size-28 size-20 rounded-full object-cover object-top' alt="" />
+                                </div>
+
+                            </div>
                             <div className="flex sm:mb-10 mb-7 items-center justify-between">
                                 <QuoteIcon className='sm:size-auto w-[63px] h-[55px]' />
                             </div>

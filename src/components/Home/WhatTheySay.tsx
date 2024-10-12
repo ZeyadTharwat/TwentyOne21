@@ -130,7 +130,8 @@ const WhatTheySay = () => {
                                         <div className="w-full h-full absolute bg-black/20 inset-0"></div>
                                     </div>
                                     <div>
-                                        <div>
+                                        <div className='flex justify-between items-center'>
+                                            <div>
                                             <div className="flex sm:gap-3 gap-2 items-center mb-1 sm:mb-1.5">
                                                 <h1 className="font-light sm:text-[22px] leading-none">{testimonial.name}</h1>
                                                 {/* {testimonial.location && <>
@@ -145,6 +146,11 @@ const WhatTheySay = () => {
                                                     <h1 className="text-white/80 font-light sm:text-base text-xs font-houschka">{testimonial.company}</h1>
                                                 </div>
                                             }
+
+                                            </div>
+                                            <div className='lg:hidden block'>
+                                                <img src={testimonial.image} className='md:size-40 sm:size-28 size-20 rounded-full object-cover object-top' alt="" />
+                                            </div>
                                         </div>
                                         <div className="bg-primary h-0.5 w-10 sm:mb-16 mb-12 mt-5"></div>
 
