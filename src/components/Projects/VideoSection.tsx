@@ -47,7 +47,7 @@ const VideoSection = () => {
       <Partners />
       <img
         src={YOSO}
-        className="lg:h-[800px] sm:h-[500px] sm:max-h-full max-h-[350px] min-h-[220px]  w-full object-contain "
+        className="lg:h-[700px] sm:h-[500px] sm:max-h-full max-h-[350px] min-h-[160px]  w-full object-contain "
       />
     </div>
   );
