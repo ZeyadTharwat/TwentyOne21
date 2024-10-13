@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Button from "../Shared/Button"
 const BlogCard = ({title , img , id} : {title:string, img:string , id:number}) => {
   return (
-    <Link target="_blank" to={`/blog-details/${id}`}>
+    <Link target="_self" to={`/blog-details/${id}`}>
         <div className="text-black space-y-4 h-full flex flex-col justify-between">
           <div className="space-y-4">
           <img className="w-full max-h-[250px] h-[250px] object-contain" src={img} alt="" />

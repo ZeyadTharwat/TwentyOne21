@@ -1,5 +1,6 @@
 import ReadyToWork from "../../assets/ReadyToWorkBg.jpg"
-import Button from "../Shared/Button2"
+import Button from "../Shared/Button"
+import Button2Blank from "../Shared/Button2"
 import Press1 from "../../assets/Press - Cover Photos/Interior Design Concept of the Year Hotel.jpg"
 import Philosophy from "../../assets/Philosophy.webp"
 import Press2 from "../../assets/Press - Cover Photos/Interior-Design-Concept-of-the-Year-Hotel-Voco-Monaco-Dubai-TwentyOne06-1000x750 (1).jpg"
@@ -13,7 +14,7 @@ const WorkSection = () => {
           <div className="absolute inset-0 w-full h-full bg-black/45" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center flex-col w-full">
             <h1 className=" font-vissa lg:text-6xl sm:text-4xl text-[28px] tracking-[0.04em] sm:mb-7 uppercase">Ready to Work Together?</h1>
-            <Button aspects="sm:size-auto size-8" width={60} height={64} title="Contact us" textStyles="font-light text-[10px] sm:text-lg" className="sm:w-[210px] w-[115px]" />
+            <Button aspects="sm:size-auto size-8" dir="/contact-us" width={60} height={64} title="Contact us" textStyles="font-light text-[10px] sm:text-lg" className="sm:w-[210px] w-[115px]" />
           </div>
           <img src={ReadyToWork} className="w-full md:h-[444px] sm:h-[300px] h-[200px] object-cover" alt="" />
         </div>
@@ -26,7 +27,7 @@ const WorkSection = () => {
               <div className="space-y-6 w-full">
                 <img src={Press1} className=" lg:min-w-[558px] md:w-auto w-full md:min-w-[380px] lg:min-h-[348px] max-h-[270px] lg:max-w-[558px] md:max-w-[380px] lg:max-h-[348px] md:min-h-[270px] min-h-[195px] object-cover mb-3" alt="" />
                 <div className="md:hidden block">
-                  <Button aspects="sm:size-auto size-9" dir="https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose
+                  <Button2Blank aspects="sm:size-auto size-9" dir="https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose
 " title="Show More" height={48} textStyles="font-light text-[10px] sm:text-sm" className="sm:w-[140px] w-[100px]" width={44} />
                 </div>
               </div>
@@ -38,7 +39,7 @@ const WorkSection = () => {
                   </p>
                 </div>
                 <div className="md:block hidden">
-                  <Button dir="https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose
+                  <Button2Blank dir="https://www.commercialinteriordesign.com/news/trophy-time-cid-award-winners-strike-a-pose
 " title="Show More" height={48} textStyles="font-light text-sm" className="w-[140px]" width={44} />
                 </div>
               </div>
@@ -60,7 +61,7 @@ const WorkSection = () => {
                   </p>
                 </div>
                 <div className="md:block hidden">
-                  <Button dir="https://www.commercialinteriordesign.com/news/on-stage-the-cid-awards-2024-mena-winners
+                  <Button2Blank dir="https://www.commercialinteriordesign.com/news/on-stage-the-cid-awards-2024-mena-winners
 " title="Show More" height={48} textStyles="font-light text-sm" className="w-[140px]" width={44} />
                 </div>
               </div>
