@@ -6,6 +6,7 @@ import MapComponent from "../components/Shared/MapComponent"
 import Input from "../components/Shared/Input"
 import ContactUsBg from "../assets/ContactUsBg.png"
 import YoutubeIcon from "../components/Icons/YoutubeIcon"
+import Button from "../components/Shared/Button"
 const ContactUs = () => {
     return (
         <div>
@@ -66,6 +67,8 @@ const ContactUs = () => {
                             <textarea className="bg-transparent text-black font-houschka font-light border-b placeholder:text-white/60 tracking-[0.02em] text-base pb-4 hover:border-primary focus:border-primary duration-300 transition-all focus:outline-none outline-none focus:ring-0 w-full border-b-[#393939] placeholder:text-[#888888] resize-none h-[140px] sm:h-[187px] caret-black" />
 
                         </div>
+                        <Button aspects="sm:size-auto size-12" height={85} width={80} title="Send a Request" textStyles="sm:text-xl text-xs font-light !text-black group-hover:!text-primary" className="sm:w-[250px] w-[150px] sm:mt-14 mt-7" />
+
                     </form>
                 </div>
             </div>
